@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PR Search</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                background-color: #f4f4f4;
+            }
+
+            header {
+                background-color: #2f3841;
+                color: white;
+                padding: 10px 0;
+                width: 100%;
+                text-align: center;
+            }
+
+            .search-container {
+                margin: 20px 0;
+            }
+
+            .search-container input[type="text"] {
+                padding: 10px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                margin-right: 10px;
+            }
+
+            .search-container button {
+                padding: 10px 20px;
+                border: none;
+                background-color: #2f3841;
+                color: white;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+
+            .search-container button:hover {
+                background-color: white;
+                color: #2f3841;
+            }
+            .search-container button:active {
+            background-color: #2f3841;
+            color: white;
+            }
+
+            .results-container {
+                width: 80%;
+                margin-top: 20px;
+            }
+
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                margin-bottom: 20px;
+            }
+
+            table,
+            th,
+            td {
+                border: 1px solid #ccc;
+            }
+
+            th,
+            td {
+                padding: 10px;
+                text-align: left;
+            }
+
+            th {
+                background-color: #2f3841;
+                color: white;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <!-- <h1>PR Search</h1> -->
+        </header> 
+
+        <div class="search-container">
+            <input type="text" id="owner-input" placeholder="Enter owner">
+            <input type="text" id="repo-input" placeholder="Enter repo">
+            <button onclick="getVersions()">Get Versions</button>
+            <select id="base-version">
+                <!-- Options will be populated dynamically -->
+            </select>
+            <select id="compare-version">
+                <!-- Options will be populated dynamically -->
+            </select>
+            <input type="text" id="search-input" placeholder="Enter your search query">
+            <input type="number" id="top-n-input" placeholder="Enter number of results">
+            <button onclick="performSearch()">Search</button>
+        </div>
+
+        <div class="results-container">
+            <table id="results-table">
+                <thead>
+                    <tr>
+                        <th>Index</th>
+                        <th>Number</th>
+                        <th>Title</th>
+                        <th>Link</th>
+                    </tr>
+                </thead>
+                <tbody id="results-body">
+                    <!-- Results will be inserted here -->
+                </tbody>
+            </table>
+        </div>
+
+
+        <script>
+            async function fetchVersions(owner, repo) {
+                const response = await fetch('/api/versions/', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ owner, repo })
+                });
+                const versions = await response.json();
+                return versions;
+            }
+
+            function populateDropdown(dropdown, versions) {
+                dropdown.innerHTML = '';
+                Object.values(versions).forEach(version => {
+                    const option = document.createElement('option');
+                    option.value = version;
+                    option.textContent = version;
+                    dropdown.appendChild(option);
+                });
+            }
+
+            async function getVersions() {
+                const owner = document.getElementById('owner-input').value;
+                const repo = document.getElementById('repo-input').value;
+                const versions = await fetchVersions(owner, repo);
+                const baseVersionDropdown = document.getElementById('base-version');
+                const compareVersionDropdown = document.getElementById('compare-version');
+
+                populateDropdown(baseVersionDropdown, versions);
+                populateDropdown(compareVersionDropdown, versions);
+            }
+
+            // function performSearch() {
+            //     const query = document.getElementById('search-input').value;
+            //     const baseVersion = document.getElementById('base-version').value;
+            //     const compareVersion = document.getElementById('compare-version').value;
+            //     const owner = document.getElementById('owner-input').value;
+            //     const repo = document.getElementById('repo-input').value;
+            //     const n = document.getElementById('top-n-input').value;
+
+            //     fetch('/api/search/', {
+            //         method: 'POST',
+            //         headers: {
+            //             'Content-Type': 'application/json'
+            //         },
+            //         body: JSON.stringify({ query, baseVersion, compareVersion, owner, repo, n })
+            //     })
+            //         // .then(response => response.json())
+            //         // // .then(results => {
+            //         // //     console.log(results);
+                        
+            //         // // })
+            //         // .catch(error => {
+            //         //     console.error('Error:', error);
+            //         // });
+            // }
+            function performSearch() {
+                    const query = document.getElementById('search-input').value;
+                    const baseVersion = document.getElementById('base-version').value;
+                    const compareVersion = document.getElementById('compare-version').value;
+                    const owner = document.getElementById('owner-input').value;
+                    const repo = document.getElementById('repo-input').value;
+                    const n = document.getElementById('top-n-input').value;
+
+                    fetch('/api/search/', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify({ query, baseVersion, compareVersion, owner, repo, n })
+                    })
+                        .then(response => response.json())
+                        .then(data => {
+                            // Assuming data is an array of results objects
+                            const resultsBody = document.getElementById('results-body');
+                            // resultsBody.innerHTML = ''; // Clear previous results
+
+                            data.forEach(result => {
+                                const row = resultsBody.insertRow();
+                                const cellIndex = row.insertCell(0);
+                                const cellNumber = row.insertCell(1);
+                                const cellTitle = row.insertCell(2);
+                                const cellLink = row.insertCell(3);
+
+                                cellIndex.textContent = result.index;
+                                cellNumber.textContent = result.number;
+                                cellTitle.textContent = result.title;
+
+                                // Create a link element for the PR link
+                                const link = document.createElement('a');
+                                link.href = result.link;
+                                link.textContent = 'View PR';
+                                cellLink.appendChild(link);
+                            });
+                        })
+                        .catch(error => {
+                            console.error('Error fetching data:', error);
+                        });
+                }
+
+            
+            
+        </script>
+    </body>
+
+</html>
