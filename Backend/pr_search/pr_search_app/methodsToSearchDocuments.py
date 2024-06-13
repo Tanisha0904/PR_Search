@@ -37,7 +37,7 @@ def get_pr_data(owner, repo, number):
         "Authorization": f"token {GITHUB_TOKEN}",
         "Accept": "application/vnd.github+json",
     }
-    url = f"https://api.github.com/repos/{owner}/{repo}/pulls/{number}"
+    url = f"https://api.github.com/repos/{owner}/{repo}/pulls/{number}" #for grafana 
     response = requests.get(url, headers=headers)
     json_data = []
     if response.status_code == 200:
@@ -57,7 +57,7 @@ def get_pr_data(owner, repo, number):
         return pr_data
 
     else:
-        print(f"Failed to fetch pull requests: {response.status_code}")
+        print(f"Failed to fetch pull requests : {response.status_code}")
         return None
 
 
