@@ -3,9 +3,9 @@ from collections import defaultdict
 import os
 
 comparisonData_json = "ComparisonData.json"
-
+averagedData_json="AveragedData.json"
 def json_data(results, doc_numbers_to_titles, modelName):
-    print(doc_numbers_to_titles, end="------------\n")
+    # print(doc_numbers_to_titles, end="------------\n")
 
     try:
         if os.path.exists(comparisonData_json):
@@ -55,10 +55,26 @@ def calculate_average_scores():
         value["rank"] = rank
         rank += 1
     
-    with open("AveragedData.json", mode="w") as json_file:
+    with open(averagedData_json, mode="w") as json_file:
         json.dump(sorted_data, json_file, indent=4)
     
     return sorted_data
+
+
+# def chatGPT_top_pr_list(sorted_according_to_pr_number, averaged_sorted_data):
+#     for key, value in averaged_sorted_data.items():
+#         if value["rank"] <= 50 :
+#             if value["number"] in sorted_according_to_pr_number.items()["number"]:
+#                 data_for_chatgpt.append = the particular items from the 
+
+
+
+
+
+
+
+    return None
+
 '''
 # Example usage:
 sample = [

@@ -1,782 +1,1064 @@
 {
-    "83790": {
-        "number": 83790,
-        "title": "[v10.3.x] Fix: Cache busting of plugins module.js file",
+    "85921": {
+        "number": 85921,
+        "title": "[v10.4.x] Dashboard: Allow `auto` refresh option when saving a dashboard",
         "scores": {
-            "all_MiniLM_L12": 0.31422746181488037,
-            "quora_distilbert": 0.3970645070075989,
-            "msmarco_distilroberta": 0.3253627419471741,
-            "paraphrase_distilroberta": 0.41499096155166626,
-            "spacy_model": 0.5693156719207764
+            "all_MiniLM_L12": 0.4096923768520355
         },
-        "average": 0.404,
+        "average": 0.41,
         "rank": 1
     },
-    "82147": {
-        "number": 82147,
-        "title": "[v10.3.x] Plugins: Don't auto prepend app sub url to plugin asset paths",
+    "85875": {
+        "number": 85875,
+        "title": "Docs: add tags section to dashboard settings docs",
         "scores": {
-            "all_MiniLM_L12": 0.2452625036239624,
-            "quora_distilbert": 0.31390851736068726,
-            "msmarco_distilroberta": 0.4403494894504547,
-            "paraphrase_distilroberta": 0.36194711923599243,
-            "spacy_model": 0.6336281895637512
+            "all_MiniLM_L12": 0.3740231394767761
         },
-        "average": 0.399,
+        "average": 0.374,
         "rank": 2
     },
-    "82930": {
-        "number": 82930,
-        "title": "[v10.3.x] docs: angular plugins list rewrite",
+    "86177": {
+        "number": 86177,
+        "title": "[v10.4.x] Docs: add tags section to dashboard settings docs",
         "scores": {
-            "all_MiniLM_L12": 0.21288879215717316,
-            "quora_distilbert": 0.46220993995666504,
-            "msmarco_distilroberta": 0.3247990608215332,
-            "paraphrase_distilroberta": 0.3898685574531555,
-            "spacy_model": 0.5476908683776855
+            "all_MiniLM_L12": 0.35772067308425903
         },
-        "average": 0.387,
+        "average": 0.358,
         "rank": 3
     },
-    "82438": {
-        "number": 82438,
-        "title": "[v10.3.x] Add PagerDuty to the plugins list",
+    "86804": {
+        "number": 86804,
+        "title": "Templating: Fix issue where updated custom var options weren't persisted",
         "scores": {
-            "all_MiniLM_L12": 0.2584773898124695,
-            "quora_distilbert": 0.3641781806945801,
-            "msmarco_distilroberta": 0.31962350010871887,
-            "paraphrase_distilroberta": 0.3831905424594879,
-            "spacy_model": 0.5336935520172119
+            "all_MiniLM_L12": 0.3488942086696625
         },
-        "average": 0.372,
+        "average": 0.349,
         "rank": 4
     },
-    "83837": {
-        "number": 83837,
-        "title": "[v10.3.x] alerting:clarify silence preview",
+    "87557": {
+        "number": 87557,
+        "title": "[v10.4.x] Templating: Fix issue where updated custom var options weren't persisted",
         "scores": {
-            "all_MiniLM_L12": 0.251043438911438,
-            "quora_distilbert": 0.45340773463249207,
-            "msmarco_distilroberta": 0.24041850864887238,
-            "paraphrase_distilroberta": 0.2659605145454407,
-            "spacy_model": 0.5198913216590881
+            "all_MiniLM_L12": 0.33230921626091003
         },
-        "average": 0.346,
+        "average": 0.332,
         "rank": 5
     },
-    "82713": {
-        "number": 82713,
-        "title": "[v10.3.x] Adding Grafana for Beginners video to doc",
+    "86150": {
+        "number": 86150,
+        "title": "[v10.4.x] LibraryPanelRBAC: Fix issue with importing dashboards containing library panels",
         "scores": {
-            "all_MiniLM_L12": 0.2899104952812195,
-            "quora_distilbert": 0.35777655243873596,
-            "msmarco_distilroberta": 0.26790139079093933,
-            "paraphrase_distilroberta": 0.22313418984413147,
-            "spacy_model": 0.541708767414093
-        },
-        "average": 0.336,
-        "rank": 6
-    },
-    "82939": {
-        "number": 82939,
-        "title": "[v10.3.x] Add video to variables _index.md",
-        "scores": {
-            "all_MiniLM_L12": 0.2812437415122986,
-            "quora_distilbert": 0.3823995590209961,
-            "msmarco_distilroberta": 0.26123881340026855,
-            "paraphrase_distilroberta": 0.22808851301670074,
-            "spacy_model": 0.5246370434761047
-        },
-        "average": 0.336,
-        "rank": 7
-    },
-    "83612": {
-        "number": 83612,
-        "title": "[v10.3.x] docs: link annotation queries video to documentation",
-        "scores": {
-            "all_MiniLM_L12": 0.21935638785362244,
-            "quora_distilbert": 0.3399345278739929,
-            "msmarco_distilroberta": 0.3465723693370819,
-            "paraphrase_distilroberta": 0.19104421138763428,
-            "spacy_model": 0.5832347869873047
-        },
-        "average": 0.336,
-        "rank": 8
-    },
-    "82445": {
-        "number": 82445,
-        "title": "[v10.3.x] Docs: Add copy dashboard instructions",
-        "scores": {
-            "all_MiniLM_L12": 0.1901351511478424,
-            "quora_distilbert": 0.4185800552368164,
-            "msmarco_distilroberta": 0.2711583971977234,
-            "paraphrase_distilroberta": 0.2526267170906067,
-            "spacy_model": 0.5398558378219604
-        },
-        "average": 0.334,
-        "rank": 9
-    },
-    "83244": {
-        "number": 83244,
-        "title": "[v10.3.x] Docs: update import troubleshoot dashboards links",
-        "scores": {
-            "all_MiniLM_L12": 0.13034266233444214,
-            "quora_distilbert": 0.387867271900177,
-            "msmarco_distilroberta": 0.25703132152557373,
-            "paraphrase_distilroberta": 0.28454288840293884,
-            "spacy_model": 0.6099756956100464
-        },
-        "average": 0.334,
-        "rank": 10
-    },
-    "83731": {
-        "number": 83731,
-        "title": "[v10.3.x] Chore: Bumping go to 1.21.6",
-        "scores": {
-            "all_MiniLM_L12": 0.25869905948638916,
-            "quora_distilbert": 0.3650636672973633,
-            "msmarco_distilroberta": 0.23816514015197754,
-            "paraphrase_distilroberta": 0.25525593757629395,
-            "spacy_model": 0.525057852268219
-        },
-        "average": 0.328,
-        "rank": 11
-    },
-    "82402": {
-        "number": 82402,
-        "title": "Release: Bump version to 10.3.4",
-        "scores": {
-            "all_MiniLM_L12": 0.04619090259075165,
-            "quora_distilbert": 0.22249820828437805,
-            "msmarco_distilroberta": 0.30732810497283936,
-            "paraphrase_distilroberta": 0.2756825089454651,
-            "spacy_model": 0.7882482409477234
-        },
-        "average": 0.328,
-        "rank": 12
-    },
-    "83428": {
-        "number": 83428,
-        "title": "[v10.3.x] Docs/grafana helm",
-        "scores": {
-            "all_MiniLM_L12": 0.18446752429008484,
-            "quora_distilbert": 0.3537088930606842,
-            "msmarco_distilroberta": 0.2721273899078369,
-            "paraphrase_distilroberta": 0.2528304159641266,
-            "spacy_model": 0.5297571420669556
-        },
-        "average": 0.319,
-        "rank": 13
-    },
-    "83702": {
-        "number": 83702,
-        "title": "[v10.3.x] Docs: fix config file info in upgrade guide",
-        "scores": {
-            "all_MiniLM_L12": 0.0664728432893753,
-            "quora_distilbert": 0.3736482858657837,
-            "msmarco_distilroberta": 0.24333402514457703,
-            "paraphrase_distilroberta": 0.2628060281276703,
-            "spacy_model": 0.6446385383605957
-        },
-        "average": 0.318,
-        "rank": 14
-    },
-    "83596": {
-        "number": 83596,
-        "title": "[v10.3.x] Elasticsearch: Fix adhoc filters not applied in frontend mode",
-        "scores": {
-            "all_MiniLM_L12": -0.0005826354026794434,
-            "quora_distilbert": 0.25908374786376953,
-            "msmarco_distilroberta": 0.40768736600875854,
-            "paraphrase_distilroberta": 0.29497215151786804,
-            "spacy_model": 0.6109724640846252
-        },
-        "average": 0.314,
-        "rank": 15
-    },
-    "82731": {
-        "number": 82731,
-        "title": "[v10.3.x] Adding \"Exploring logs, metrics, and traces with Grafana\" video to docs",
-        "scores": {
-            "all_MiniLM_L12": 0.24634064733982086,
-            "quora_distilbert": 0.3144146800041199,
-            "msmarco_distilroberta": 0.2381628155708313,
-            "paraphrase_distilroberta": 0.20322728157043457,
-            "spacy_model": 0.5410732626914978
+            "all_MiniLM_L12": 0.30868399143218994
         },
         "average": 0.309,
+        "rank": 6
+    },
+    "83980": {
+        "number": 83980,
+        "title": "LibraryPanelRBAC: Fix issue with importing dashboards containing library panels",
+        "scores": {
+            "all_MiniLM_L12": 0.2787896990776062
+        },
+        "average": 0.279,
+        "rank": 7
+    },
+    "86866": {
+        "number": 86866,
+        "title": "[v10.4.x] SQLStore: Disable redundant create and drop unique index migrations on dashboard table",
+        "scores": {
+            "all_MiniLM_L12": 0.25417831540107727
+        },
+        "average": 0.254,
+        "rank": 8
+    },
+    "86209": {
+        "number": 86209,
+        "title": "docs: added logs panel play link; added dedup options, reformatted fig",
+        "scores": {
+            "all_MiniLM_L12": 0.24690863490104675
+        },
+        "average": 0.247,
+        "rank": 9
+    },
+    "86615": {
+        "number": 86615,
+        "title": "docs: update flame graph visualization",
+        "scores": {
+            "all_MiniLM_L12": 0.2418031394481659
+        },
+        "average": 0.242,
+        "rank": 10
+    },
+    "85895": {
+        "number": 85895,
+        "title": "Docs: add stat visualization Play link",
+        "scores": {
+            "all_MiniLM_L12": 0.23804549872875214
+        },
+        "average": 0.238,
+        "rank": 11
+    },
+    "86633": {
+        "number": 86633,
+        "title": "[v10.4.x] [DOC] Update the traces to profile content based upon SDK updates",
+        "scores": {
+            "all_MiniLM_L12": 0.23542657494544983
+        },
+        "average": 0.235,
+        "rank": 12
+    },
+    "87084": {
+        "number": 87084,
+        "title": "[v10.4.x] Docs: Update Explore Metrics doc based on feedback",
+        "scores": {
+            "all_MiniLM_L12": 0.23435014486312866
+        },
+        "average": 0.234,
+        "rank": 13
+    },
+    "86237": {
+        "number": 86237,
+        "title": "[v10.4.x] docs: added logs panel play link; added dedup options, reformatted fig",
+        "scores": {
+            "all_MiniLM_L12": 0.23011401295661926
+        },
+        "average": 0.23,
+        "rank": 14
+    },
+    "85972": {
+        "number": 85972,
+        "title": "[v10.4.x] Docs: add stat visualization Play link",
+        "scores": {
+            "all_MiniLM_L12": 0.22858507931232452
+        },
+        "average": 0.229,
+        "rank": 15
+    },
+    "86628": {
+        "number": 86628,
+        "title": "[DOC] Update the traces to profile content based upon SDK updates",
+        "scores": {
+            "all_MiniLM_L12": 0.22356298565864563
+        },
+        "average": 0.224,
         "rank": 16
     },
-    "82240": {
-        "number": 82240,
-        "title": "[v10.3.x] Docs: Update default value of rbac.permission_validation_enabled",
+    "87062": {
+        "number": 87062,
+        "title": "Docs: Update Explore Metrics doc based on feedback",
         "scores": {
-            "all_MiniLM_L12": 0.05726636201143265,
-            "quora_distilbert": 0.44373956322669983,
-            "msmarco_distilroberta": 0.29153314232826233,
-            "paraphrase_distilroberta": 0.17015594244003296,
-            "spacy_model": 0.5757142901420593
+            "all_MiniLM_L12": 0.21453240513801575
         },
-        "average": 0.308,
+        "average": 0.215,
         "rank": 17
     },
-    "83213": {
-        "number": 83213,
-        "title": "Tempo: Add template variable interpolation for filters",
+    "87268": {
+        "number": 87268,
+        "title": "[v10.4.x] docs: update flame graph visualization",
         "scores": {
-            "all_MiniLM_L12": 0.1121755838394165,
-            "quora_distilbert": 0.4234311580657959,
-            "msmarco_distilroberta": 0.23424246907234192,
-            "paraphrase_distilroberta": 0.17085544764995575,
-            "spacy_model": 0.5942327380180359
+            "all_MiniLM_L12": 0.20885999500751495
         },
-        "average": 0.307,
+        "average": 0.209,
         "rank": 18
     },
-    "81959": {
-        "number": 81959,
-        "title": "[v10.3.x] Remove X-Grafana-Device-Id from outbound requests",
+    "86016": {
+        "number": 86016,
+        "title": "[v10.4.x] Docs: add graphite data source Play link",
         "scores": {
-            "all_MiniLM_L12": 0.18449032306671143,
-            "quora_distilbert": 0.29946455359458923,
-            "msmarco_distilroberta": 0.2261582314968109,
-            "paraphrase_distilroberta": 0.2317269742488861,
-            "spacy_model": 0.5508356094360352
+            "all_MiniLM_L12": 0.20825932919979095
         },
-        "average": 0.299,
+        "average": 0.208,
         "rank": 19
     },
-    "83484": {
-        "number": 83484,
-        "title": "Auth: Fix email verification bypass when using basic authentication",
+    "87348": {
+        "number": 87348,
+        "title": "[v10.4.x] Cloudwatch: Update grafana-aws-sdk to fix sts endpoints",
         "scores": {
-            "all_MiniLM_L12": 0.043157316744327545,
-            "quora_distilbert": 0.49961450695991516,
-            "msmarco_distilroberta": 0.15401017665863037,
-            "paraphrase_distilroberta": 0.19653575122356415,
-            "spacy_model": 0.6006240844726562
+            "all_MiniLM_L12": 0.20648598670959473
         },
-        "average": 0.299,
+        "average": 0.206,
         "rank": 20
     },
-    "82877": {
-        "number": 82877,
-        "title": "[v10.3.x] TeamSync: Fix auth proxy docs on teamsync",
+    "85976": {
+        "number": 85976,
+        "title": "[v10.4.x] Docs: add Table visualization Play link",
         "scores": {
-            "all_MiniLM_L12": 0.09185715019702911,
-            "quora_distilbert": 0.33541247248649597,
-            "msmarco_distilroberta": 0.2769479751586914,
-            "paraphrase_distilroberta": 0.22375348210334778,
-            "spacy_model": 0.5596734881401062
+            "all_MiniLM_L12": 0.20556196570396423
         },
-        "average": 0.298,
+        "average": 0.206,
         "rank": 21
     },
-    "83177": {
-        "number": 83177,
-        "title": "[v10.3.x] OAuth: Improve domain validation",
+    "86857": {
+        "number": 86857,
+        "title": "SQLStore: Disable redundant create and drop unique index migrations on dashboard table",
         "scores": {
-            "all_MiniLM_L12": 0.06832636892795563,
-            "quora_distilbert": 0.44563260674476624,
-            "msmarco_distilroberta": 0.2671029567718506,
-            "paraphrase_distilroberta": 0.1791386753320694,
-            "spacy_model": 0.5225117206573486
+            "all_MiniLM_L12": 0.19840918481349945
         },
-        "average": 0.297,
+        "average": 0.198,
         "rank": 22
     },
-    "83725": {
-        "number": 83725,
-        "title": "[v10.3.x] Chore: Improve domain validation for Google OAuth - Backport 83229 to v10.3.x",
+    "85896": {
+        "number": 85896,
+        "title": "Docs: add Table visualization Play link",
         "scores": {
-            "all_MiniLM_L12": 0.19051828980445862,
-            "quora_distilbert": 0.2899159789085388,
-            "msmarco_distilroberta": 0.2526249289512634,
-            "paraphrase_distilroberta": 0.20273059606552124,
-            "spacy_model": 0.5447298884391785
+            "all_MiniLM_L12": 0.19679398834705353
         },
-        "average": 0.296,
+        "average": 0.197,
         "rank": 23
     },
-    "83203": {
-        "number": 83203,
-        "title": "[v10.3.x] AuthProxy: Invalidate previous cached item for user when changes are made to any header",
+    "86104": {
+        "number": 86104,
+        "title": "[v10.4.x] Docs: add data source type play link; cleanup",
         "scores": {
-            "all_MiniLM_L12": 0.0736449807882309,
-            "quora_distilbert": 0.431544691324234,
-            "msmarco_distilroberta": 0.2566854953765869,
-            "paraphrase_distilroberta": 0.15402866899967194,
-            "spacy_model": 0.5629685521125793
+            "all_MiniLM_L12": 0.19593530893325806
         },
-        "average": 0.296,
+        "average": 0.196,
         "rank": 24
     },
-    "83683": {
-        "number": 83683,
-        "title": "[v10.3.x] Fix typos",
+    "87647": {
+        "number": 87647,
+        "title": "[v10.4.x] CloudMonitoring: Improve legacy query migrations",
         "scores": {
-            "all_MiniLM_L12": 0.13288667798042297,
-            "quora_distilbert": 0.3061555325984955,
-            "msmarco_distilroberta": 0.24666930735111237,
-            "paraphrase_distilroberta": 0.30855655670166016,
-            "spacy_model": 0.4762195944786072
+            "all_MiniLM_L12": 0.19252751767635345
         },
-        "average": 0.294,
+        "average": 0.193,
         "rank": 25
     },
-    "82164": {
-        "number": 82164,
-        "title": "[v10.3.x] Doc: Custom branding is not applicable to OSS",
+    "85957": {
+        "number": 85957,
+        "title": "[v10.4.x] Google Cloud Monitor: Fix interface conversion for incorrect type in cloudMonitoringProm.run",
         "scores": {
-            "all_MiniLM_L12": 0.10267145931720734,
-            "quora_distilbert": 0.3510330319404602,
-            "msmarco_distilroberta": 0.25602591037750244,
-            "paraphrase_distilroberta": 0.23145484924316406,
-            "spacy_model": 0.5252185463905334
+            "all_MiniLM_L12": 0.19055259227752686
         },
-        "average": 0.293,
+        "average": 0.191,
         "rank": 26
     },
-    "81862": {
-        "number": 81862,
-        "title": "[v10.3.x] Folders: Fix failure to update folder in SQLite",
+    "87473": {
+        "number": 87473,
+        "title": "[v10.4.x] Chore: Upgrade go to 1.21.10",
         "scores": {
-            "all_MiniLM_L12": 0.1365465372800827,
-            "quora_distilbert": 0.3004224896430969,
-            "msmarco_distilroberta": 0.23902535438537598,
-            "paraphrase_distilroberta": 0.2235887199640274,
-            "spacy_model": 0.5508372783660889
+            "all_MiniLM_L12": 0.18676376342773438
         },
-        "average": 0.29,
+        "average": 0.187,
         "rank": 27
     },
-    "82350": {
-        "number": 82350,
-        "title": "[v10.3.x] Alerting docs: update `<GRAFANA VERSION>` to `<GRAFANA_VERSION>`",
+    "85998": {
+        "number": 85998,
+        "title": "[v10.4.x] Changelog: Updated changelog for 10.4.2",
         "scores": {
-            "all_MiniLM_L12": 0.21329008042812347,
-            "quora_distilbert": 0.2316083163022995,
-            "msmarco_distilroberta": 0.2945561408996582,
-            "paraphrase_distilroberta": 0.32567745447158813,
-            "spacy_model": 0.3783015012741089
+            "all_MiniLM_L12": 0.18437348306179047
         },
-        "average": 0.289,
+        "average": 0.184,
         "rank": 28
     },
-    "82432": {
-        "number": 82432,
-        "title": "[v10.3.x] Chore: Update grabpl to v3.0.50",
+    "86205": {
+        "number": 86205,
+        "title": "Docs: added bar gauge play link",
         "scores": {
-            "all_MiniLM_L12": 0.12711253762245178,
-            "quora_distilbert": 0.3142586946487427,
-            "msmarco_distilroberta": 0.38309717178344727,
-            "paraphrase_distilroberta": 0.2095029354095459,
-            "spacy_model": 0.4091856777667999
+            "all_MiniLM_L12": 0.18357253074645996
         },
-        "average": 0.289,
+        "average": 0.184,
         "rank": 29
     },
-    "83936": {
-        "number": 83936,
-        "title": "[v10.3.x] chore: bump Go to 1.21.8",
+    "85811": {
+        "number": 85811,
+        "title": "Google Cloud Monitor: Fix interface conversion for incorrect type in `cloudMonitoringProm.run`",
         "scores": {
-            "all_MiniLM_L12": 0.13515843451023102,
-            "quora_distilbert": 0.28890591859817505,
-            "msmarco_distilroberta": 0.32322198152542114,
-            "paraphrase_distilroberta": 0.18776701390743256,
-            "spacy_model": 0.5055035352706909
+            "all_MiniLM_L12": 0.1723582148551941
         },
-        "average": 0.288,
+        "average": 0.172,
         "rank": 30
     },
-    "83750": {
-        "number": 83750,
-        "title": "[v10.3.x] LDAP: Fix LDAP users authenticated via auth proxy not being able to use LDAP active sync",
+    "86226": {
+        "number": 86226,
+        "title": "[v10.4.x] Docs: added bar gauge play link",
         "scores": {
-            "all_MiniLM_L12": 0.09668224304914474,
-            "quora_distilbert": 0.28679782152175903,
-            "msmarco_distilroberta": 0.2740499973297119,
-            "paraphrase_distilroberta": 0.1435500532388687,
-            "spacy_model": 0.6402144432067871
+            "all_MiniLM_L12": 0.17083577811717987
         },
-        "average": 0.288,
+        "average": 0.171,
         "rank": 31
     },
-    "83325": {
-        "number": 83325,
-        "title": "[v10.3.x] remove oss from security config docs",
+    "85989": {
+        "number": 85989,
+        "title": "[v10.4.x] Docs: add bar/pie visualization Play link",
         "scores": {
-            "all_MiniLM_L12": -0.04324580729007721,
-            "quora_distilbert": 0.44158321619033813,
-            "msmarco_distilroberta": 0.23875024914741516,
-            "paraphrase_distilroberta": 0.24713213741779327,
-            "spacy_model": 0.5218331217765808
+            "all_MiniLM_L12": 0.17079971730709076
         },
-        "average": 0.281,
+        "average": 0.171,
         "rank": 32
     },
-    "83405": {
-        "number": 83405,
-        "title": "[v10.3.x] Annotations: Improve query performance when using dashboard filter",
+    "85985": {
+        "number": 85985,
+        "title": "[v10.4.x] Docs: add gague visualization Play link",
         "scores": {
-            "all_MiniLM_L12": 0.012007083743810654,
-            "quora_distilbert": 0.29038146138191223,
-            "msmarco_distilroberta": 0.33626705408096313,
-            "paraphrase_distilroberta": 0.20218375325202942,
-            "spacy_model": 0.559090793132782
+            "all_MiniLM_L12": 0.16890348494052887
         },
-        "average": 0.28,
+        "average": 0.169,
         "rank": 33
     },
-    "82902": {
-        "number": 82902,
-        "title": "[v10.3.x] LibraryPanels/RBAC: Fix issue where folder scopes weren't being correctly inherited",
+    "85897": {
+        "number": 85897,
+        "title": "Docs: add gague visualization Play link",
         "scores": {
-            "all_MiniLM_L12": 0.03830224275588989,
-            "quora_distilbert": 0.2829199433326721,
-            "msmarco_distilroberta": 0.2739523649215698,
-            "paraphrase_distilroberta": 0.22761034965515137,
-            "spacy_model": 0.5652941465377808
+            "all_MiniLM_L12": 0.16729407012462616
         },
-        "average": 0.278,
+        "average": 0.167,
         "rank": 34
     },
-    "82537": {
-        "number": 82537,
-        "title": "[v10.3.x] Chore: Remove grafana-delivery references",
+    "86721": {
+        "number": 86721,
+        "title": "[v10.4.x] Docs: Update example docs for ",
         "scores": {
-            "all_MiniLM_L12": 0.14705786108970642,
-            "quora_distilbert": 0.27901017665863037,
-            "msmarco_distilroberta": 0.26316362619400024,
-            "paraphrase_distilroberta": 0.17150476574897766,
-            "spacy_model": 0.5246854424476624
+            "all_MiniLM_L12": 0.16643866896629333
         },
-        "average": 0.277,
+        "average": 0.166,
         "rank": 35
     },
-    "82039": {
-        "number": 82039,
-        "title": "[v10.3.x] Alerting: Update legacy migration docs to include Upgrade Preview",
+    "86907": {
+        "number": 86907,
+        "title": "[v10.4.x] Alerting: Fix instances link when served from subpath",
         "scores": {
-            "all_MiniLM_L12": 0.04576371610164642,
-            "quora_distilbert": 0.38070136308670044,
-            "msmarco_distilroberta": 0.27785900235176086,
-            "paraphrase_distilroberta": 0.19662603735923767,
-            "spacy_model": 0.47693562507629395
+            "all_MiniLM_L12": 0.16564711928367615
         },
-        "average": 0.276,
+        "average": 0.166,
         "rank": 36
     },
-    "82221": {
-        "number": 82221,
-        "title": "Alerting docs: `Provision alerting resources` updates",
+    "85997": {
+        "number": 85997,
+        "title": "Changelog: Updated changelog for 10.4.2",
         "scores": {
-            "all_MiniLM_L12": 0.24439950287342072,
-            "quora_distilbert": 0.207986980676651,
-            "msmarco_distilroberta": 0.25230836868286133,
-            "paraphrase_distilroberta": 0.26466721296310425,
-            "spacy_model": 0.40071770548820496
+            "all_MiniLM_L12": 0.16462108492851257
         },
-        "average": 0.274,
+        "average": 0.165,
         "rank": 37
     },
-    "82103": {
-        "number": 82103,
-        "title": "[v10.3.x] Add missing step",
+    "87465": {
+        "number": 87465,
+        "title": "Provisioning: Look up provisioned folders by UID when possible",
         "scores": {
-            "all_MiniLM_L12": 0.053919192403554916,
-            "quora_distilbert": 0.3769189119338989,
-            "msmarco_distilroberta": 0.2217998206615448,
-            "paraphrase_distilroberta": 0.3032415807247162,
-            "spacy_model": 0.4160204231739044
+            "all_MiniLM_L12": 0.16320878267288208
         },
-        "average": 0.274,
+        "average": 0.163,
         "rank": 38
     },
-    "83105": {
-        "number": 83105,
-        "title": "[v10.3.x] Docs: add information about filtering for annotations",
+    "87350": {
+        "number": 87350,
+        "title": "Docs: add data link cell type information",
         "scores": {
-            "all_MiniLM_L12": 0.19089797139167786,
-            "quora_distilbert": 0.1567096710205078,
-            "msmarco_distilroberta": 0.2877803444862366,
-            "paraphrase_distilroberta": 0.21931040287017822,
-            "spacy_model": 0.5095400214195251
+            "all_MiniLM_L12": 0.1630518138408661
         },
-        "average": 0.273,
+        "average": 0.163,
         "rank": 39
     },
-    "82244": {
-        "number": 82244,
-        "title": "[v10.3.x] Update RBAC role name: fixed:datasources.id:reader",
+    "86532": {
+        "number": 86532,
+        "title": "[v10.4.x] Docs: Add GeoMaps YouTube Video",
         "scores": {
-            "all_MiniLM_L12": 0.059907615184783936,
-            "quora_distilbert": 0.3242506682872772,
-            "msmarco_distilroberta": 0.2808343768119812,
-            "paraphrase_distilroberta": 0.14171458780765533,
-            "spacy_model": 0.5392481088638306
+            "all_MiniLM_L12": 0.15938323736190796
         },
-        "average": 0.269,
+        "average": 0.159,
         "rank": 40
     },
-    "83553": {
-        "number": 83553,
-        "title": "[v10.3.x] Docs: Add missing visualizations to Grafana vizualization index page",
+    "85926": {
+        "number": 85926,
+        "title": "docs: update heatmap visualization and add play links",
         "scores": {
-            "all_MiniLM_L12": 0.16817373037338257,
-            "quora_distilbert": 0.265857994556427,
-            "msmarco_distilroberta": 0.25450313091278076,
-            "paraphrase_distilroberta": 0.12778261303901672,
-            "spacy_model": 0.5068786144256592
+            "all_MiniLM_L12": 0.1580953299999237
         },
-        "average": 0.265,
+        "average": 0.158,
         "rank": 41
     },
-    "81929": {
-        "number": 81929,
-        "title": "[v10.3.x] Elasticsearch: Set middlewares from Grafana's `httpClientProvider`",
+    "86053": {
+        "number": 86053,
+        "title": "docs: update candlestick visualization",
         "scores": {
-            "all_MiniLM_L12": 0.11351840198040009,
-            "quora_distilbert": 0.23718854784965515,
-            "msmarco_distilroberta": 0.264079749584198,
-            "paraphrase_distilroberta": 0.15032009780406952,
-            "spacy_model": 0.5561614036560059
+            "all_MiniLM_L12": 0.15598943829536438
         },
-        "average": 0.264,
+        "average": 0.156,
         "rank": 42
     },
-    "82320": {
-        "number": 82320,
-        "title": "[v10.3.x] [DOC] Update Pyroscope data source",
+    "85898": {
+        "number": 85898,
+        "title": "Docs: add bar/pie visualization Play link",
         "scores": {
-            "all_MiniLM_L12": 0.1038704663515091,
-            "quora_distilbert": 0.25961098074913025,
-            "msmarco_distilroberta": 0.2385583221912384,
-            "paraphrase_distilroberta": 0.18846756219863892,
-            "spacy_model": 0.5305346250534058
+            "all_MiniLM_L12": 0.15574121475219727
         },
-        "average": 0.264,
+        "average": 0.156,
         "rank": 43
     },
-    "81983": {
-        "number": 81983,
-        "title": "[v10.3.x] ShareModal: Remove shareView param when creating a sharing URL",
+    "86714": {
+        "number": 86714,
+        "title": "[v10.4.x] Embed Managing users and permissions video to the documentation",
         "scores": {
-            "all_MiniLM_L12": 0.03625619783997536,
-            "quora_distilbert": 0.322214275598526,
-            "msmarco_distilroberta": 0.25174564123153687,
-            "paraphrase_distilroberta": 0.16409224271774292,
-            "spacy_model": 0.5230005383491516
+            "all_MiniLM_L12": 0.15479718148708344
         },
-        "average": 0.259,
+        "average": 0.155,
         "rank": 44
     },
-    "83680": {
-        "number": 83680,
-        "title": "[v10.3.x] Update `make docs` procedure",
+    "86069": {
+        "number": 86069,
+        "title": "CloudMonitoring: Improve legacy query migrations",
         "scores": {
-            "all_MiniLM_L12": 0.09457829594612122,
-            "quora_distilbert": 0.31233683228492737,
-            "msmarco_distilroberta": 0.18744423985481262,
-            "paraphrase_distilroberta": 0.27838289737701416,
-            "spacy_model": 0.4136658012866974
+            "all_MiniLM_L12": 0.15319138765335083
         },
-        "average": 0.257,
+        "average": 0.153,
         "rank": 45
     },
-    "82259": {
-        "number": 82259,
-        "title": "[v10.3.x] LibraryPanels: Fix issue with repeated library panels",
+    "87467": {
+        "number": 87467,
+        "title": "[v10.4.x] Provisioning: Look up provisioned folders by UID when possible",
         "scores": {
-            "all_MiniLM_L12": 0.024543367326259613,
-            "quora_distilbert": 0.21207267045974731,
-            "msmarco_distilroberta": 0.30454498529434204,
-            "paraphrase_distilroberta": 0.23363789916038513,
-            "spacy_model": 0.49857768416404724
+            "all_MiniLM_L12": 0.14817452430725098
         },
-        "average": 0.255,
+        "average": 0.148,
         "rank": 46
     },
-    "83141": {
-        "number": 83141,
-        "title": "Alerting docs: Fix migrating alert links",
+    "85311": {
+        "number": 85311,
+        "title": "Docs:  added note to RBAC doc from support escalation",
         "scores": {
-            "all_MiniLM_L12": 0.07027576118707657,
-            "quora_distilbert": 0.26426732540130615,
-            "msmarco_distilroberta": 0.1990324854850769,
-            "paraphrase_distilroberta": 0.2773212194442749,
-            "spacy_model": 0.45391520857810974
+            "all_MiniLM_L12": 0.1481057107448578
         },
-        "average": 0.253,
+        "average": 0.148,
         "rank": 47
     },
-    "83052": {
-        "number": 83052,
-        "title": "[v10.3.x] Update `make docs` procedure",
+    "87373": {
+        "number": 87373,
+        "title": "[v10.4.x] Docs:  added note to RBAC doc from support escalation",
         "scores": {
-            "all_MiniLM_L12": 0.09042266011238098,
-            "quora_distilbert": 0.2753618359565735,
-            "msmarco_distilroberta": 0.18755145370960236,
-            "paraphrase_distilroberta": 0.28691279888153076,
-            "spacy_model": 0.4136658012866974
+            "all_MiniLM_L12": 0.14408066868782043
         },
-        "average": 0.251,
+        "average": 0.144,
         "rank": 48
     },
-    "82561": {
-        "number": 82561,
-        "title": "[v10.3.x] Area Build/Packaging: release process - remove image check for armhf rpm no longer being built",
+    "85993": {
+        "number": 85993,
+        "title": "[v10.4.x] Docs: add time series visualization Play link",
         "scores": {
-            "all_MiniLM_L12": -0.0030596740543842316,
-            "quora_distilbert": 0.3847271502017975,
-            "msmarco_distilroberta": 0.09792103618383408,
-            "paraphrase_distilroberta": 0.20693600177764893,
-            "spacy_model": 0.5418885350227356
+            "all_MiniLM_L12": 0.1425754576921463
         },
-        "average": 0.246,
+        "average": 0.143,
         "rank": 49
     },
-    "82356": {
-        "number": 82356,
-        "title": "[v10.3.x] Update `make docs` procedure",
+    "85999": {
+        "number": 85999,
+        "title": "Release: Bump version to 10.4.3",
         "scores": {
-            "all_MiniLM_L12": 0.08908575773239136,
-            "quora_distilbert": 0.27180182933807373,
-            "msmarco_distilroberta": 0.18006417155265808,
-            "paraphrase_distilroberta": 0.2619299590587616,
-            "spacy_model": 0.4136658012866974
+            "all_MiniLM_L12": 0.13779060542583466
         },
-        "average": 0.243,
+        "average": 0.138,
         "rank": 50
     },
-    "82238": {
-        "number": 82238,
-        "title": "[v10.3.x] Update `make docs` procedure",
+    "86725": {
+        "number": 86725,
+        "title": "Docs: add snapshot deletion info",
         "scores": {
-            "all_MiniLM_L12": 0.07215090841054916,
-            "quora_distilbert": 0.28982090950012207,
-            "msmarco_distilroberta": 0.1927943080663681,
-            "paraphrase_distilroberta": 0.265747606754303,
-            "spacy_model": 0.3959592580795288
+            "all_MiniLM_L12": 0.13634046912193298
         },
-        "average": 0.243,
+        "average": 0.136,
         "rank": 51
     },
-    "83722": {
-        "number": 83722,
-        "title": "[v10.3.x] CI: Bump `alpine` image version",
+    "86281": {
+        "number": 86281,
+        "title": "[v10.4.x] Add FolderUID for library elements",
         "scores": {
-            "all_MiniLM_L12": 0.06386023014783859,
-            "quora_distilbert": 0.24641013145446777,
-            "msmarco_distilroberta": 0.24919185042381287,
-            "paraphrase_distilroberta": 0.3547431230545044,
-            "spacy_model": 0.2922106087207794
+            "all_MiniLM_L12": 0.133956640958786
         },
-        "average": 0.241,
+        "average": 0.134,
         "rank": 52
     },
-    "81954": {
-        "number": 81954,
-        "title": "[v10.3.x] Docs: remove disable scaling units entry",
+    "86609": {
+        "number": 86609,
+        "title": "[v10.4.x] Prometheus: Do not throw error for label_join function",
         "scores": {
-            "all_MiniLM_L12": 0.026705507189035416,
-            "quora_distilbert": 0.2790863513946533,
-            "msmarco_distilroberta": 0.1779155135154724,
-            "paraphrase_distilroberta": 0.2940593957901001,
-            "spacy_model": 0.42743420600891113
+            "all_MiniLM_L12": 0.13245099782943726
         },
-        "average": 0.241,
+        "average": 0.132,
         "rank": 53
     },
-    "83055": {
-        "number": 83055,
-        "title": "[v10.3.x] Remove duplicate paragraph and wrap in note",
+    "87590": {
+        "number": 87590,
+        "title": "Chore: Implement GetOAuthProviders in FakeSocialService",
         "scores": {
-            "all_MiniLM_L12": 0.1601206362247467,
-            "quora_distilbert": 0.28984567523002625,
-            "msmarco_distilroberta": 0.1434686779975891,
-            "paraphrase_distilroberta": 0.2087777853012085,
-            "spacy_model": 0.3067609369754791
+            "all_MiniLM_L12": 0.1312420666217804
         },
-        "average": 0.222,
+        "average": 0.131,
         "rank": 54
     },
-    "83525": {
-        "number": 83525,
-        "title": "[v10.3.x] Dashboards: Fixes issue where panels would not refresh if time range updated while in panel view mode",
+    "86432": {
+        "number": 86432,
+        "title": "Alerting: Fix instances link when served from subpath",
         "scores": {
-            "all_MiniLM_L12": 0.01833508349955082,
-            "quora_distilbert": 0.16168029606342316,
-            "msmarco_distilroberta": 0.1655304729938507,
-            "paraphrase_distilroberta": 0.24386070668697357,
-            "spacy_model": 0.5013368129730225
+            "all_MiniLM_L12": 0.13070785999298096
         },
-        "average": 0.218,
+        "average": 0.131,
         "rank": 55
     },
-    "81463": {
-        "number": 81463,
-        "title": "[v10.3.x] Loki/Elastic: Assert queryfix value to always be string",
+    "87592": {
+        "number": 87592,
+        "title": "[v10.4.x] Chore: Implement GetOAuthProviders in FakeSocialService",
         "scores": {
-            "all_MiniLM_L12": -0.09558776021003723,
-            "quora_distilbert": 0.44085219502449036,
-            "msmarco_distilroberta": 0.2209843099117279,
-            "paraphrase_distilroberta": 0.13973462581634521,
-            "spacy_model": 0.3848273456096649
+            "all_MiniLM_L12": 0.13040220737457275
         },
-        "average": 0.218,
+        "average": 0.13,
         "rank": 56
     },
-    "83142": {
-        "number": 83142,
-        "title": "[v10.3.x] Alerting docs: fixes oncall broken links",
+    "86019": {
+        "number": 86019,
+        "title": "[v10.4.x] Docs: add mysql data source Play link",
         "scores": {
-            "all_MiniLM_L12": 0.07541567832231522,
-            "quora_distilbert": 0.14697399735450745,
-            "msmarco_distilroberta": 0.174943745136261,
-            "paraphrase_distilroberta": 0.2472284436225891,
-            "spacy_model": 0.43583163619041443
+            "all_MiniLM_L12": 0.12882550060749054
         },
-        "average": 0.216,
+        "average": 0.129,
         "rank": 57
     },
-    "81809": {
-        "number": 81809,
-        "title": "[v10.3.x] Docs: Restructure configure thresholds docs",
+    "83819": {
+        "number": 83819,
+        "title": "Add FolderUID for library elements",
         "scores": {
-            "all_MiniLM_L12": 0.0777057409286499,
-            "quora_distilbert": 0.1603897660970688,
-            "msmarco_distilroberta": 0.11491042375564575,
-            "paraphrase_distilroberta": 0.25595903396606445,
-            "spacy_model": 0.44227173924446106
+            "all_MiniLM_L12": 0.1286046952009201
         },
-        "average": 0.21,
+        "average": 0.129,
         "rank": 58
     },
-    "82400": {
-        "number": 82400,
-        "title": "[v10.3.x] Changelog: Updated changelog for 10.3.3",
+    "86735": {
+        "number": 86735,
+        "title": "[v10.4.x] Docs: add snapshot deletion info",
         "scores": {
-            "all_MiniLM_L12": 0.03692447766661644,
-            "quora_distilbert": 0.15605907142162323,
-            "msmarco_distilroberta": 0.22919362783432007,
-            "paraphrase_distilroberta": 0.21515971422195435,
-            "spacy_model": 0.3966675102710724
+            "all_MiniLM_L12": 0.12637490034103394
         },
-        "average": 0.207,
+        "average": 0.126,
         "rank": 59
     },
-    "82055": {
-        "number": 82055,
-        "title": "[v10.3.x] Alerting docs: changes alerting rules to alert rules",
+    "87353": {
+        "number": 87353,
+        "title": "[v10.4.x] Docs: add data link cell type information",
         "scores": {
-            "all_MiniLM_L12": 0.06751660257577896,
-            "quora_distilbert": 0.1718686819076538,
-            "msmarco_distilroberta": 0.09240852296352386,
-            "paraphrase_distilroberta": 0.23206743597984314,
-            "spacy_model": 0.36769935488700867
+            "all_MiniLM_L12": 0.12456575036048889
         },
-        "average": 0.186,
+        "average": 0.125,
         "rank": 60
+    },
+    "86212": {
+        "number": 86212,
+        "title": "docs: add thresholds play link",
+        "scores": {
+            "all_MiniLM_L12": 0.12385740876197815
+        },
+        "average": 0.124,
+        "rank": 61
+    },
+    "87255": {
+        "number": 87255,
+        "title": "[v10.4.x] Docs: Fix link to values.yaml file",
+        "scores": {
+            "all_MiniLM_L12": 0.12352150678634644
+        },
+        "average": 0.124,
+        "rank": 62
+    },
+    "86510": {
+        "number": 86510,
+        "title": "[v10.4.x] Add Create annotations in panel video to the documentation",
+        "scores": {
+            "all_MiniLM_L12": 0.1224849596619606
+        },
+        "average": 0.122,
+        "rank": 63
+    },
+    "87014": {
+        "number": 87014,
+        "title": "Docs: Fix link to values.yaml file",
+        "scores": {
+            "all_MiniLM_L12": 0.12114919722080231
+        },
+        "average": 0.121,
+        "rank": 64
+    },
+    "86513": {
+        "number": 86513,
+        "title": "[v10.4.x] docs: update heatmap visualization and add play links",
+        "scores": {
+            "all_MiniLM_L12": 0.12011325359344482
+        },
+        "average": 0.12,
+        "rank": 65
+    },
+    "81890": {
+        "number": 81890,
+        "title": "Typo fix in User API doc example",
+        "scores": {
+            "all_MiniLM_L12": 0.11883927136659622
+        },
+        "average": 0.119,
+        "rank": 66
+    },
+    "86611": {
+        "number": 86611,
+        "title": "Update the docs for state_periodic_save_interval",
+        "scores": {
+            "all_MiniLM_L12": 0.11828529834747314
+        },
+        "average": 0.118,
+        "rank": 67
+    },
+    "86729": {
+        "number": 86729,
+        "title": "[v10.4.x] Docs: Add config guidance for embedding",
+        "scores": {
+            "all_MiniLM_L12": 0.11698144674301147
+        },
+        "average": 0.117,
+        "rank": 68
+    },
+    "86667": {
+        "number": 86667,
+        "title": "[v10.4.x] Update the docs for state_periodic_save_interval",
+        "scores": {
+            "all_MiniLM_L12": 0.11621291935443878
+        },
+        "average": 0.116,
+        "rank": 69
+    },
+    "86726": {
+        "number": 86726,
+        "title": "Docs: Add config guidance for embedding",
+        "scores": {
+            "all_MiniLM_L12": 0.11561235785484314
+        },
+        "average": 0.116,
+        "rank": 70
+    },
+    "86172": {
+        "number": 86172,
+        "title": "[v10.4.x] Docs: add best practices Play link",
+        "scores": {
+            "all_MiniLM_L12": 0.11452522873878479
+        },
+        "average": 0.115,
+        "rank": 71
+    },
+    "86240": {
+        "number": 86240,
+        "title": "[v10.4.x] docs: add thresholds play link",
+        "scores": {
+            "all_MiniLM_L12": 0.11296350508928299
+        },
+        "average": 0.113,
+        "rank": 72
+    },
+    "86383": {
+        "number": 86383,
+        "title": "Add Create annotations in panel video to the documentation",
+        "scores": {
+            "all_MiniLM_L12": 0.11199692636728287
+        },
+        "average": 0.112,
+        "rank": 73
+    },
+    "86220": {
+        "number": 86220,
+        "title": "[v10.4.x] Docs: add template var Play link; cleanup existing",
+        "scores": {
+            "all_MiniLM_L12": 0.11023978888988495
+        },
+        "average": 0.11,
+        "rank": 74
+    },
+    "77077": {
+        "number": 77077,
+        "title": "Docs: Clarify open source documentation",
+        "scores": {
+            "all_MiniLM_L12": 0.10082228481769562
+        },
+        "average": 0.101,
+        "rank": 75
+    },
+    "86472": {
+        "number": 86472,
+        "title": "Docs: Add GeoMaps YouTube Video",
+        "scores": {
+            "all_MiniLM_L12": 0.10016129910945892
+        },
+        "average": 0.1,
+        "rank": 76
+    },
+    "86247": {
+        "number": 86247,
+        "title": "[v10.4.x] docs: add annotations play link",
+        "scores": {
+            "all_MiniLM_L12": 0.09932410717010498
+        },
+        "average": 0.099,
+        "rank": 77
+    },
+    "86467": {
+        "number": 86467,
+        "title": "Prometheus: Do not throw error for label_join function 10.4.x",
+        "scores": {
+            "all_MiniLM_L12": 0.09916332364082336
+        },
+        "average": 0.099,
+        "rank": 78
+    },
+    "87408": {
+        "number": 87408,
+        "title": "Alerting: Improve legacy alerting upgrade docs",
+        "scores": {
+            "all_MiniLM_L12": 0.09889819473028183
+        },
+        "average": 0.099,
+        "rank": 79
+    },
+    "86700": {
+        "number": 86700,
+        "title": "[v10.4.x] docs: update candlestick visualization",
+        "scores": {
+            "all_MiniLM_L12": 0.09648994356393814
+        },
+        "average": 0.096,
+        "rank": 80
+    },
+    "86076": {
+        "number": 86076,
+        "title": "Docs: add best practices Play link",
+        "scores": {
+            "all_MiniLM_L12": 0.09107951074838638
+        },
+        "average": 0.091,
+        "rank": 81
+    },
+    "86690": {
+        "number": 86690,
+        "title": "[v10.4.x] LDAP: Fix listing all non-matching groups",
+        "scores": {
+            "all_MiniLM_L12": 0.09059278666973114
+        },
+        "average": 0.091,
+        "rank": 82
+    },
+    "86682": {
+        "number": 86682,
+        "title": "LDAP: Fix listing all non-matching groups",
+        "scores": {
+            "all_MiniLM_L12": 0.09024461358785629
+        },
+        "average": 0.09,
+        "rank": 83
+    },
+    "84223": {
+        "number": 84223,
+        "title": "Google Cloud Monitor: Fix `res` being accessed after it becomes `nil` in `promql_query.go`",
+        "scores": {
+            "all_MiniLM_L12": 0.08762022107839584
+        },
+        "average": 0.088,
+        "rank": 84
+    },
+    "86821": {
+        "number": 86821,
+        "title": "[v10.4.x] Typo fix in User API doc example",
+        "scores": {
+            "all_MiniLM_L12": 0.08722628653049469
+        },
+        "average": 0.087,
+        "rank": 85
+    },
+    "85481": {
+        "number": 85481,
+        "title": "Alerting: Return a 400 and errutil error when trying to delete a contact point that is referenced by a policy",
+        "scores": {
+            "all_MiniLM_L12": 0.08102408051490784
+        },
+        "average": 0.081,
+        "rank": 86
+    },
+    "86770": {
+        "number": 86770,
+        "title": "[v10.4.x] Update `make docs` procedure",
+        "scores": {
+            "all_MiniLM_L12": 0.08097577840089798
+        },
+        "average": 0.081,
+        "rank": 87
+    },
+    "86162": {
+        "number": 86162,
+        "title": "[v10.4.x] Alerting: Return a 400 and errutil error when trying to delete a contact point that is referenced by a policy",
+        "scores": {
+            "all_MiniLM_L12": 0.07839155942201614
+        },
+        "average": 0.078,
+        "rank": 88
+    },
+    "86230": {
+        "number": 86230,
+        "title": "[v10.4.x] docs: query data/relative time range override play link",
+        "scores": {
+            "all_MiniLM_L12": 0.07836452126502991
+        },
+        "average": 0.078,
+        "rank": 89
+    },
+    "85959": {
+        "number": 85959,
+        "title": "[v10.4.x] Google Cloud Monitor: Fix `res` being accessed after it becomes `nil` in `promql_query.go`",
+        "scores": {
+            "all_MiniLM_L12": 0.07725191861391068
+        },
+        "average": 0.077,
+        "rank": 90
+    },
+    "86213": {
+        "number": 86213,
+        "title": "docs: query data/relative time range override play link",
+        "scores": {
+            "all_MiniLM_L12": 0.07642972469329834
+        },
+        "average": 0.076,
+        "rank": 91
+    },
+    "86697": {
+        "number": 86697,
+        "title": "[v10.4.x] Alerting: Take receivers into account when custom grouping Alertmanager groups",
+        "scores": {
+            "all_MiniLM_L12": 0.07510848343372345
+        },
+        "average": 0.075,
+        "rank": 92
+    },
+    "87299": {
+        "number": 87299,
+        "title": "[v10.4.x] Alerting: Fix max alerts",
+        "scores": {
+            "all_MiniLM_L12": 0.07448689639568329
+        },
+        "average": 0.074,
+        "rank": 93
+    },
+    "86386": {
+        "number": 86386,
+        "title": "Embed creating alerts with Grafana video to the documentation",
+        "scores": {
+            "all_MiniLM_L12": 0.0739886462688446
+        },
+        "average": 0.074,
+        "rank": 94
+    },
+    "86074": {
+        "number": 86074,
+        "title": "Docs: add template var Play link; cleanup existing",
+        "scores": {
+            "all_MiniLM_L12": 0.07320021092891693
+        },
+        "average": 0.073,
+        "rank": 95
+    },
+    "86620": {
+        "number": 86620,
+        "title": "[v10.4.x] Alerting: Fix simplified routing group by override",
+        "scores": {
+            "all_MiniLM_L12": 0.07162117958068848
+        },
+        "average": 0.072,
+        "rank": 96
+    },
+    "86206": {
+        "number": 86206,
+        "title": "docs: add annotations play link",
+        "scores": {
+            "all_MiniLM_L12": 0.06644389033317566
+        },
+        "average": 0.066,
+        "rank": 97
+    },
+    "86665": {
+        "number": 86665,
+        "title": "[v10.4.x] Embed creating alerts with Grafana video to the documentation",
+        "scores": {
+            "all_MiniLM_L12": 0.06531735509634018
+        },
+        "average": 0.065,
+        "rank": 98
+    },
+    "87585": {
+        "number": 87585,
+        "title": "[v10.4.x] Azure data sources: Set selected config type before save",
+        "scores": {
+            "all_MiniLM_L12": 0.06487122923135757
+        },
+        "average": 0.065,
+        "rank": 99
+    },
+    "86127": {
+        "number": 86127,
+        "title": "Alerting: Take receivers into account when custom grouping Alertmanager groups",
+        "scores": {
+            "all_MiniLM_L12": 0.06210986152291298
+        },
+        "average": 0.062,
+        "rank": 100
+    },
+    "86937": {
+        "number": 86937,
+        "title": "`[backport to v10.4]` SSO: add SSO settings to secrets migrator (#86913)",
+        "scores": {
+            "all_MiniLM_L12": 0.057533081620931625
+        },
+        "average": 0.058,
+        "rank": 101
+    },
+    "86672": {
+        "number": 86672,
+        "title": "[v10.4.x] Alerting: Fix max_alerts field handling",
+        "scores": {
+            "all_MiniLM_L12": 0.05678397789597511
+        },
+        "average": 0.057,
+        "rank": 102
+    },
+    "87481": {
+        "number": 87481,
+        "title": "Azure data sources: Set selected config type before save",
+        "scores": {
+            "all_MiniLM_L12": 0.05562210828065872
+        },
+        "average": 0.056,
+        "rank": 103
+    },
+    "85945": {
+        "number": 85945,
+        "title": "[v10.4.x] Revert \"Docs: Clarify open source documentation (#77077)\"",
+        "scores": {
+            "all_MiniLM_L12": 0.05496156960725784
+        },
+        "average": 0.055,
+        "rank": 104
+    },
+    "86651": {
+        "number": 86651,
+        "title": "Alerting: Fix max_alerts field handling",
+        "scores": {
+            "all_MiniLM_L12": 0.054897453635931015
+        },
+        "average": 0.055,
+        "rank": 105
+    },
+    "87132": {
+        "number": 87132,
+        "title": "Alerting: Prevent search from locking the browser",
+        "scores": {
+            "all_MiniLM_L12": 0.04294319823384285
+        },
+        "average": 0.043,
+        "rank": 106
+    },
+    "87271": {
+        "number": 87271,
+        "title": "Alerting: Fix max alerts",
+        "scores": {
+            "all_MiniLM_L12": 0.041809357702732086
+        },
+        "average": 0.042,
+        "rank": 107
+    },
+    "86913": {
+        "number": 86913,
+        "title": "SSO: Add SSO settings to secrets migrator",
+        "scores": {
+            "all_MiniLM_L12": 0.041401349008083344
+        },
+        "average": 0.041,
+        "rank": 108
+    },
+    "86552": {
+        "number": 86552,
+        "title": "Alerting: Fix simplified routing group by override",
+        "scores": {
+            "all_MiniLM_L12": 0.03724294155836105
+        },
+        "average": 0.037,
+        "rank": 109
+    },
+    "86785": {
+        "number": 86785,
+        "title": "[v10.4.x] Remove fmt.Println of client certificate",
+        "scores": {
+            "all_MiniLM_L12": 0.036096055060625076
+        },
+        "average": 0.036,
+        "rank": 110
+    },
+    "86773": {
+        "number": 86773,
+        "title": "Remove fmt.Println of client certificate",
+        "scores": {
+            "all_MiniLM_L12": 0.03386884927749634
+        },
+        "average": 0.034,
+        "rank": 111
+    },
+    "87420": {
+        "number": 87420,
+        "title": "[v10.4.x] Update golang.org/x/net to latest version",
+        "scores": {
+            "all_MiniLM_L12": 0.03047220967710018
+        },
+        "average": 0.03,
+        "rank": 112
+    },
+    "83776": {
+        "number": 83776,
+        "title": "Revert \"Add FolderUID for library elements\"",
+        "scores": {
+            "all_MiniLM_L12": 0.028686918318271637
+        },
+        "average": 0.029,
+        "rank": 113
+    },
+    "86627": {
+        "number": 86627,
+        "title": "Docs: Update example docs for `rename by regex`",
+        "scores": {
+            "all_MiniLM_L12": 0.009996296837925911
+        },
+        "average": 0.01,
+        "rank": 114
+    },
+    "87231": {
+        "number": 87231,
+        "title": "[v10.4.x] Alerting: Prevent search from locking the browser",
+        "scores": {
+            "all_MiniLM_L12": 0.0076631903648376465
+        },
+        "average": 0.008,
+        "rank": 115
+    },
+    "87176": {
+        "number": 87176,
+        "title": "[v10.4.x] Update `doc-validator` workflow to support `ref` URIs",
+        "scores": {
+            "all_MiniLM_L12": -0.010535622015595436
+        },
+        "average": -0.011,
+        "rank": 116
+    },
+    "87164": {
+        "number": 87164,
+        "title": "[v10.4.x] Chore: Remove extra sql select from the Insert function of userimpl.store",
+        "scores": {
+            "all_MiniLM_L12": -0.04761292040348053
+        },
+        "average": -0.048,
+        "rank": 117
+    },
+    "87060": {
+        "number": 87060,
+        "title": "Chore: Remove extra sql select from the Insert function of userimpl.store",
+        "scores": {
+            "all_MiniLM_L12": -0.06182902678847313
+        },
+        "average": -0.062,
+        "rank": 118
     }
 }

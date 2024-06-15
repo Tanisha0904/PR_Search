@@ -10,13 +10,13 @@ from django.shortcuts import render
 from django.http import HttpResponse, JsonResponse
 
 from django.conf import settings
-from .methodsToSearchDocuments import get_pr_number_list, get_response_from_version_compare_api, read_data_from_json
+from .methodsToSearchDocuments import get_pr_number_list, clear_file, get_response_from_version_compare_api, read_data_from_json
 from .sentence_transformer_model import sentence_transformer_model
 from .spacy_model import spacy_model
 from .secrets_1 import GITHUB_TOKEN
 from .tag_list import get_tag_list
 from .csvData import comparisonData_csv
-from .jsonData import comparisonData_json, calculate_average_scores, json_data
+from .jsonData import comparisonData_json, averagedData_json, calculate_average_scores, json_data, chatGPT_top_pr_list
 
 
 token = GITHUB_TOKEN
@@ -89,70 +89,61 @@ def search_documents(request):
                 "all_MiniLM_L12"
             )
             
-            model = SentenceTransformer(
-                "sentence-transformers/paraphrase-distilroberta-base-v1"
-            )
-            paraphrase_distilroberta_result=sentence_transformer_model(
-                query,
-                sorted_according_to_pr_number,
-                model,
-                "paraphrase_distilroberta",
-            )
+            # model = SentenceTransformer(
+            #     "sentence-transformers/paraphrase-distilroberta-base-v1"
+            # )
+            # paraphrase_distilroberta_result=sentence_transformer_model(
+            #     query,
+            #     sorted_according_to_pr_number,
+            #     model,
+            #     "paraphrase_distilroberta",
+            # )
 
-            model = SentenceTransformer(
-                "sentence-transformers/msmarco-distilroberta-base-v2"
-            )
-            msmarco_distilroberta_result = sentence_transformer_model(
-                query,
-                sorted_according_to_pr_number,
-                model,
-                "msmarco_distilroberta",
-            )
+            # model = SentenceTransformer(
+            #     "sentence-transformers/msmarco-distilroberta-base-v2"
+            # )
+            # msmarco_distilroberta_result = sentence_transformer_model(
+            #     query,
+            #     sorted_according_to_pr_number,
+            #     model,
+            #     "msmarco_distilroberta",
+            # )
 
-            model = SentenceTransformer("sentence-transformers/quora-distilbert-base")
-            quora_distilbert_result = sentence_transformer_model(
-                query,
-                sorted_according_to_pr_number,
-                model,
-                "quora_distilbert",
-            )
+            # model = SentenceTransformer("sentence-transformers/quora-distilbert-base")
+            # quora_distilbert_result = sentence_transformer_model(
+            #     query,
+            #     sorted_according_to_pr_number,
+            #     model,
+            #     "quora_distilbert",
+            # )
 
-            spacy_model_result = spacy_model(
-                query, 
-                sorted_according_to_pr_number
-            )
-                       
+            # spacy_model_result = spacy_model(
+            #     query, 
+            #     sorted_according_to_pr_number
+            # )
+
+            # clar the data on the file if any was stored previously 
+            clear_file(comparisonData_json)
+            clear_file(averagedData_json)
+             
             json_data(all_MiniLM_L12_result, doc_numbers_to_titles, "all_MiniLM_L12")
             # input("=====")
 
-            json_data(quora_distilbert_result, doc_numbers_to_titles, "quora_distilbert")
-            # input("=====")
-            json_data(msmarco_distilroberta_result, doc_numbers_to_titles, "msmarco_distilroberta")
-            # input("=====")
-            json_data(paraphrase_distilroberta_result, doc_numbers_to_titles, "paraphrase_distilroberta")
-            # input("=====")
-            json_data(spacy_model_result, doc_numbers_to_titles, "spacy_model")
+            # json_data(quora_distilbert_result, doc_numbers_to_titles, "quora_distilbert")
+            # # input("=====")
+            # json_data(msmarco_distilroberta_result, doc_numbers_to_titles, "msmarco_distilroberta")
+            # # input("=====")
+            # json_data(paraphrase_distilroberta_result, doc_numbers_to_titles, "paraphrase_distilroberta")
+            # # input("=====")
+            # json_data(spacy_model_result, doc_numbers_to_titles, "spacy_model")
            
             averaged_sorted_data = calculate_average_scores()
-            # return read_data_from_json("D:\BMC\Final\Backend\pr_search\comparisonData_sorted_json.json", n, owner, repo)
-            # to be deleted later-------------
-            results = []
-            for key, value in averaged_sorted_data.items():
-                if value["rank"] <= n:
-                    results.append({
-                        "index": value["rank"],  # assuming rank is used as the index
-                        "number": value["number"],
-                        "title": value["title"],
-                        "link": f"https://github.com/{owner}/{repo}/pull/{value['number']}"
-                    })
-            # print(results)
-            # return render(request, '\\templates\index.html', {'results': results})
-            
-            return JsonResponse(results, safe=False)
-            # return render(request, 'pr_search_app/table.html', {'results': results})
-            
-            # --------------------------
-           
+
+            return read_data_from_json(averaged_sorted_data, n, owner, repo) #without chatgpt
+        
+            # chatGPT_sorted_data=chatGPT_top_pr_list(sorted_according_to_pr_number, averaged_sorted_data)
+            # return read_data_from_json(chatGPT_sorted_data, n, owner, repo) #with chatgpt
+
         except Exception as e:
             logger.error(f"Unexpected error: {str(e)}")
             logger.error(traceback.format_exc())

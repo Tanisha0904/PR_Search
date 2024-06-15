@@ -37,7 +37,7 @@ def get_pr_data(owner, repo, number):
         "Authorization": f"token {GITHUB_TOKEN}",
         "Accept": "application/vnd.github+json",
     }
-    url = f"https://api.github.com/repos/{owner}/{repo}/pulls/{number}" #for grafana 
+    url = f"https://api.github.com/repos/{owner}/{repo}/pulls/{number}"  
     response = requests.get(url, headers=headers)
     json_data = []
     if response.status_code == 200:
@@ -61,6 +61,27 @@ def get_pr_data(owner, repo, number):
         return None
 
 
+# def get_pr_number_list(owner, repo, api_response, data={}):
+#     message_json_data = []
+#     pattern = r"\(#(\d+)\)"  # pattern to match "(#number)" in the commit messages
+
+#     data = api_response["commits"]
+
+#     for commit_data in data:
+#         commit_message = commit_data["commit"]["message"]
+#         match = re.search(pattern, commit_message)
+
+#         if match:
+#             number = match.group(1)  # group(1) will capture the number inside (#number)
+#             # print(type(number), number, end="*********")
+#             temp = get_pr_data(owner, repo, number)
+#             if temp is not None:
+#                 message_json_data.append(temp)
+#                 # print(temp)
+#     sorted_data = sorted(message_json_data, key=lambda x: x["number"])
+#     return sorted_data
+
+
 def get_pr_number_list(owner, repo, api_response, data={}):
     message_json_data = []
     pattern = r"\(#(\d+)\)"  # pattern to match "(#number)" in the commit messages
@@ -68,30 +89,34 @@ def get_pr_number_list(owner, repo, api_response, data={}):
     data = api_response["commits"]
 
     for commit_data in data:
-        commit_message = commit_data["commit"]["message"]
-        match = re.search(pattern, commit_message)
+        commit_message = commit_data["commit"]["message"][:500]  # Check only the first 500 characters
+        matches = re.findall(pattern, commit_message)
 
-        if match:
-            number = match.group(1)  # group(1) will capture the number inside (#number)
-            message_json_data.append(get_pr_data(owner, repo, number))
+        unique_numbers = set(matches)  # Ensure the numbers are unique
+
+        for number in unique_numbers:
+            temp = get_pr_data(owner, repo, number)
+            if temp is not None:
+                message_json_data.append(temp)
+
     sorted_data = sorted(message_json_data, key=lambda x: x["number"])
     return sorted_data
 
 
-
-def read_data_from_json(comparisonData_sorted_json, n, owner, repo):
-    with open(comparisonData_sorted_json, 'r') as file:
-        data = json.load(file)
-
-    filtered_data = []
-    for key, value in data.items():
+def read_data_from_json(averaged_sorted_data, n, owner, repo):
+    print("........................................")
+    results = []
+    for key, value in averaged_sorted_data.items():
         if value["rank"] <= n:
-            
-            filtered_data.append({
-                "index": value["rank"],
-                "number": value["number"],
-                "title": value["title"],
-                "link": f"https://github.com/{owner}/{repo}/pull/{value['number']}"
-            })
+            results.append({
+                        "index": value["rank"],  # assuming rank is used as the index
+                        "number": value["number"],
+                        "title": value["title"],
+                        "link": f"https://github.com/{owner}/{repo}/pull/{value['number']}"
+                    })
+    return JsonResponse(results, safe=False)
 
-    return json.dumps(filtered_data, indent=4)
+
+def clear_file(filename):
+    with open(filename, 'w') as file:
+        pass  # Opening in 'w' mode clears the file
