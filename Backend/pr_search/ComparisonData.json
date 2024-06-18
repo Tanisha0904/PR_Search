@@ -1,828 +1,709 @@
 {
-    "85921": {
-        "number": 85921,
-        "title": "[v10.4.x] Dashboard: Allow `auto` refresh option when saving a dashboard",
+    "88115": {
+        "number": 88115,
+        "title": "[v10.4.x] Docs/usman plugin mgmt",
         "scores": {
-            "all_MiniLM_L12": 0.4096923768520355
+            "all_MiniLM_L12": 0.3686307668685913
         }
     },
-    "85875": {
-        "number": 85875,
-        "title": "Docs: add tags section to dashboard settings docs",
+    "87149": {
+        "number": 87149,
+        "title": "Alerting: Add two sets of provisioning actions for rules and notifications ",
         "scores": {
-            "all_MiniLM_L12": 0.3740231394767761
+            "all_MiniLM_L12": 0.27990272641181946
         }
     },
-    "86177": {
-        "number": 86177,
-        "title": "[v10.4.x] Docs: add tags section to dashboard settings docs",
+    "88711": {
+        "number": 88711,
+        "title": "[v10.4.x] Plugins: Don't forward cookies for app plugins",
         "scores": {
-            "all_MiniLM_L12": 0.35772067308425903
+            "all_MiniLM_L12": 0.2764962315559387
         }
     },
-    "86804": {
-        "number": 86804,
-        "title": "Templating: Fix issue where updated custom var options weren't persisted",
+    "89067": {
+        "number": 89067,
+        "title": "[v10.4.x] Added Grafana Play Links to Panel visualization docs",
         "scores": {
-            "all_MiniLM_L12": 0.3488942086696625
+            "all_MiniLM_L12": 0.27517426013946533
         }
     },
-    "87557": {
-        "number": 87557,
-        "title": "[v10.4.x] Templating: Fix issue where updated custom var options weren't persisted",
+    "88995": {
+        "number": 88995,
+        "title": "Added Grafana Play Links to Panel visualization docs",
         "scores": {
-            "all_MiniLM_L12": 0.33230921626091003
+            "all_MiniLM_L12": 0.262812077999115
         }
     },
-    "86150": {
-        "number": 86150,
-        "title": "[v10.4.x] LibraryPanelRBAC: Fix issue with importing dashboards containing library panels",
+    "88663": {
+        "number": 88663,
+        "title": "Plugins: Don't forward cookies for app plugins",
         "scores": {
-            "all_MiniLM_L12": 0.30868399143218994
+            "all_MiniLM_L12": 0.2563396692276001
         }
     },
-    "83980": {
-        "number": 83980,
-        "title": "LibraryPanelRBAC: Fix issue with importing dashboards containing library panels",
+    "87754": {
+        "number": 87754,
+        "title": "[v10.4.x] docs: add flame graph play link",
         "scores": {
-            "all_MiniLM_L12": 0.2787896990776062
+            "all_MiniLM_L12": 0.23630520701408386
         }
     },
-    "86866": {
-        "number": 86866,
-        "title": "[v10.4.x] SQLStore: Disable redundant create and drop unique index migrations on dashboard table",
+    "87664": {
+        "number": 87664,
+        "title": "[v10.4.x] Alerting: Add two sets of provisioning actions for rules and notifications",
         "scores": {
-            "all_MiniLM_L12": 0.25417831540107727
+            "all_MiniLM_L12": 0.2341737151145935
         }
     },
-    "86209": {
-        "number": 86209,
-        "title": "docs: added logs panel play link; added dedup options, reformatted fig",
+    "87443": {
+        "number": 87443,
+        "title": "docs: update news visualization",
         "scores": {
-            "all_MiniLM_L12": 0.24690863490104675
+            "all_MiniLM_L12": 0.23187582194805145
         }
     },
-    "86615": {
-        "number": 86615,
-        "title": "docs: update flame graph visualization",
+    "86893": {
+        "number": 86893,
+        "title": "Docs: Add data links shared content",
         "scores": {
-            "all_MiniLM_L12": 0.2418031394481659
+            "all_MiniLM_L12": 0.2295093536376953
         }
     },
-    "85895": {
-        "number": 85895,
-        "title": "Docs: add stat visualization Play link",
+    "88465": {
+        "number": 88465,
+        "title": "Docs: Add Installation YouTube Videos to documentation pages.",
         "scores": {
-            "all_MiniLM_L12": 0.23804549872875214
+            "all_MiniLM_L12": 0.21120977401733398
         }
     },
-    "86633": {
-        "number": 86633,
-        "title": "[v10.4.x] [DOC] Update the traces to profile content based upon SDK updates",
+    "88241": {
+        "number": 88241,
+        "title": "[v10.4.x] Docs: Add data links shared content",
         "scores": {
-            "all_MiniLM_L12": 0.23542657494544983
+            "all_MiniLM_L12": 0.20004256069660187
         }
     },
-    "87084": {
-        "number": 87084,
-        "title": "[v10.4.x] Docs: Update Explore Metrics doc based on feedback",
+    "87498": {
+        "number": 87498,
+        "title": "docs: add flame graph play link",
         "scores": {
-            "all_MiniLM_L12": 0.23435014486312866
+            "all_MiniLM_L12": 0.19475704431533813
         }
     },
-    "86237": {
-        "number": 86237,
-        "title": "[v10.4.x] docs: added logs panel play link; added dedup options, reformatted fig",
+    "88907": {
+        "number": 88907,
+        "title": "[v10.4.x] Alerting: Fix editing Grafana folder via alert rule editor",
         "scores": {
-            "all_MiniLM_L12": 0.23011401295661926
+            "all_MiniLM_L12": 0.19378548860549927
         }
     },
-    "85972": {
-        "number": 85972,
-        "title": "[v10.4.x] Docs: add stat visualization Play link",
+    "83771": {
+        "number": 83771,
+        "title": "Alerting: Fix editing Grafana folder via alert rule editor",
         "scores": {
-            "all_MiniLM_L12": 0.22858507931232452
+            "all_MiniLM_L12": 0.19043514132499695
         }
     },
-    "86628": {
-        "number": 86628,
-        "title": "[DOC] Update the traces to profile content based upon SDK updates",
+    "88352": {
+        "number": 88352,
+        "title": "Docs: Update Okta docs",
         "scores": {
-            "all_MiniLM_L12": 0.22356298565864563
+            "all_MiniLM_L12": 0.18982598185539246
         }
     },
-    "87062": {
-        "number": 87062,
-        "title": "Docs: Update Explore Metrics doc based on feedback",
+    "88067": {
+        "number": 88067,
+        "title": "[v10.4.x] [docs/sources/alerting] Replace docs/reference shortcode with ref URIs",
         "scores": {
-            "all_MiniLM_L12": 0.21453240513801575
+            "all_MiniLM_L12": 0.1817498803138733
         }
     },
-    "87268": {
-        "number": 87268,
-        "title": "[v10.4.x] docs: update flame graph visualization",
+    "88073": {
+        "number": 88073,
+        "title": "[v10.4.x] [docs/sources/dashboards] Replace docs/reference shortcode with ref URIs",
         "scores": {
-            "all_MiniLM_L12": 0.20885999500751495
+            "all_MiniLM_L12": 0.1767979860305786
         }
     },
-    "86016": {
-        "number": 86016,
-        "title": "[v10.4.x] Docs: add graphite data source Play link",
+    "87729": {
+        "number": 87729,
+        "title": "[v10.4.x] docs: add canvas button example play link",
         "scores": {
-            "all_MiniLM_L12": 0.20825932919979095
+            "all_MiniLM_L12": 0.17367246747016907
         }
     },
-    "87348": {
-        "number": 87348,
-        "title": "[v10.4.x] Cloudwatch: Update grafana-aws-sdk to fix sts endpoints",
+    "87815": {
+        "number": 87815,
+        "title": "docs: update alert list visualization",
         "scores": {
-            "all_MiniLM_L12": 0.20648598670959473
+            "all_MiniLM_L12": 0.1733921468257904
         }
     },
-    "85976": {
-        "number": 85976,
-        "title": "[v10.4.x] Docs: add Table visualization Play link",
+    "88076": {
+        "number": 88076,
+        "title": "[v10.4.x] [docs/sources/developers] Replace docs/reference shortcode with ref URIs",
         "scores": {
-            "all_MiniLM_L12": 0.20556196570396423
+            "all_MiniLM_L12": 0.1730920970439911
         }
     },
-    "86857": {
-        "number": 86857,
-        "title": "SQLStore: Disable redundant create and drop unique index migrations on dashboard table",
+    "87494": {
+        "number": 87494,
+        "title": "docs: update dashboard list visualization",
         "scores": {
-            "all_MiniLM_L12": 0.19840918481349945
+            "all_MiniLM_L12": 0.17305612564086914
         }
     },
-    "85896": {
-        "number": 85896,
-        "title": "Docs: add Table visualization Play link",
+    "88068": {
+        "number": 88068,
+        "title": "[v10.4.x] [docs/sources/fundamentals] Replace docs/reference shortcode with ref URIs",
         "scores": {
-            "all_MiniLM_L12": 0.19679398834705353
+            "all_MiniLM_L12": 0.1666868031024933
         }
     },
-    "86104": {
-        "number": 86104,
-        "title": "[v10.4.x] Docs: add data source type play link; cleanup",
+    "86996": {
+        "number": 86996,
+        "title": "Docs: Add value mappings shared content",
         "scores": {
-            "all_MiniLM_L12": 0.19593530893325806
+            "all_MiniLM_L12": 0.16541817784309387
         }
     },
-    "87647": {
-        "number": 87647,
-        "title": "[v10.4.x] CloudMonitoring: Improve legacy query migrations",
+    "87449": {
+        "number": 87449,
+        "title": "Docs: Adds video embed for the Understanding Dashboards youtube video",
         "scores": {
-            "all_MiniLM_L12": 0.19252751767635345
+            "all_MiniLM_L12": 0.16367852687835693
         }
     },
-    "85957": {
-        "number": 85957,
-        "title": "[v10.4.x] Google Cloud Monitor: Fix interface conversion for incorrect type in cloudMonitoringProm.run",
+    "87864": {
+        "number": 87864,
+        "title": "[v10.4.x] Docs: Adds video embed for the Understanding Dashboards youtube video",
         "scores": {
-            "all_MiniLM_L12": 0.19055259227752686
+            "all_MiniLM_L12": 0.16340315341949463
         }
     },
-    "87473": {
-        "number": 87473,
-        "title": "[v10.4.x] Chore: Upgrade go to 1.21.10",
+    "87737": {
+        "number": 87737,
+        "title": "[v10.4.x] docs: add histogram play link",
         "scores": {
-            "all_MiniLM_L12": 0.18676376342773438
+            "all_MiniLM_L12": 0.16122187674045563
         }
     },
-    "85998": {
-        "number": 85998,
-        "title": "[v10.4.x] Changelog: Updated changelog for 10.4.2",
+    "87764": {
+        "number": 87764,
+        "title": "[v10.4.x] docs: update news visualization",
         "scores": {
-            "all_MiniLM_L12": 0.18437348306179047
+            "all_MiniLM_L12": 0.16119228303432465
         }
     },
-    "86205": {
-        "number": 86205,
-        "title": "Docs: added bar gauge play link",
+    "87462": {
+        "number": 87462,
+        "title": "docs: add canvas button example play link",
         "scores": {
-            "all_MiniLM_L12": 0.18357253074645996
+            "all_MiniLM_L12": 0.16078950464725494
         }
     },
-    "85811": {
-        "number": 85811,
-        "title": "Google Cloud Monitor: Fix interface conversion for incorrect type in `cloudMonitoringProm.run`",
+    "89129": {
+        "number": 89129,
+        "title": "[v10.4.x] BrowseDashboards: Prepend subpath to New Browse Dashboard actions",
         "scores": {
-            "all_MiniLM_L12": 0.1723582148551941
+            "all_MiniLM_L12": 0.1607513427734375
         }
     },
-    "86226": {
-        "number": 86226,
-        "title": "[v10.4.x] Docs: added bar gauge play link",
+    "87862": {
+        "number": 87862,
+        "title": "[v10.4.x] docs: add dashboard list play link",
         "scores": {
-            "all_MiniLM_L12": 0.17083577811717987
+            "all_MiniLM_L12": 0.16037042438983917
         }
     },
-    "85989": {
-        "number": 85989,
-        "title": "[v10.4.x] Docs: add bar/pie visualization Play link",
+    "88069": {
+        "number": 88069,
+        "title": "[v10.4.x] [docs/sources/panels-visualizations] Replace docs/reference shortcode with ref URIs",
         "scores": {
-            "all_MiniLM_L12": 0.17079971730709076
+            "all_MiniLM_L12": 0.15807074308395386
         }
     },
-    "85985": {
-        "number": 85985,
-        "title": "[v10.4.x] Docs: add gague visualization Play link",
+    "87807": {
+        "number": 87807,
+        "title": "docs: add dashboard list play link",
         "scores": {
-            "all_MiniLM_L12": 0.16890348494052887
+            "all_MiniLM_L12": 0.15606224536895752
         }
     },
-    "85897": {
-        "number": 85897,
-        "title": "Docs: add gague visualization Play link",
+    "87773": {
+        "number": 87773,
+        "title": "[v.10.4.x] Explore: lookup datasource by name when present in legacy URLs",
         "scores": {
-            "all_MiniLM_L12": 0.16729407012462616
+            "all_MiniLM_L12": 0.15111643075942993
         }
     },
-    "86721": {
-        "number": 86721,
-        "title": "[v10.4.x] Docs: Update example docs for ",
+    "85408": {
+        "number": 85408,
+        "title": "Chore: Fix test to retry fetching provisioned dashboard until is in place",
         "scores": {
-            "all_MiniLM_L12": 0.16643866896629333
+            "all_MiniLM_L12": 0.14870986342430115
         }
     },
-    "86907": {
-        "number": 86907,
-        "title": "[v10.4.x] Alerting: Fix instances link when served from subpath",
+    "88168": {
+        "number": 88168,
+        "title": "[v10.4.x] Replace all docs/reference use with ref URIs",
         "scores": {
-            "all_MiniLM_L12": 0.16564711928367615
+            "all_MiniLM_L12": 0.1485038548707962
         }
     },
-    "85997": {
-        "number": 85997,
-        "title": "Changelog: Updated changelog for 10.4.2",
+    "87870": {
+        "number": 87870,
+        "title": "Docs: public dashboards fixes",
         "scores": {
-            "all_MiniLM_L12": 0.16462108492851257
+            "all_MiniLM_L12": 0.1474061906337738
         }
     },
-    "87465": {
-        "number": 87465,
-        "title": "Provisioning: Look up provisioned folders by UID when possible",
+    "87466": {
+        "number": 87466,
+        "title": "docs: add histogram play link",
         "scores": {
-            "all_MiniLM_L12": 0.16320878267288208
+            "all_MiniLM_L12": 0.14705035090446472
         }
     },
-    "87350": {
-        "number": 87350,
-        "title": "Docs: add data link cell type information",
+    "87823": {
+        "number": 87823,
+        "title": "[v10.4.x] postgres/mysql: improve macro docs",
         "scores": {
-            "all_MiniLM_L12": 0.1630518138408661
+            "all_MiniLM_L12": 0.1465546190738678
         }
     },
-    "86532": {
-        "number": 86532,
-        "title": "[v10.4.x] Docs: Add GeoMaps YouTube Video",
+    "88151": {
+        "number": 88151,
+        "title": "[v10.4.x] docs: update dashboard list visualization",
         "scores": {
-            "all_MiniLM_L12": 0.15938323736190796
+            "all_MiniLM_L12": 0.1460074782371521
         }
     },
-    "85926": {
-        "number": 85926,
-        "title": "docs: update heatmap visualization and add play links",
+    "87733": {
+        "number": 87733,
+        "title": "[v10.4.x] docs: add heatmap play link",
         "scores": {
-            "all_MiniLM_L12": 0.1580953299999237
+            "all_MiniLM_L12": 0.14427879452705383
         }
     },
-    "86053": {
-        "number": 86053,
-        "title": "docs: update candlestick visualization",
+    "88992": {
+        "number": 88992,
+        "title": "Alerting: Fix rule storage to filter by group names using case-sensitive comparison",
         "scores": {
-            "all_MiniLM_L12": 0.15598943829536438
+            "all_MiniLM_L12": 0.14375193417072296
         }
     },
-    "85898": {
-        "number": 85898,
-        "title": "Docs: add bar/pie visualization Play link",
+    "88229": {
+        "number": 88229,
+        "title": "[v10.4.x] Docs: public dashboards fixes",
         "scores": {
-            "all_MiniLM_L12": 0.15574121475219727
+            "all_MiniLM_L12": 0.14191065728664398
         }
     },
-    "86714": {
-        "number": 86714,
-        "title": "[v10.4.x] Embed Managing users and permissions video to the documentation",
+    "87009": {
+        "number": 87009,
+        "title": "Docs: Add thresholds shared content",
         "scores": {
-            "all_MiniLM_L12": 0.15479718148708344
+            "all_MiniLM_L12": 0.13826559484004974
         }
     },
-    "86069": {
-        "number": 86069,
-        "title": "CloudMonitoring: Improve legacy query migrations",
+    "87751": {
+        "number": 87751,
+        "title": "[v10.4.x] docs: add text panel play link",
         "scores": {
-            "all_MiniLM_L12": 0.15319138765335083
+            "all_MiniLM_L12": 0.13793763518333435
         }
     },
-    "87467": {
-        "number": 87467,
-        "title": "[v10.4.x] Provisioning: Look up provisioned folders by UID when possible",
+    "88749": {
+        "number": 88749,
+        "title": "[v10.4.x] AuthN: Fix signout redirect url",
         "scores": {
-            "all_MiniLM_L12": 0.14817452430725098
+            "all_MiniLM_L12": 0.13660044968128204
         }
     },
-    "85311": {
-        "number": 85311,
-        "title": "Docs:  added note to RBAC doc from support escalation",
+    "87772": {
+        "number": 87772,
+        "title": "docs: Update link to Loki Get Started",
         "scores": {
-            "all_MiniLM_L12": 0.1481057107448578
+            "all_MiniLM_L12": 0.13641653954982758
         }
     },
-    "87373": {
-        "number": 87373,
-        "title": "[v10.4.x] Docs:  added note to RBAC doc from support escalation",
+    "87464": {
+        "number": 87464,
+        "title": "docs: add heatmap play link",
         "scores": {
-            "all_MiniLM_L12": 0.14408066868782043
+            "all_MiniLM_L12": 0.1321321278810501
         }
     },
-    "85993": {
-        "number": 85993,
-        "title": "[v10.4.x] Docs: add time series visualization Play link",
+    "88562": {
+        "number": 88562,
+        "title": "InfluxDB: Use json-iterator package for json operations ",
         "scores": {
-            "all_MiniLM_L12": 0.1425754576921463
+            "all_MiniLM_L12": 0.12889927625656128
         }
     },
-    "85999": {
-        "number": 85999,
-        "title": "Release: Bump version to 10.4.3",
+    "89109": {
+        "number": 89109,
+        "title": "BrowseDashboards: Prepend subpath to New Browse Dashboard actions",
         "scores": {
-            "all_MiniLM_L12": 0.13779060542583466
+            "all_MiniLM_L12": 0.126964271068573
         }
     },
-    "86725": {
-        "number": 86725,
-        "title": "Docs: add snapshot deletion info",
+    "86553": {
+        "number": 86553,
+        "title": "Docs: add tooltips shared content",
         "scores": {
-            "all_MiniLM_L12": 0.13634046912193298
+            "all_MiniLM_L12": 0.12507271766662598
         }
     },
-    "86281": {
-        "number": 86281,
-        "title": "[v10.4.x] Add FolderUID for library elements",
+    "88934": {
+        "number": 88934,
+        "title": "[v10.4.x] Chore: Fix test to retry fetching provisioned dashboard until is in place",
         "scores": {
-            "all_MiniLM_L12": 0.133956640958786
+            "all_MiniLM_L12": 0.12395348399877548
         }
     },
-    "86609": {
-        "number": 86609,
-        "title": "[v10.4.x] Prometheus: Do not throw error for label_join function",
+    "88501": {
+        "number": 88501,
+        "title": "[v10.4.x] Docs: Update Okta docs",
         "scores": {
-            "all_MiniLM_L12": 0.13245099782943726
+            "all_MiniLM_L12": 0.1235322654247284
         }
     },
-    "87590": {
-        "number": 87590,
-        "title": "Chore: Implement GetOAuthProviders in FakeSocialService",
+    "87497": {
+        "number": 87497,
+        "title": "docs: add text panel play link",
         "scores": {
-            "all_MiniLM_L12": 0.1312420666217804
+            "all_MiniLM_L12": 0.1214243471622467
         }
     },
-    "86432": {
-        "number": 86432,
-        "title": "Alerting: Fix instances link when served from subpath",
+    "88174": {
+        "number": 88174,
+        "title": "[v10.4.x] docs: update alert list visualization",
         "scores": {
-            "all_MiniLM_L12": 0.13070785999298096
+            "all_MiniLM_L12": 0.12095701694488525
         }
     },
-    "87592": {
-        "number": 87592,
-        "title": "[v10.4.x] Chore: Implement GetOAuthProviders in FakeSocialService",
+    "87829": {
+        "number": 87829,
+        "title": "[v10.4.x] Update JWT auth page",
         "scores": {
-            "all_MiniLM_L12": 0.13040220737457275
+            "all_MiniLM_L12": 0.12014439702033997
         }
     },
-    "86019": {
-        "number": 86019,
-        "title": "[v10.4.x] Docs: add mysql data source Play link",
+    "88866": {
+        "number": 88866,
+        "title": "[v10.4.x] InfluxDB: Use json-iterator package for json operations",
         "scores": {
-            "all_MiniLM_L12": 0.12882550060749054
+            "all_MiniLM_L12": 0.11904846131801605
         }
     },
-    "83819": {
-        "number": 83819,
-        "title": "Add FolderUID for library elements",
+    "88191": {
+        "number": 88191,
+        "title": "[v10.4.x] Docs: Add value mappings shared content",
         "scores": {
-            "all_MiniLM_L12": 0.1286046952009201
+            "all_MiniLM_L12": 0.11749668419361115
         }
     },
-    "86735": {
-        "number": 86735,
-        "title": "[v10.4.x] Docs: add snapshot deletion info",
+    "87197": {
+        "number": 87197,
+        "title": "Docs: add field overrides shared content",
         "scores": {
-            "all_MiniLM_L12": 0.12637490034103394
+            "all_MiniLM_L12": 0.11551426351070404
         }
     },
-    "87353": {
-        "number": 87353,
-        "title": "[v10.4.x] Docs: add data link cell type information",
+    "87821": {
+        "number": 87821,
+        "title": "Update Go version to avoid format error",
         "scores": {
-            "all_MiniLM_L12": 0.12456575036048889
+            "all_MiniLM_L12": 0.1142231673002243
         }
     },
-    "86212": {
-        "number": 86212,
-        "title": "docs: add thresholds play link",
+    "89061": {
+        "number": 89061,
+        "title": "[v10.4.x] Alerting: Fix rule storage to filter by group names using case-sensitive comparison",
         "scores": {
-            "all_MiniLM_L12": 0.12385740876197815
+            "all_MiniLM_L12": 0.10950850695371628
         }
     },
-    "87255": {
-        "number": 87255,
-        "title": "[v10.4.x] Docs: Fix link to values.yaml file",
+    "88224": {
+        "number": 88224,
+        "title": "[v10.4.x] Docs: Add thresholds shared content",
         "scores": {
-            "all_MiniLM_L12": 0.12352150678634644
+            "all_MiniLM_L12": 0.10703124105930328
         }
     },
-    "86510": {
-        "number": 86510,
-        "title": "[v10.4.x] Add Create annotations in panel video to the documentation",
+    "88648": {
+        "number": 88648,
+        "title": "Docs: Add Installation YouTube Videos to documentation pages. (#88465)",
         "scores": {
-            "all_MiniLM_L12": 0.1224849596619606
+            "all_MiniLM_L12": 0.10585089027881622
         }
     },
-    "87014": {
-        "number": 87014,
-        "title": "Docs: Fix link to values.yaml file",
+    "87833": {
+        "number": 87833,
+        "title": "Docs: Add annotated image and updated feature overview list",
         "scores": {
-            "all_MiniLM_L12": 0.12114919722080231
+            "all_MiniLM_L12": 0.10305669903755188
         }
     },
-    "86513": {
-        "number": 86513,
-        "title": "[v10.4.x] docs: update heatmap visualization and add play links",
+    "88228": {
+        "number": 88228,
+        "title": "[v10.4.x] Docs: Add annotated image and updated feature overview list",
         "scores": {
-            "all_MiniLM_L12": 0.12011325359344482
+            "all_MiniLM_L12": 0.09773504734039307
         }
     },
-    "81890": {
-        "number": 81890,
-        "title": "Typo fix in User API doc example",
+    "87469": {
+        "number": 87469,
+        "title": "docs: add geomap play link",
         "scores": {
-            "all_MiniLM_L12": 0.11883927136659622
+            "all_MiniLM_L12": 0.09691761434078217
         }
     },
-    "86611": {
-        "number": 86611,
-        "title": "Update the docs for state_periodic_save_interval",
+    "87746": {
+        "number": 87746,
+        "title": "[v10.4.x] docs: add geomap play link",
         "scores": {
-            "all_MiniLM_L12": 0.11828529834747314
+            "all_MiniLM_L12": 0.09660203754901886
         }
     },
-    "86729": {
-        "number": 86729,
-        "title": "[v10.4.x] Docs: Add config guidance for embedding",
+    "87631": {
+        "number": 87631,
+        "title": "AuthN: Fix signout redirect url",
         "scores": {
-            "all_MiniLM_L12": 0.11698144674301147
+            "all_MiniLM_L12": 0.09569142758846283
         }
     },
-    "86667": {
-        "number": 86667,
-        "title": "[v10.4.x] Update the docs for state_periodic_save_interval",
+    "88999": {
+        "number": 88999,
+        "title": "[v10.4.x] Update index.md for Node, adding video to docs",
         "scores": {
-            "all_MiniLM_L12": 0.11621291935443878
+            "all_MiniLM_L12": 0.09233473241329193
         }
     },
-    "86726": {
-        "number": 86726,
-        "title": "Docs: Add config guidance for embedding",
+    "87834": {
+        "number": 87834,
+        "title": "Release: Bump version to 10.4.4",
         "scores": {
-            "all_MiniLM_L12": 0.11561235785484314
+            "all_MiniLM_L12": 0.08669890463352203
         }
     },
-    "86172": {
-        "number": 86172,
-        "title": "[v10.4.x] Docs: add best practices Play link",
-        "scores": {
-            "all_MiniLM_L12": 0.11452522873878479
-        }
-    },
-    "86240": {
-        "number": 86240,
-        "title": "[v10.4.x] docs: add thresholds play link",
-        "scores": {
-            "all_MiniLM_L12": 0.11296350508928299
-        }
-    },
-    "86383": {
-        "number": 86383,
-        "title": "Add Create annotations in panel video to the documentation",
-        "scores": {
-            "all_MiniLM_L12": 0.11199692636728287
-        }
-    },
-    "86220": {
-        "number": 86220,
-        "title": "[v10.4.x] Docs: add template var Play link; cleanup existing",
-        "scores": {
-            "all_MiniLM_L12": 0.11023978888988495
-        }
-    },
-    "77077": {
-        "number": 77077,
-        "title": "Docs: Clarify open source documentation",
-        "scores": {
-            "all_MiniLM_L12": 0.10082228481769562
-        }
-    },
-    "86472": {
-        "number": 86472,
-        "title": "Docs: Add GeoMaps YouTube Video",
-        "scores": {
-            "all_MiniLM_L12": 0.10016129910945892
-        }
-    },
-    "86247": {
-        "number": 86247,
-        "title": "[v10.4.x] docs: add annotations play link",
-        "scores": {
-            "all_MiniLM_L12": 0.09932410717010498
-        }
-    },
-    "86467": {
-        "number": 86467,
-        "title": "Prometheus: Do not throw error for label_join function 10.4.x",
-        "scores": {
-            "all_MiniLM_L12": 0.09916332364082336
-        }
-    },
-    "87408": {
-        "number": 87408,
-        "title": "Alerting: Improve legacy alerting upgrade docs",
-        "scores": {
-            "all_MiniLM_L12": 0.09889819473028183
-        }
-    },
-    "86700": {
-        "number": 86700,
-        "title": "[v10.4.x] docs: update candlestick visualization",
-        "scores": {
-            "all_MiniLM_L12": 0.09648994356393814
-        }
-    },
-    "86076": {
-        "number": 86076,
-        "title": "Docs: add best practices Play link",
-        "scores": {
-            "all_MiniLM_L12": 0.09107951074838638
-        }
-    },
-    "86690": {
-        "number": 86690,
-        "title": "[v10.4.x] LDAP: Fix listing all non-matching groups",
-        "scores": {
-            "all_MiniLM_L12": 0.09059278666973114
-        }
-    },
-    "86682": {
-        "number": 86682,
-        "title": "LDAP: Fix listing all non-matching groups",
-        "scores": {
-            "all_MiniLM_L12": 0.09024461358785629
-        }
-    },
-    "84223": {
-        "number": 84223,
-        "title": "Google Cloud Monitor: Fix `res` being accessed after it becomes `nil` in `promql_query.go`",
-        "scores": {
-            "all_MiniLM_L12": 0.08762022107839584
-        }
-    },
-    "86821": {
-        "number": 86821,
-        "title": "[v10.4.x] Typo fix in User API doc example",
-        "scores": {
-            "all_MiniLM_L12": 0.08722628653049469
-        }
-    },
-    "85481": {
-        "number": 85481,
-        "title": "Alerting: Return a 400 and errutil error when trying to delete a contact point that is referenced by a policy",
-        "scores": {
-            "all_MiniLM_L12": 0.08102408051490784
-        }
-    },
-    "86770": {
-        "number": 86770,
+    "87969": {
+        "number": 87969,
         "title": "[v10.4.x] Update `make docs` procedure",
         "scores": {
-            "all_MiniLM_L12": 0.08097577840089798
+            "all_MiniLM_L12": 0.08160426467657089
         }
     },
-    "86162": {
-        "number": 86162,
-        "title": "[v10.4.x] Alerting: Return a 400 and errutil error when trying to delete a contact point that is referenced by a policy",
+    "85488": {
+        "number": 85488,
+        "title": "Alerting/Annotations: Return nothing from historian store if filtering by tags",
         "scores": {
-            "all_MiniLM_L12": 0.07839155942201614
+            "all_MiniLM_L12": 0.08140787482261658
         }
     },
-    "86230": {
-        "number": 86230,
-        "title": "[v10.4.x] docs: query data/relative time range override play link",
+    "84607": {
+        "number": 84607,
+        "title": "[v10.4.x] Alerting: Clamp Loki ASH range query to configured max_query_length",
         "scores": {
-            "all_MiniLM_L12": 0.07836452126502991
+            "all_MiniLM_L12": 0.08037129789590836
         }
     },
-    "85959": {
-        "number": 85959,
-        "title": "[v10.4.x] Google Cloud Monitor: Fix `res` being accessed after it becomes `nil` in `promql_query.go`",
+    "88572": {
+        "number": 88572,
+        "title": "AzureMonitor: Fix bug detecting app insights queries",
         "scores": {
-            "all_MiniLM_L12": 0.07725191861391068
+            "all_MiniLM_L12": 0.07774023711681366
         }
     },
-    "86213": {
-        "number": 86213,
-        "title": "docs: query data/relative time range override play link",
+    "88408": {
+        "number": 88408,
+        "title": "[v10.4.x] Update `make docs` procedure",
         "scores": {
-            "all_MiniLM_L12": 0.07642972469329834
+            "all_MiniLM_L12": 0.07660113275051117
         }
     },
-    "86697": {
-        "number": 86697,
-        "title": "[v10.4.x] Alerting: Take receivers into account when custom grouping Alertmanager groups",
+    "87775": {
+        "number": 87775,
+        "title": "[v10.4.x] docs: Update link to Loki Get Started",
         "scores": {
-            "all_MiniLM_L12": 0.07510848343372345
+            "all_MiniLM_L12": 0.07431560754776001
         }
     },
-    "87299": {
-        "number": 87299,
-        "title": "[v10.4.x] Alerting: Fix max alerts",
+    "88786": {
+        "number": 88786,
+        "title": "[v10.4.x] AzureMonitor: Fix bug detecting app insights queries",
         "scores": {
-            "all_MiniLM_L12": 0.07448689639568329
+            "all_MiniLM_L12": 0.06939733773469925
         }
     },
-    "86386": {
-        "number": 86386,
-        "title": "Embed creating alerts with Grafana video to the documentation",
+    "86814": {
+        "number": 86814,
+        "title": "Docs: add legends shared content",
         "scores": {
-            "all_MiniLM_L12": 0.0739886462688446
+            "all_MiniLM_L12": 0.06886237114667892
         }
     },
-    "86074": {
-        "number": 86074,
-        "title": "Docs: add template var Play link; cleanup existing",
+    "88254": {
+        "number": 88254,
+        "title": "[v10.4.x] Docs: add field overrides shared content",
         "scores": {
-            "all_MiniLM_L12": 0.07320021092891693
+            "all_MiniLM_L12": 0.0661713182926178
         }
     },
-    "86620": {
-        "number": 86620,
-        "title": "[v10.4.x] Alerting: Fix simplified routing group by override",
+    "88702": {
+        "number": 88702,
+        "title": "[v10.4.x] Update proxy/index.md",
         "scores": {
-            "all_MiniLM_L12": 0.07162117958068848
+            "all_MiniLM_L12": 0.06463323533535004
         }
     },
-    "86206": {
-        "number": 86206,
-        "title": "docs: add annotations play link",
+    "88185": {
+        "number": 88185,
+        "title": "[v10.4.x] Docs: add tooltips shared content",
         "scores": {
-            "all_MiniLM_L12": 0.06644389033317566
+            "all_MiniLM_L12": 0.05996732786297798
         }
     },
-    "86665": {
-        "number": 86665,
-        "title": "[v10.4.x] Embed creating alerts with Grafana video to the documentation",
+    "88094": {
+        "number": 88094,
+        "title": "[v10.4.x] Alerting: Fix typo in JSON response for rule export.",
         "scores": {
-            "all_MiniLM_L12": 0.06531735509634018
+            "all_MiniLM_L12": 0.05771951377391815
         }
     },
-    "87585": {
-        "number": 87585,
-        "title": "[v10.4.x] Azure data sources: Set selected config type before save",
+    "88941": {
+        "number": 88941,
+        "title": "Update index.md for Node, adding video to docs",
         "scores": {
-            "all_MiniLM_L12": 0.06487122923135757
+            "all_MiniLM_L12": 0.054673369973897934
         }
     },
-    "86127": {
-        "number": 86127,
-        "title": "Alerting: Take receivers into account when custom grouping Alertmanager groups",
+    "88261": {
+        "number": 88261,
+        "title": "Update proxy/index.md",
         "scores": {
-            "all_MiniLM_L12": 0.06210986152291298
+            "all_MiniLM_L12": 0.054563768208026886
         }
     },
-    "86937": {
-        "number": 86937,
-        "title": "`[backport to v10.4]` SSO: add SSO settings to secrets migrator (#86913)",
+    "83986": {
+        "number": 83986,
+        "title": "Alerting: Clamp Loki ASH range query to configured max_query_length",
         "scores": {
-            "all_MiniLM_L12": 0.057533081620931625
+            "all_MiniLM_L12": 0.048837870359420776
         }
     },
-    "86672": {
-        "number": 86672,
-        "title": "[v10.4.x] Alerting: Fix max_alerts field handling",
+    "88028": {
+        "number": 88028,
+        "title": "Alerting: Fix typo in JSON response for rule export.",
         "scores": {
-            "all_MiniLM_L12": 0.05678397789597511
+            "all_MiniLM_L12": 0.03884252905845642
         }
     },
-    "87481": {
-        "number": 87481,
-        "title": "Azure data sources: Set selected config type before save",
+    "88195": {
+        "number": 88195,
+        "title": "[v10.4.x] Docs: add legends shared content",
         "scores": {
-            "all_MiniLM_L12": 0.05562210828065872
+            "all_MiniLM_L12": 0.036336541175842285
         }
     },
-    "85945": {
-        "number": 85945,
-        "title": "[v10.4.x] Revert \"Docs: Clarify open source documentation (#77077)\"",
+    "87844": {
+        "number": 87844,
+        "title": "Docs: Rename variables pages",
         "scores": {
-            "all_MiniLM_L12": 0.05496156960725784
+            "all_MiniLM_L12": 0.012873522937297821
         }
     },
-    "86651": {
-        "number": 86651,
-        "title": "Alerting: Fix max_alerts field handling",
+    "88141": {
+        "number": 88141,
+        "title": "[v10.4.x] Alerting/Annotations: Return nothing from historian store if filtering by tags",
         "scores": {
-            "all_MiniLM_L12": 0.054897453635931015
+            "all_MiniLM_L12": 0.00652823131531477
         }
     },
-    "87132": {
-        "number": 87132,
-        "title": "Alerting: Prevent search from locking the browser",
+    "87805": {
+        "number": 87805,
+        "title": "[v10.4.x] Changelog: Updated changelog for 10.4.3",
         "scores": {
-            "all_MiniLM_L12": 0.04294319823384285
+            "all_MiniLM_L12": 0.005100373178720474
         }
     },
-    "87271": {
-        "number": 87271,
-        "title": "Alerting: Fix max alerts",
+    "88189": {
+        "number": 88189,
+        "title": "[v10.4.x] Docs: Fixed heading level",
         "scores": {
-            "all_MiniLM_L12": 0.041809357702732086
+            "all_MiniLM_L12": 0.003359135240316391
         }
     },
-    "86913": {
-        "number": 86913,
-        "title": "SSO: Add SSO settings to secrets migrator",
+    "88188": {
+        "number": 88188,
+        "title": "Docs: Fixed heading level",
         "scores": {
-            "all_MiniLM_L12": 0.041401349008083344
+            "all_MiniLM_L12": -0.001156473532319069
         }
     },
-    "86552": {
-        "number": 86552,
-        "title": "Alerting: Fix simplified routing group by override",
+    "87804": {
+        "number": 87804,
+        "title": "Changelog: Updated changelog for 10.4.3",
         "scores": {
-            "all_MiniLM_L12": 0.03724294155836105
+            "all_MiniLM_L12": -0.013229209929704666
         }
     },
-    "86785": {
-        "number": 86785,
-        "title": "[v10.4.x] Remove fmt.Println of client certificate",
+    "88690": {
+        "number": 88690,
+        "title": "Azure: Update resource group",
         "scores": {
-            "all_MiniLM_L12": 0.036096055060625076
+            "all_MiniLM_L12": -0.01893283799290657
         }
     },
-    "86773": {
-        "number": 86773,
-        "title": "Remove fmt.Println of client certificate",
+    "88650": {
+        "number": 88650,
+        "title": "[v10.4.x] SSE: Fix threshold unmarshal to avoid panic",
         "scores": {
-            "all_MiniLM_L12": 0.03386884927749634
+            "all_MiniLM_L12": -0.027645591646432877
         }
     },
-    "87420": {
-        "number": 87420,
-        "title": "[v10.4.x] Update golang.org/x/net to latest version",
+    "88244": {
+        "number": 88244,
+        "title": "[v10.4.x] Docs: Rename variables pages",
         "scores": {
-            "all_MiniLM_L12": 0.03047220967710018
+            "all_MiniLM_L12": -0.03533786162734032
         }
     },
-    "83776": {
-        "number": 83776,
-        "title": "Revert \"Add FolderUID for library elements\"",
+    "88521": {
+        "number": 88521,
+        "title": "SSE: Fix threshold unmarshal to avoid panic",
         "scores": {
-            "all_MiniLM_L12": 0.028686918318271637
+            "all_MiniLM_L12": -0.0389440692961216
         }
     },
-    "86627": {
-        "number": 86627,
-        "title": "Docs: Update example docs for `rename by regex`",
+    "89104": {
+        "number": 89104,
+        "title": "[v10.4.x] Auth: Removal of conflicting users check upon creation",
         "scores": {
-            "all_MiniLM_L12": 0.009996296837925911
+            "all_MiniLM_L12": -0.044314369559288025
         }
     },
-    "87231": {
-        "number": 87231,
-        "title": "[v10.4.x] Alerting: Prevent search from locking the browser",
+    "88765": {
+        "number": 88765,
+        "title": "[v10.4.x] Azure: Update resource group",
         "scores": {
-            "all_MiniLM_L12": 0.0076631903648376465
+            "all_MiniLM_L12": -0.04520013555884361
         }
     },
-    "87176": {
-        "number": 87176,
-        "title": "[v10.4.x] Update `doc-validator` workflow to support `ref` URIs",
+    "88023": {
+        "number": 88023,
+        "title": "[v10.4.x] CloudMonitoring: Fix query type selection issue",
         "scores": {
-            "all_MiniLM_L12": -0.010535622015595436
+            "all_MiniLM_L12": -0.06472468376159668
         }
     },
-    "87164": {
-        "number": 87164,
-        "title": "[v10.4.x] Chore: Remove extra sql select from the Insert function of userimpl.store",
+    "87990": {
+        "number": 87990,
+        "title": "CloudMonitoring: Fix query type selection issue",
         "scores": {
-            "all_MiniLM_L12": -0.04761292040348053
-        }
-    },
-    "87060": {
-        "number": 87060,
-        "title": "Chore: Remove extra sql select from the Insert function of userimpl.store",
-        "scores": {
-            "all_MiniLM_L12": -0.06182902678847313
+            "all_MiniLM_L12": -0.08449847251176834
         }
     }
 }

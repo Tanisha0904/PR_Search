@@ -16,7 +16,8 @@ from .spacy_model import spacy_model
 from .secrets_1 import GITHUB_TOKEN
 from .tag_list import get_tag_list
 from .csvData import comparisonData_csv
-from .jsonData import comparisonData_json, averagedData_json, calculate_average_scores, json_data, chatGPT_top_pr_list
+from .jsonData import comparisonData_json, averagedData_json, calculate_average_scores, json_data
+from .chatgpt import chatGPT_model, chatGPT_top_pr_list
 
 
 token = GITHUB_TOKEN
@@ -138,11 +139,15 @@ def search_documents(request):
             # json_data(spacy_model_result, doc_numbers_to_titles, "spacy_model")
            
             averaged_sorted_data = calculate_average_scores()
+            print("data to be generated for sending to chatgpt")
+            data_for_chatgpt=chatGPT_top_pr_list(sorted_according_to_pr_number, averaged_sorted_data)
+            print("data sent to chatgpt model")
+            results = chatGPT_model(query, data_for_chatgpt ,"chatGPT_output.json")
 
-            return read_data_from_json(averaged_sorted_data, n, owner, repo) #without chatgpt
+            print("chatgpt data to be printed")
+            return read_data_from_json(results, n, owner, repo) #with chatgpt
+            # return read_data_from_json(averaged_sorted_data, n, owner, repo) #without chatgpt
         
-            # chatGPT_sorted_data=chatGPT_top_pr_list(sorted_according_to_pr_number, averaged_sorted_data)
-            # return read_data_from_json(chatGPT_sorted_data, n, owner, repo) #with chatgpt
 
         except Exception as e:
             logger.error(f"Unexpected error: {str(e)}")

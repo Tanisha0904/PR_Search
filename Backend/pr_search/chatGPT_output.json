@@ -1,0 +1,591 @@
+{
+    "87149": {
+        "87149": {
+            "number": 87149,
+            "title": "Alerting: Add two sets of provisioning actions for rules and notifications",
+            "rank": 1,
+            "similarity_score": 0.0
+        }
+    },
+    "88711": {
+        "88115": {
+            "number": 88115,
+            "title": "[v10.4.x] Docs/usman plugin mgmt",
+            "rank": 1,
+            "similarity_score": 0.369
+        },
+        "88711": {
+            "number": 88711,
+            "title": "[v10.4.x] Plugins: Don't forward cookies for app plugins",
+            "rank": 2,
+            "similarity_score": null
+        }
+    },
+    "89067": {
+        "88115": {
+            "number": 88115,
+            "title": "[v10.4.x] Docs/usman plugin mgmt",
+            "rank": 1,
+            "similarity_score": 0.369
+        },
+        "89067": {
+            "number": 89067,
+            "title": "[v10.4.x] Added Grafana Play Links to Panel visualization docs",
+            "rank": 2,
+            "similarity_score": 0
+        }
+    },
+    "88995": {
+        "88115": {
+            "number": 88115,
+            "title": "[v10.4.x] Docs/usman plugin mgmt",
+            "rank": 1,
+            "similarity_score": 0.369
+        },
+        "88995": {
+            "number": 88995,
+            "title": "Added Grafana Play Links to Panel visualization docs",
+            "rank": 2,
+            "similarity_score": null
+        }
+    },
+    "88663": {
+        "88115": {
+            "number": 88115,
+            "title": "[v10.4.x] Docs/usman plugin mgmt",
+            "rank": 1,
+            "similarity_score": 0.369
+        },
+        "88663": {
+            "number": 88663,
+            "title": "Plugins: Don't forward cookies for app plugins",
+            "rank": 2,
+            "similarity_score": null
+        }
+    },
+    "87664": {
+        "88115": {
+            "number": 88115,
+            "title": "[v10.4.x] Docs/usman plugin mgmt",
+            "rank": 1,
+            "similarity_score": 0.369
+        },
+        "87664": {
+            "number": 87664,
+            "title": "[v10.4.x] Alerting: Add two sets of provisioning actions for rules and notifications",
+            "rank": 2,
+            "similarity_score": null
+        }
+    },
+    "87443": {
+        "88115": {
+            "number": 88115,
+            "title": "[v10.4.x] Docs/usman plugin mgmt",
+            "rank": 1,
+            "similarity_score": 0.369
+        },
+        "87443": {
+            "number": 87443,
+            "title": "docs: update news visualization",
+            "rank": 2,
+            "similarity_score": 0.0
+        }
+    },
+    "87754": {
+        "88115": {
+            "number": 88115,
+            "title": "[v10.4.x] Docs/usman plugin mgmt",
+            "rank": 1,
+            "similarity_score": 0.369
+        },
+        "87754": {
+            "number": 87754,
+            "title": "[v10.4.x] docs: add flame graph play link",
+            "rank": 2,
+            "similarity_score": 0
+        }
+    },
+    "86893": {
+        "86893": {
+            "number": 86893,
+            "title": "Docs: Add data links shared content",
+            "rank": 1,
+            "similarity_score": 0
+        }
+    },
+    "88465": {
+        "88465": {
+            "number": 88465,
+            "title": "Docs: Add Installation YouTube Videos to documentation pages.",
+            "rank": 1,
+            "similarity_score": 0.0
+        }
+    },
+    "83771": {
+        "83771": {
+            "number": 83771,
+            "title": "Alerting: Fix editing Grafana folder via alert rule editor",
+            "rank": 1,
+            "similarity_score": 0.0
+        }
+    },
+    "88241": {
+        "88241": {
+            "number": 88241,
+            "title": "[v10.4.x] Docs: Add data links shared content",
+            "rank": 1,
+            "similarity_score": 0.0
+        }
+    },
+    "88907": {
+        "88115": {
+            "number": 88115,
+            "title": "[v10.4.x] Docs/usman plugin mgmt",
+            "rank": 1,
+            "similarity_score": 0.369
+        },
+        "88907": {
+            "number": 88907,
+            "title": "[v10.4.x] Alerting: Fix editing Grafana folder via alert rule editor",
+            "rank": 2,
+            "similarity_score": 0.0
+        }
+    },
+    "87498": {
+        "88115": {
+            "number": 88115,
+            "title": "[v10.4.x] Docs/usman plugin mgmt",
+            "rank": 1,
+            "similarity_score": 0.369
+        },
+        "87498": {
+            "number": 87498,
+            "title": "docs: add flame graph play link",
+            "rank": 2,
+            "similarity_score": 0
+        }
+    },
+    "88352": {
+        "88115": {
+            "number": 88115,
+            "title": "[v10.4.x] Docs/usman plugin mgmt",
+            "rank": 1,
+            "similarity_score": 0.369
+        },
+        "88352": {
+            "number": 88352,
+            "title": "Docs: Update Okta docs",
+            "rank": 2,
+            "similarity_score": 0.0
+        }
+    },
+    "88067": {
+        "88115": {
+            "number": 88115,
+            "title": "[v10.4.x] Docs/usman plugin mgmt",
+            "score": 0.369,
+            "rank": 1
+        },
+        "88067": {
+            "number": 88067,
+            "title": "[v10.4.x] [docs/sources/alerting] Replace docs/reference shortcode with ref URIs",
+            "rank": 2
+        }
+    },
+    "88073": {
+        "88073": {
+            "number": 88073,
+            "title": "[v10.4.x] [docs/sources/dashboards] Replace docs/reference shortcode with ref URIs",
+            "rank": 1,
+            "similarity_score": 0.0
+        }
+    },
+    "87864": {
+        "88115": {
+            "number": 88115,
+            "title": "[v10.4.x] Docs/usman plugin mgmt",
+            "rank": 1,
+            "similarity_score": 0.369
+        },
+        "87864": {
+            "number": 87864,
+            "title": "[v10.4.x] Docs: Adds video embed for the Understanding Dashboards youtube video",
+            "rank": 2,
+            "similarity_score": null
+        }
+    },
+    "87815": {
+        "87815": {
+            "number": 87815,
+            "title": "docs: update alert list visualization",
+            "rank": 1,
+            "similarity_score": 0.0
+        }
+    },
+    "88076": {
+        "88115": {
+            "number": 88115,
+            "title": "[v10.4.x] Docs/usman plugin mgmt",
+            "score": 0.369,
+            "rank": 1
+        },
+        "88076": {
+            "number": 88076,
+            "title": "[v10.4.x] [docs/sources/developers] Replace docs/reference shortcode with ref URIs",
+            "rank": 2,
+            "similarity_score": null
+        }
+    },
+    "87494": {
+        "88115": {
+            "number": 88115,
+            "title": "[v10.4.x] Docs/usman plugin mgmt",
+            "rank": 1,
+            "similarity_score": 0.369
+        },
+        "87494": {
+            "number": 87494,
+            "title": "docs: update dashboard list visualization",
+            "rank": -1,
+            "similarity_score": -1
+        }
+    },
+    "88068": {
+        "88115": {
+            "number": 88115,
+            "title": "[v10.4.x] Docs/usman plugin mgmt",
+            "rank": 1,
+            "similarity_score": 0.369
+        }
+    },
+    "87729": {
+        "88115": {
+            "number": 88115,
+            "title": "[v10.4.x] Docs/usman plugin mgmt",
+            "rank": 1,
+            "similarity_score": 0.369
+        },
+        "87729": {
+            "number": 87729,
+            "title": "[v10.4.x] docs: add canvas button example play link",
+            "rank": 2,
+            "similarity_score": 0.0
+        }
+    },
+    "87862": {
+        "87862": {
+            "number": 87862,
+            "title": "[v10.4.x] docs: add dashboard list play link",
+            "rank": 1,
+            "similarity_score": 0
+        }
+    },
+    "87449": {
+        "88115": {
+            "number": 88115,
+            "title": "[v10.4.x] Docs/usman plugin mgmt",
+            "rank": 1,
+            "similarity_score": 0.369
+        },
+        "87449": {
+            "number": 87449,
+            "title": "Docs: Adds video embed for the Understanding Dashboards youtube video",
+            "rank": 2,
+            "similarity_score": 0
+        }
+    },
+    "87737": {
+        "88115": {
+            "number": 88115,
+            "title": "[v10.4.x] Docs/usman plugin mgmt",
+            "rank": 1,
+            "similarity_score": 0.369
+        },
+        "87737": {
+            "number": 87737,
+            "title": "[v10.4.x] docs: add histogram play link",
+            "rank": 2,
+            "similarity_score": 0
+        }
+    },
+    "87764": {
+        "87764": {
+            "number": 87764,
+            "title": "[v10.4.x] docs: update news visualization",
+            "score": 0.0,
+            "rank": 1
+        }
+    },
+    "89129": {
+        "88115": {
+            "number": 88115,
+            "title": "[v10.4.x] Docs/usman plugin mgmt",
+            "score": 0.369,
+            "rank": 1
+        },
+        "89129": {
+            "number": 89129,
+            "title": "[v10.4.x] BrowseDashboards: Prepend subpath to New Browse Dashboard actions",
+            "rank": 2,
+            "similarity_score": null
+        }
+    },
+    "86996": {
+        "88115": {
+            "number": 88115,
+            "title": "[v10.4.x] Docs/usman plugin mgmt",
+            "score": 0.369,
+            "rank": 1
+        },
+        "86996": {
+            "number": 86996,
+            "title": "Docs: Add value mappings shared content",
+            "rank": 2,
+            "similarity_score": null
+        }
+    },
+    "88069": {
+        "88115": {
+            "number": 88115,
+            "title": "[v10.4.x] Docs/usman plugin mgmt",
+            "rank": 1,
+            "similarity_score": 0.369
+        },
+        "88069": {
+            "number": 88069,
+            "title": "[v10.4.x] [docs/sources/panels-visualizations] Replace docs/reference shortcode with ref URIs",
+            "rank": 2,
+            "similarity_score": null
+        }
+    },
+    "87462": {
+        "87462": {
+            "number": 87462,
+            "title": "docs: add canvas button example play link",
+            "rank": 1,
+            "similarity_score": 0.0
+        }
+    },
+    "87773": {
+        "87773": {
+            "number": 87773,
+            "title": "[v.10.4.x] Explore: lookup datasource by name when present in legacy URLs",
+            "rank": 1,
+            "similarity_score": 0.369
+        }
+    },
+    "85408": {
+        "88115": {
+            "number": 88115,
+            "title": "[v10.4.x] Docs/usman plugin mgmt",
+            "rank": 1,
+            "similarity_score": 0.369
+        },
+        "85408": {
+            "number": 85408,
+            "title": "Chore: Fix test to retry fetching provisioned dashboard until is in place",
+            "rank": 2,
+            "similarity_score": 0.0
+        }
+    },
+    "88168": {
+        "88115": {
+            "number": 88115,
+            "title": "[v10.4.x] Docs/usman plugin mgmt",
+            "rank": 1,
+            "similarity_score": 0.369
+        },
+        "88168": {
+            "number": 88168,
+            "title": "[v10.4.x] Replace all docs/reference use with ref URIs",
+            "rank": 2,
+            "similarity_score": 0
+        }
+    },
+    "87823": {
+        "88115": {
+            "number": 88115,
+            "title": "[v10.4.x] Docs/usman plugin mgmt",
+            "rank": 1,
+            "similarity_score": 0.369
+        }
+    },
+    "88151": {
+        "88115": {
+            "number": 88115,
+            "title": "[v10.4.x] Docs/usman plugin mgmt",
+            "rank": 1,
+            "similarity_score": 0.369
+        },
+        "88151": {
+            "number": 88151,
+            "title": "[v10.4.x] docs: update dashboard list visualization",
+            "rank": 2,
+            "similarity_score": 0
+        }
+    },
+    "87466": {
+        "88115": {
+            "number": 88115,
+            "title": "[v10.4.x] Docs/usman plugin mgmt",
+            "rank": 1,
+            "similarity_score": 0.369
+        },
+        "87466": {
+            "number": 87466,
+            "title": "docs: add histogram play link",
+            "rank": 2,
+            "similarity_score": 0
+        }
+    },
+    "87807": {
+        "88115": {
+            "number": 88115,
+            "title": "[v10.4.x] Docs/usman plugin mgmt",
+            "rank": 1,
+            "similarity_score": 0.369
+        },
+        "87807": {
+            "number": 87807,
+            "title": "docs: add dashboard list play link",
+            "rank": 2,
+            "similarity_score": 0.0
+        }
+    },
+    "88992": {
+        "88115": {
+            "number": 88115,
+            "title": "[v10.4.x] Docs/usman plugin mgmt",
+            "rank": 1,
+            "similarity_score": 0.369
+        },
+        "88992": {
+            "number": 88992,
+            "title": "Alerting: Fix rule storage to filter by group names using case-sensitive comparison",
+            "rank": 2,
+            "similarity_score": null
+        }
+    },
+    "87733": {
+        "88115": {
+            "number": 88115,
+            "title": "[v10.4.x] Docs/usman plugin mgmt",
+            "rank": 1,
+            "similarity_score": 0.369
+        },
+        "87733": {
+            "number": 87733,
+            "title": "[v10.4.x] docs: add heatmap play link",
+            "rank": 2,
+            "similarity_score": 0
+        }
+    },
+    "88229": {
+        "88115": {
+            "number": 88115,
+            "title": "[v10.4.x] Docs/usman plugin mgmt",
+            "similarity_score": 0.369,
+            "rank": 1
+        },
+        "88229": {
+            "number": 88229,
+            "title": "[v10.4.x] Docs: public dashboards fixes",
+            "similarity_score": 0,
+            "rank": 2
+        }
+    },
+    "87751": {
+        "87751": {
+            "number": 87751,
+            "title": "[v10.4.x] docs: add text panel play link",
+            "rank": 1,
+            "similarity_score": 0.0
+        }
+    },
+    "88749": {
+        "88115": {
+            "number": 88115,
+            "title": "[v10.4.x] Docs/usman plugin mgmt",
+            "rank": 1,
+            "similarity_score": 0.369
+        },
+        "88749": {
+            "number": 88749,
+            "title": "[v10.4.x] AuthN: Fix signout redirect url",
+            "rank": 2,
+            "similarity_score": null
+        }
+    },
+    "87772": {
+        "87772": {
+            "number": 87772,
+            "title": "docs: Update link to Loki Get Started",
+            "rank": 1,
+            "similarity_score": 0.0
+        },
+        "88115": {
+            "number": 88115,
+            "title": "[v10.4.x] Docs/usman plugin mgmt",
+            "rank": 2,
+            "similarity_score": 0.369
+        }
+    },
+    "87464": {
+        "88115": {
+            "number": 88115,
+            "title": "[v10.4.x] Docs/usman plugin mgmt",
+            "score": 0.369,
+            "rank": 1
+        },
+        "87464": {
+            "number": 87464,
+            "title": "docs: add heatmap play link",
+            "rank": 2,
+            "similarity_score": 0
+        }
+    },
+    "87009": {
+        "87009": {
+            "number": 87009,
+            "title": "Docs: Add thresholds shared content",
+            "rank": 1,
+            "similarity_score": 0.0
+        }
+    },
+    "88562": {
+        "88115": {
+            "number": 88115,
+            "title": "[v10.4.x] Docs/usman plugin mgmt",
+            "rank": 1,
+            "similarity_score": 0.369
+        },
+        "88562": {
+            "number": 88562,
+            "title": "InfluxDB: Use json-iterator package for json operations",
+            "rank": 2,
+            "similarity_score": 0
+        }
+    },
+    "89109": {
+        "89109": {
+            "number": 89109,
+            "title": "BrowseDashboards: Prepend subpath to New Browse Dashboard actions",
+            "similarity_score": 0.0,
+            "rank": 1
+        }
+    },
+    "87870": {
+        "88115": {
+            "number": 88115,
+            "title": "[v10.4.x] Docs/usman plugin mgmt",
+            "rank": 1,
+            "similarity_score": 0.369
+        },
+        "87870": {
+            "number": 87870,
+            "title": "Docs: public dashboards fixes",
+            "rank": 2,
+            "similarity_score": null
+        }
+    }
+}

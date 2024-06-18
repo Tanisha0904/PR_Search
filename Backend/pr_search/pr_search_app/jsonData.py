@@ -61,19 +61,7 @@ def calculate_average_scores():
     return sorted_data
 
 
-# def chatGPT_top_pr_list(sorted_according_to_pr_number, averaged_sorted_data):
-#     for key, value in averaged_sorted_data.items():
-#         if value["rank"] <= 50 :
-#             if value["number"] in sorted_according_to_pr_number.items()["number"]:
-#                 data_for_chatgpt.append = the particular items from the 
 
-
-
-
-
-
-
-    return None
 
 '''
 # Example usage:

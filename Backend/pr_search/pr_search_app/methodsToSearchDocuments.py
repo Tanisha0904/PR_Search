@@ -53,6 +53,7 @@ def get_pr_data(owner, repo, number):
             "body": pr["body"],
             "labels": list(label_names)
         }
+        # print(pr_data, end=";;;;;;;;;;;;;;;;;;;")
         json_data.append(pr_data)
         return pr_data
 
@@ -101,6 +102,7 @@ def get_pr_number_list(owner, repo, api_response, data={}):
 
     sorted_data = sorted(message_json_data, key=lambda x: x["number"])
     return sorted_data
+
 
 
 def read_data_from_json(averaged_sorted_data, n, owner, repo):

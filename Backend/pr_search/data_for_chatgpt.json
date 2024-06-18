@@ -1,0 +1,541 @@
+[
+    {
+        "number": 88115,
+        "title": "[v10.4.x] Docs/usman plugin mgmt",
+        "labels": [
+            "type/project",
+            "type/docs",
+            "no-changelog",
+            "backport",
+            "area/plugins"
+        ]
+    },
+    {
+        "number": 87149,
+        "title": "Alerting: Add two sets of provisioning actions for rules and notifications ",
+        "labels": [
+            "add to changelog",
+            "backport-failed",
+            "backport v10.3.x",
+            "backport v10.4.x",
+            "area/backend",
+            "backport v11.0.x",
+            "product-approved",
+            "backport v10.2.x",
+            "area/alerting",
+            "area/auth/rbac"
+        ]
+    },
+    {
+        "number": 88711,
+        "title": "[v10.4.x] Plugins: Don't forward cookies for app plugins",
+        "labels": [
+            "backport",
+            "no-changelog",
+            "type/bug",
+            "area/backend"
+        ]
+    },
+    {
+        "number": 89067,
+        "title": "[v10.4.x] Added Grafana Play Links to Panel visualization docs",
+        "labels": [
+            "type/docs",
+            "no-changelog",
+            "backport"
+        ]
+    },
+    {
+        "number": 88995,
+        "title": "Added Grafana Play Links to Panel visualization docs",
+        "labels": [
+            "backport-failed",
+            "backport v11.1.x",
+            "backport v10.3.x",
+            "backport v10.4.x",
+            "type/docs",
+            "no-changelog",
+            "backport v11.0.x"
+        ]
+    },
+    {
+        "number": 88663,
+        "title": "Plugins: Don't forward cookies for app plugins",
+        "labels": [
+            "backport v9.5.x",
+            "backport v10.3.x",
+            "backport v10.0.x",
+            "type/bug",
+            "backport v10.1.x",
+            "area/backend",
+            "backport v10.4.x",
+            "no-changelog",
+            "backport v11.0.x",
+            "backport v10.2.x"
+        ]
+    },
+    {
+        "number": 87754,
+        "title": "[v10.4.x] docs: add flame graph play link",
+        "labels": [
+            "type/docs",
+            "no-changelog",
+            "backport"
+        ]
+    },
+    {
+        "number": 87664,
+        "title": "[v10.4.x] Alerting: Add two sets of provisioning actions for rules and notifications",
+        "labels": [
+            "backport",
+            "no-changelog",
+            "area/backend"
+        ]
+    },
+    {
+        "number": 87443,
+        "title": "docs: update news visualization",
+        "labels": [
+            "backport-failed",
+            "backport v10.3.x",
+            "backport v10.4.x",
+            "type/docs",
+            "no-changelog",
+            "backport v11.0.x",
+            "backport v10.2.x"
+        ]
+    },
+    {
+        "number": 86893,
+        "title": "Docs: Add data links shared content",
+        "labels": [
+            "backport-failed",
+            "backport v10.3.x",
+            "backport v10.4.x",
+            "type/docs",
+            "no-changelog",
+            "backport v11.0.x"
+        ]
+    },
+    {
+        "number": 88465,
+        "title": "Docs: Add Installation YouTube Videos to documentation pages.",
+        "labels": [
+            "backport-failed",
+            "backport v10.3.x",
+            "backport v10.4.x",
+            "type/docs",
+            "no-changelog",
+            "backport v11.0.x",
+            "backport v10.2.x"
+        ]
+    },
+    {
+        "number": 88241,
+        "title": "[v10.4.x] Docs: Add data links shared content",
+        "labels": [
+            "type/docs",
+            "no-changelog",
+            "backport"
+        ]
+    },
+    {
+        "number": 87498,
+        "title": "docs: add flame graph play link",
+        "labels": [
+            "backport v10.3.x",
+            "backport v10.4.x",
+            "type/docs",
+            "no-changelog",
+            "backport v11.0.x",
+            "backport v10.2.x"
+        ]
+    },
+    {
+        "number": 88907,
+        "title": "[v10.4.x] Alerting: Fix editing Grafana folder via alert rule editor",
+        "labels": [
+            "add to changelog",
+            "type/bug",
+            "area/alerting",
+            "backport",
+            "area/frontend"
+        ]
+    },
+    {
+        "number": 83771,
+        "title": "Alerting: Fix editing Grafana folder via alert rule editor",
+        "labels": [
+            "add to changelog",
+            "type/bug",
+            "backport v10.4.x",
+            "area/alerting",
+            "area/frontend"
+        ]
+    },
+    {
+        "number": 88352,
+        "title": "Docs: Update Okta docs",
+        "labels": [
+            "area/auth",
+            "backport v10.4.x",
+            "type/docs",
+            "no-changelog",
+            "backport v11.0.x"
+        ]
+    },
+    {
+        "number": 88067,
+        "title": "[v10.4.x] [docs/sources/alerting] Replace docs/reference shortcode with ref URIs",
+        "labels": [
+            "type/docs",
+            "no-changelog"
+        ]
+    },
+    {
+        "number": 88073,
+        "title": "[v10.4.x] [docs/sources/dashboards] Replace docs/reference shortcode with ref URIs",
+        "labels": [
+            "type/docs",
+            "no-changelog"
+        ]
+    },
+    {
+        "number": 87729,
+        "title": "[v10.4.x] docs: add canvas button example play link",
+        "labels": [
+            "type/docs",
+            "no-changelog",
+            "backport"
+        ]
+    },
+    {
+        "number": 87815,
+        "title": "docs: update alert list visualization",
+        "labels": [
+            "backport-failed",
+            "backport v10.3.x",
+            "backport v10.4.x",
+            "type/docs",
+            "no-changelog",
+            "backport v11.0.x"
+        ]
+    },
+    {
+        "number": 88076,
+        "title": "[v10.4.x] [docs/sources/developers] Replace docs/reference shortcode with ref URIs",
+        "labels": [
+            "type/docs",
+            "no-changelog"
+        ]
+    },
+    {
+        "number": 87494,
+        "title": "docs: update dashboard list visualization",
+        "labels": [
+            "backport-failed",
+            "backport v10.3.x",
+            "backport v10.4.x",
+            "type/docs",
+            "no-changelog",
+            "backport v11.0.x"
+        ]
+    },
+    {
+        "number": 88068,
+        "title": "[v10.4.x] [docs/sources/fundamentals] Replace docs/reference shortcode with ref URIs",
+        "labels": [
+            "type/docs",
+            "no-changelog"
+        ]
+    },
+    {
+        "number": 86996,
+        "title": "Docs: Add value mappings shared content",
+        "labels": [
+            "backport-failed",
+            "backport v10.3.x",
+            "backport v10.4.x",
+            "type/docs",
+            "no-changelog",
+            "backport v11.0.x"
+        ]
+    },
+    {
+        "number": 87449,
+        "title": "Docs: Adds video embed for the Understanding Dashboards youtube video",
+        "labels": [
+            "backport v10.3.x",
+            "backport v10.4.x",
+            "type/docs",
+            "no-changelog",
+            "backport v11.0.x"
+        ]
+    },
+    {
+        "number": 87864,
+        "title": "[v10.4.x] Docs: Adds video embed for the Understanding Dashboards youtube video",
+        "labels": [
+            "type/docs",
+            "no-changelog",
+            "backport"
+        ]
+    },
+    {
+        "number": 87737,
+        "title": "[v10.4.x] docs: add histogram play link",
+        "labels": [
+            "type/docs",
+            "no-changelog",
+            "backport"
+        ]
+    },
+    {
+        "number": 87764,
+        "title": "[v10.4.x] docs: update news visualization",
+        "labels": [
+            "type/docs",
+            "no-changelog",
+            "backport"
+        ]
+    },
+    {
+        "number": 87462,
+        "title": "docs: add canvas button example play link",
+        "labels": [
+            "backport v10.3.x",
+            "backport v10.4.x",
+            "type/docs",
+            "no-changelog",
+            "backport v11.0.x",
+            "backport v10.2.x"
+        ]
+    },
+    {
+        "number": 89129,
+        "title": "[v10.4.x] BrowseDashboards: Prepend subpath to New Browse Dashboard actions",
+        "labels": [
+            "add to changelog",
+            "area/manage-dashboards",
+            "type/bug",
+            "backport",
+            "area/frontend"
+        ]
+    },
+    {
+        "number": 87862,
+        "title": "[v10.4.x] docs: add dashboard list play link",
+        "labels": [
+            "type/docs",
+            "no-changelog",
+            "backport"
+        ]
+    },
+    {
+        "number": 88069,
+        "title": "[v10.4.x] [docs/sources/panels-visualizations] Replace docs/reference shortcode with ref URIs",
+        "labels": [
+            "type/docs",
+            "no-changelog"
+        ]
+    },
+    {
+        "number": 87807,
+        "title": "docs: add dashboard list play link",
+        "labels": [
+            "backport-failed",
+            "backport v10.3.x",
+            "backport v10.4.x",
+            "type/docs",
+            "no-changelog",
+            "backport v11.0.x",
+            "backport v10.2.x"
+        ]
+    },
+    {
+        "number": 87773,
+        "title": "[v.10.4.x] Explore: lookup datasource by name when present in legacy URLs",
+        "labels": [
+            "area/explore",
+            "pr/external",
+            "no-changelog",
+            "backport",
+            "area/frontend"
+        ]
+    },
+    {
+        "number": 85408,
+        "title": "Chore: Fix test to retry fetching provisioned dashboard until is in place",
+        "labels": [
+            "backport-failed",
+            "backport v10.3.x",
+            "type/bug",
+            "backport v10.1.x",
+            "area/backend",
+            "backport v10.4.x",
+            "no-changelog",
+            "backport v11.0.x",
+            "backport v10.2.x",
+            "type/ci"
+        ]
+    },
+    {
+        "number": 88168,
+        "title": "[v10.4.x] Replace all docs/reference use with ref URIs",
+        "labels": [
+            "type/docs"
+        ]
+    },
+    {
+        "number": 87870,
+        "title": "Docs: public dashboards fixes",
+        "labels": [
+            "backport-failed",
+            "backport v10.3.x",
+            "backport v10.4.x",
+            "type/docs",
+            "no-changelog",
+            "backport v11.0.x"
+        ]
+    },
+    {
+        "number": 87466,
+        "title": "docs: add histogram play link",
+        "labels": [
+            "backport v10.3.x",
+            "backport v10.4.x",
+            "type/docs",
+            "no-changelog",
+            "backport v11.0.x",
+            "backport v10.2.x"
+        ]
+    },
+    {
+        "number": 87823,
+        "title": "[v10.4.x] postgres/mysql: improve macro docs",
+        "labels": [
+            "type/docs",
+            "no-changelog",
+            "backport"
+        ]
+    },
+    {
+        "number": 88151,
+        "title": "[v10.4.x] docs: update dashboard list visualization",
+        "labels": [
+            "type/docs",
+            "no-changelog",
+            "backport"
+        ]
+    },
+    {
+        "number": 87733,
+        "title": "[v10.4.x] docs: add heatmap play link",
+        "labels": [
+            "type/docs",
+            "no-changelog",
+            "backport"
+        ]
+    },
+    {
+        "number": 88992,
+        "title": "Alerting: Fix rule storage to filter by group names using case-sensitive comparison",
+        "labels": [
+            "add to changelog",
+            "backport v11.1.x",
+            "type/bug",
+            "backport v10.4.x",
+            "area/backend",
+            "backport v11.0.x",
+            "product-approved",
+            "area/alerting"
+        ]
+    },
+    {
+        "number": 88229,
+        "title": "[v10.4.x] Docs: public dashboards fixes",
+        "labels": [
+            "type/docs",
+            "no-changelog",
+            "backport"
+        ]
+    },
+    {
+        "number": 87009,
+        "title": "Docs: Add thresholds shared content",
+        "labels": [
+            "backport-failed",
+            "backport v10.3.x",
+            "backport v10.4.x",
+            "type/docs",
+            "no-changelog",
+            "backport v11.0.x"
+        ]
+    },
+    {
+        "number": 87751,
+        "title": "[v10.4.x] docs: add text panel play link",
+        "labels": [
+            "type/docs",
+            "no-changelog",
+            "backport"
+        ]
+    },
+    {
+        "number": 88749,
+        "title": "[v10.4.x] AuthN: Fix signout redirect url",
+        "labels": [
+            "backport",
+            "type/bug",
+            "add to changelog",
+            "area/backend"
+        ]
+    },
+    {
+        "number": 87772,
+        "title": "docs: Update link to Loki Get Started",
+        "labels": [
+            "backport v10.3.x",
+            "backport v10.4.x",
+            "type/docs",
+            "no-changelog",
+            "backport v11.0.x"
+        ]
+    },
+    {
+        "number": 87464,
+        "title": "docs: add heatmap play link",
+        "labels": [
+            "backport v10.3.x",
+            "backport v10.4.x",
+            "type/docs",
+            "no-changelog",
+            "backport v11.0.x",
+            "backport v10.2.x"
+        ]
+    },
+    {
+        "number": 88562,
+        "title": "InfluxDB: Use json-iterator package for json operations ",
+        "labels": [
+            "backport-failed",
+            "backport v10.4.x",
+            "area/backend",
+            "no-changelog",
+            "product-approved"
+        ]
+    },
+    {
+        "number": 89109,
+        "title": "BrowseDashboards: Prepend subpath to New Browse Dashboard actions",
+        "labels": [
+            "add to changelog",
+            "area/manage-dashboards",
+            "backport v11.1.x",
+            "type/bug",
+            "backport v10.4.x",
+            "backport v11.0.x",
+            "area/frontend"
+        ]
+    }
+]
