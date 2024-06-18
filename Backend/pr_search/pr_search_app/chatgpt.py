@@ -49,28 +49,26 @@ def generate_json_response(prompt, pr_data, max_tokens=15500):
     return response.choices[0].message["content"].strip()
 
 
-def save_to_json(data, filename):
-    with open(filename, "w") as json_file:
-        json.dump(data, json_file, indent=4)
+
 
 
 def chatGPT_model(query, data_for_chatgpt, output_json_filename):
     # query = input("Enter a query: ")
     prompt = r"""
-Provide me a valid response in exact valid JSON form. The query is 
-""" + query + r""". Calculate the similarity(example cosine similarity) for each PRs in the json file to the query provided. Rank them in descending order of their similarity score in the json file. The result json file should include 'number', 'title', 'rank' and 'similarity_score' for each PR, where the 'rank' will be the index of all the prs in the sorted descending order of similarity score. The json data should be in the format as given below,
+Please provide a valid response in the exact format of JSON. Your query is about calculating similarity, such as cosine similarity, for each pull request (PR) in the provided JSON file compared to the query. Arrange the PRs in descending order based on their similarity scores. The resulting JSON should include 'number', 'title', 'rank', and 'similarity_score' for each PR. 
+
 {
     "88115": {
         "number": 88115,
         "title": "[v10.4.x] Docs/usman plugin mgmt",
         "score": 0.369,
-        "rank": 32
     }
 }
+
 """
     
     # json_filename = "D:/BMC/driver_code/input.json"
-    # output_json_filename = "response.json"
+    output_json_filename = "response.json"
     # # Load JSON data from file
     # with open(json_filename, "r") as json_file:
     #     data_for_chatgpt = json.load(json_file)
@@ -87,14 +85,27 @@ Provide me a valid response in exact valid JSON form. The query is
             continue
     
     # Save JSON response to a file
-    save_to_json(results, output_json_filename)
-    return results
+    
+    # Sort by average value in descending order
+    sorted_data = dict(sorted(results.items(), key=lambda x: x[1]["score"], reverse=True))
 
-    json_response = generate_json_response(prompt, data_for_chatgpt)
+    # Add rank attribute based on sorted order
+    rank = 1
+    for key, value in sorted_data.items():
+        value["rank"] = rank
+        rank += 1
 
-    # Save JSON response to a file
-    save_to_json(json.loads(json_response), output_json_filename)
-    return json.loads(json_response)
+
+    with open(output_json_filename, "w") as json_file:
+        json.dump(sorted_data, json_file, indent=4)
+        
+    return sorted_data
+
+    # json_response = generate_json_response(prompt, data_for_chatgpt)
+
+    # # Save JSON response to a file
+    # save_to_json(json.loads(json_response), output_json_filename)
+    # return json.loads(json_response)
 
 
     
