@@ -91,12 +91,12 @@
             text-align: center;
         }
     </style>
-</head>
+    </head>
 
 <body>
     <header>
         <h1>PR Search</h1>
-    </header>
+        </header>
 
     <div class="search-container">
         <input type="text" id="owner-input" placeholder="Enter owner">
@@ -114,6 +114,7 @@
     </div>
 
     <div class="results-container">
+        <div id="loading-message" class="loading-message">Loading...</div>
         <table id="results-table">
             <thead>
                 <tr>
@@ -121,12 +122,12 @@
                     <th>Number</th>
                     <th>Title</th>
                 </tr>
-            </thead>
-            <tbody id="results-body">
-                <!-- Results will be inserted here -->
-            </tbody>
-        </table>
-        <div id="loading-message" class="loading-message">Loading...</div>
+                </thead>
+                <tbody id="results-body">
+                    <!-- Results will be inserted here -->
+                </tbody>
+                </table>
+        <!-- <div id="loading-message" class="loading-message">Loading...</div> -->
     </div>
 
     <script>
@@ -142,47 +143,49 @@
             return versions;
         }
 
-        function populateDropdown(dropdown, versions) {
-            dropdown.innerHTML = '';
-            Object.values(versions).forEach(version => {
-                const option = document.createElement('option');
-                option.value = version;
-                option.textContent = version;
-                dropdown.appendChild(option);
-            });
-        }
+            function populateDropdown(dropdown, versions) {
+                dropdown.innerHTML = '';
+                Object.values(versions).forEach(version => {
+                    const option = document.createElement('option');
+                    option.value = version;
+                    option.textContent = version;
+                    dropdown.appendChild(option);
+                });
+            }
 
-        async function getVersions() {
-            const owner = document.getElementById('owner-input').value;
-            const repo = document.getElementById('repo-input').value;
-            const versions = await fetchVersions(owner, repo);
-            const baseVersionDropdown = document.getElementById('base-version');
-            const compareVersionDropdown = document.getElementById('compare-version');
+            async function getVersions() {
+                const owner = document.getElementById('owner-input').value;
+                const repo = document.getElementById('repo-input').value;
+                const versions = await fetchVersions(owner, repo);
+                const baseVersionDropdown = document.getElementById('base-version');
+                const compareVersionDropdown = document.getElementById('compare-version');
 
-            populateDropdown(baseVersionDropdown, versions);
-            populateDropdown(compareVersionDropdown, versions);
-        }
+                populateDropdown(baseVersionDropdown, versions);
+                populateDropdown(compareVersionDropdown, versions);
+            }
 
-        function performSearch() {
-            const loadingMessage = document.getElementById('loading-message');
-            loadingMessage.style.display = 'block';
+                function performSearch() {
+                    resultsBody.innerHTML = ''; // Clear previous results
 
-            const query = document.getElementById('search-input').value;
-            const baseVersion = document.getElementById('base-version').value;
-            const compareVersion = document.getElementById('compare-version').value;
-            const owner = document.getElementById('owner-input').value;
-            const repo = document.getElementById('repo-input').value;
-            const n = document.getElementById('top-n-input').value;
+                const loadingMessage = document.getElementById('loading-message');
+                loadingMessage.style.display = 'block';
 
-            fetch('/api/search/', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify({ query, baseVersion, compareVersion, owner, repo, n })
-            })
-                .then(response => response.json())
-                .then(data => {
+                const query = document.getElementById('search-input').value;
+                const baseVersion = document.getElementById('base-version').value;
+                const compareVersion = document.getElementById('compare-version').value;
+                const owner = document.getElementById('owner-input').value;
+                const repo = document.getElementById('repo-input').value;
+                const n = document.getElementById('top-n-input').value;
+
+                fetch('/api/search/', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ query, baseVersion, compareVersion, owner, repo, n })
+                })
+                    .then(response => response.json())
+                    .then(data => {
                     const resultsBody = document.getElementById('results-body');
                     resultsBody.innerHTML = ''; // Clear previous results
 
@@ -207,8 +210,8 @@
                     console.error('Error fetching data:', error);
                     loadingMessage.style.display = 'none';
                 });
-        }
-    </script>
-</body>
+            }
+</script>
+    </body>
 
 </html>

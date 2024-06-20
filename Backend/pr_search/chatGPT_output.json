@@ -1,591 +1,853 @@
 {
-    "87149": {
-        "87149": {
-            "number": 87149,
-            "title": "Alerting: Add two sets of provisioning actions for rules and notifications",
-            "rank": 1,
-            "similarity_score": 0.0
-        }
-    },
-    "88711": {
-        "88115": {
-            "number": 88115,
-            "title": "[v10.4.x] Docs/usman plugin mgmt",
-            "rank": 1,
-            "similarity_score": 0.369
-        },
-        "88711": {
-            "number": 88711,
-            "title": "[v10.4.x] Plugins: Don't forward cookies for app plugins",
-            "rank": 2,
-            "similarity_score": null
-        }
-    },
-    "89067": {
-        "88115": {
-            "number": 88115,
-            "title": "[v10.4.x] Docs/usman plugin mgmt",
-            "rank": 1,
-            "similarity_score": 0.369
-        },
-        "89067": {
-            "number": 89067,
-            "title": "[v10.4.x] Added Grafana Play Links to Panel visualization docs",
-            "rank": 2,
-            "similarity_score": 0
-        }
-    },
-    "88995": {
-        "88115": {
-            "number": 88115,
-            "title": "[v10.4.x] Docs/usman plugin mgmt",
-            "rank": 1,
-            "similarity_score": 0.369
-        },
-        "88995": {
-            "number": 88995,
-            "title": "Added Grafana Play Links to Panel visualization docs",
-            "rank": 2,
-            "similarity_score": null
-        }
-    },
-    "88663": {
-        "88115": {
-            "number": 88115,
-            "title": "[v10.4.x] Docs/usman plugin mgmt",
-            "rank": 1,
-            "similarity_score": 0.369
-        },
-        "88663": {
-            "number": 88663,
-            "title": "Plugins: Don't forward cookies for app plugins",
-            "rank": 2,
-            "similarity_score": null
-        }
-    },
-    "87664": {
-        "88115": {
-            "number": 88115,
-            "title": "[v10.4.x] Docs/usman plugin mgmt",
-            "rank": 1,
-            "similarity_score": 0.369
-        },
-        "87664": {
-            "number": 87664,
-            "title": "[v10.4.x] Alerting: Add two sets of provisioning actions for rules and notifications",
-            "rank": 2,
-            "similarity_score": null
-        }
-    },
-    "87443": {
-        "88115": {
-            "number": 88115,
-            "title": "[v10.4.x] Docs/usman plugin mgmt",
-            "rank": 1,
-            "similarity_score": 0.369
-        },
-        "87443": {
-            "number": 87443,
-            "title": "docs: update news visualization",
-            "rank": 2,
-            "similarity_score": 0.0
-        }
-    },
-    "87754": {
-        "88115": {
-            "number": 88115,
-            "title": "[v10.4.x] Docs/usman plugin mgmt",
-            "rank": 1,
-            "similarity_score": 0.369
-        },
-        "87754": {
-            "number": 87754,
-            "title": "[v10.4.x] docs: add flame graph play link",
-            "rank": 2,
-            "similarity_score": 0
-        }
-    },
-    "86893": {
-        "86893": {
-            "number": 86893,
-            "title": "Docs: Add data links shared content",
-            "rank": 1,
-            "similarity_score": 0
-        }
-    },
-    "88465": {
-        "88465": {
-            "number": 88465,
-            "title": "Docs: Add Installation YouTube Videos to documentation pages.",
-            "rank": 1,
-            "similarity_score": 0.0
-        }
-    },
-    "83771": {
-        "83771": {
-            "number": 83771,
-            "title": "Alerting: Fix editing Grafana folder via alert rule editor",
-            "rank": 1,
-            "similarity_score": 0.0
-        }
-    },
-    "88241": {
-        "88241": {
-            "number": 88241,
-            "title": "[v10.4.x] Docs: Add data links shared content",
-            "rank": 1,
-            "similarity_score": 0.0
-        }
-    },
-    "88907": {
-        "88115": {
-            "number": 88115,
-            "title": "[v10.4.x] Docs/usman plugin mgmt",
-            "rank": 1,
-            "similarity_score": 0.369
-        },
-        "88907": {
-            "number": 88907,
-            "title": "[v10.4.x] Alerting: Fix editing Grafana folder via alert rule editor",
-            "rank": 2,
-            "similarity_score": 0.0
-        }
-    },
-    "87498": {
-        "88115": {
-            "number": 88115,
-            "title": "[v10.4.x] Docs/usman plugin mgmt",
-            "rank": 1,
-            "similarity_score": 0.369
-        },
-        "87498": {
-            "number": 87498,
-            "title": "docs: add flame graph play link",
-            "rank": 2,
-            "similarity_score": 0
-        }
-    },
-    "88352": {
-        "88115": {
-            "number": 88115,
-            "title": "[v10.4.x] Docs/usman plugin mgmt",
-            "rank": 1,
-            "similarity_score": 0.369
-        },
-        "88352": {
-            "number": 88352,
-            "title": "Docs: Update Okta docs",
-            "rank": 2,
-            "similarity_score": 0.0
-        }
-    },
-    "88067": {
-        "88115": {
-            "number": 88115,
-            "title": "[v10.4.x] Docs/usman plugin mgmt",
-            "score": 0.369,
-            "rank": 1
-        },
-        "88067": {
-            "number": 88067,
-            "title": "[v10.4.x] [docs/sources/alerting] Replace docs/reference shortcode with ref URIs",
-            "rank": 2
-        }
-    },
-    "88073": {
-        "88073": {
-            "number": 88073,
-            "title": "[v10.4.x] [docs/sources/dashboards] Replace docs/reference shortcode with ref URIs",
-            "rank": 1,
-            "similarity_score": 0.0
-        }
-    },
-    "87864": {
-        "88115": {
-            "number": 88115,
-            "title": "[v10.4.x] Docs/usman plugin mgmt",
-            "rank": 1,
-            "similarity_score": 0.369
-        },
-        "87864": {
-            "number": 87864,
-            "title": "[v10.4.x] Docs: Adds video embed for the Understanding Dashboards youtube video",
-            "rank": 2,
-            "similarity_score": null
-        }
-    },
-    "87815": {
-        "87815": {
-            "number": 87815,
-            "title": "docs: update alert list visualization",
-            "rank": 1,
-            "similarity_score": 0.0
-        }
-    },
-    "88076": {
-        "88115": {
-            "number": 88115,
-            "title": "[v10.4.x] Docs/usman plugin mgmt",
-            "score": 0.369,
-            "rank": 1
-        },
-        "88076": {
-            "number": 88076,
-            "title": "[v10.4.x] [docs/sources/developers] Replace docs/reference shortcode with ref URIs",
-            "rank": 2,
-            "similarity_score": null
-        }
-    },
-    "87494": {
-        "88115": {
-            "number": 88115,
-            "title": "[v10.4.x] Docs/usman plugin mgmt",
-            "rank": 1,
-            "similarity_score": 0.369
-        },
-        "87494": {
-            "number": 87494,
-            "title": "docs: update dashboard list visualization",
-            "rank": -1,
-            "similarity_score": -1
-        }
-    },
-    "88068": {
-        "88115": {
-            "number": 88115,
-            "title": "[v10.4.x] Docs/usman plugin mgmt",
-            "rank": 1,
-            "similarity_score": 0.369
-        }
-    },
-    "87729": {
-        "88115": {
-            "number": 88115,
-            "title": "[v10.4.x] Docs/usman plugin mgmt",
-            "rank": 1,
-            "similarity_score": 0.369
-        },
-        "87729": {
-            "number": 87729,
-            "title": "[v10.4.x] docs: add canvas button example play link",
-            "rank": 2,
-            "similarity_score": 0.0
-        }
-    },
-    "87862": {
-        "87862": {
-            "number": 87862,
-            "title": "[v10.4.x] docs: add dashboard list play link",
-            "rank": 1,
-            "similarity_score": 0
-        }
-    },
-    "87449": {
-        "88115": {
-            "number": 88115,
-            "title": "[v10.4.x] Docs/usman plugin mgmt",
-            "rank": 1,
-            "similarity_score": 0.369
-        },
-        "87449": {
-            "number": 87449,
-            "title": "Docs: Adds video embed for the Understanding Dashboards youtube video",
-            "rank": 2,
-            "similarity_score": 0
-        }
-    },
-    "87737": {
-        "88115": {
-            "number": 88115,
-            "title": "[v10.4.x] Docs/usman plugin mgmt",
-            "rank": 1,
-            "similarity_score": 0.369
-        },
-        "87737": {
-            "number": 87737,
-            "title": "[v10.4.x] docs: add histogram play link",
-            "rank": 2,
-            "similarity_score": 0
-        }
-    },
-    "87764": {
-        "87764": {
-            "number": 87764,
-            "title": "[v10.4.x] docs: update news visualization",
-            "score": 0.0,
-            "rank": 1
-        }
-    },
-    "89129": {
-        "88115": {
-            "number": 88115,
-            "title": "[v10.4.x] Docs/usman plugin mgmt",
-            "score": 0.369,
-            "rank": 1
-        },
-        "89129": {
-            "number": 89129,
-            "title": "[v10.4.x] BrowseDashboards: Prepend subpath to New Browse Dashboard actions",
-            "rank": 2,
-            "similarity_score": null
-        }
-    },
-    "86996": {
-        "88115": {
-            "number": 88115,
-            "title": "[v10.4.x] Docs/usman plugin mgmt",
-            "score": 0.369,
-            "rank": 1
-        },
-        "86996": {
-            "number": 86996,
-            "title": "Docs: Add value mappings shared content",
-            "rank": 2,
-            "similarity_score": null
-        }
-    },
-    "88069": {
-        "88115": {
-            "number": 88115,
-            "title": "[v10.4.x] Docs/usman plugin mgmt",
-            "rank": 1,
-            "similarity_score": 0.369
-        },
-        "88069": {
-            "number": 88069,
-            "title": "[v10.4.x] [docs/sources/panels-visualizations] Replace docs/reference shortcode with ref URIs",
-            "rank": 2,
-            "similarity_score": null
-        }
-    },
-    "87462": {
-        "87462": {
-            "number": 87462,
-            "title": "docs: add canvas button example play link",
-            "rank": 1,
-            "similarity_score": 0.0
-        }
-    },
-    "87773": {
-        "87773": {
-            "number": 87773,
-            "title": "[v.10.4.x] Explore: lookup datasource by name when present in legacy URLs",
-            "rank": 1,
-            "similarity_score": 0.369
-        }
-    },
-    "85408": {
-        "88115": {
-            "number": 88115,
-            "title": "[v10.4.x] Docs/usman plugin mgmt",
-            "rank": 1,
-            "similarity_score": 0.369
-        },
-        "85408": {
-            "number": 85408,
-            "title": "Chore: Fix test to retry fetching provisioned dashboard until is in place",
-            "rank": 2,
-            "similarity_score": 0.0
-        }
-    },
-    "88168": {
-        "88115": {
-            "number": 88115,
-            "title": "[v10.4.x] Docs/usman plugin mgmt",
-            "rank": 1,
-            "similarity_score": 0.369
-        },
-        "88168": {
-            "number": 88168,
-            "title": "[v10.4.x] Replace all docs/reference use with ref URIs",
-            "rank": 2,
-            "similarity_score": 0
-        }
-    },
-    "87823": {
-        "88115": {
-            "number": 88115,
-            "title": "[v10.4.x] Docs/usman plugin mgmt",
-            "rank": 1,
-            "similarity_score": 0.369
-        }
-    },
-    "88151": {
-        "88115": {
-            "number": 88115,
-            "title": "[v10.4.x] Docs/usman plugin mgmt",
-            "rank": 1,
-            "similarity_score": 0.369
-        },
-        "88151": {
-            "number": 88151,
-            "title": "[v10.4.x] docs: update dashboard list visualization",
-            "rank": 2,
-            "similarity_score": 0
-        }
-    },
-    "87466": {
-        "88115": {
-            "number": 88115,
-            "title": "[v10.4.x] Docs/usman plugin mgmt",
-            "rank": 1,
-            "similarity_score": 0.369
-        },
-        "87466": {
-            "number": 87466,
-            "title": "docs: add histogram play link",
-            "rank": 2,
-            "similarity_score": 0
-        }
-    },
-    "87807": {
-        "88115": {
-            "number": 88115,
-            "title": "[v10.4.x] Docs/usman plugin mgmt",
-            "rank": 1,
-            "similarity_score": 0.369
-        },
-        "87807": {
-            "number": 87807,
-            "title": "docs: add dashboard list play link",
-            "rank": 2,
-            "similarity_score": 0.0
-        }
-    },
-    "88992": {
-        "88115": {
-            "number": 88115,
-            "title": "[v10.4.x] Docs/usman plugin mgmt",
-            "rank": 1,
-            "similarity_score": 0.369
-        },
-        "88992": {
-            "number": 88992,
-            "title": "Alerting: Fix rule storage to filter by group names using case-sensitive comparison",
-            "rank": 2,
-            "similarity_score": null
-        }
-    },
-    "87733": {
-        "88115": {
-            "number": 88115,
-            "title": "[v10.4.x] Docs/usman plugin mgmt",
-            "rank": 1,
-            "similarity_score": 0.369
-        },
-        "87733": {
-            "number": 87733,
-            "title": "[v10.4.x] docs: add heatmap play link",
-            "rank": 2,
-            "similarity_score": 0
-        }
-    },
-    "88229": {
-        "88115": {
-            "number": 88115,
-            "title": "[v10.4.x] Docs/usman plugin mgmt",
-            "similarity_score": 0.369,
-            "rank": 1
-        },
-        "88229": {
-            "number": 88229,
-            "title": "[v10.4.x] Docs: public dashboards fixes",
-            "similarity_score": 0,
-            "rank": 2
-        }
-    },
-    "87751": {
-        "87751": {
-            "number": 87751,
-            "title": "[v10.4.x] docs: add text panel play link",
-            "rank": 1,
-            "similarity_score": 0.0
-        }
-    },
-    "88749": {
-        "88115": {
-            "number": 88115,
-            "title": "[v10.4.x] Docs/usman plugin mgmt",
-            "rank": 1,
-            "similarity_score": 0.369
-        },
-        "88749": {
-            "number": 88749,
-            "title": "[v10.4.x] AuthN: Fix signout redirect url",
-            "rank": 2,
-            "similarity_score": null
-        }
-    },
-    "87772": {
-        "87772": {
-            "number": 87772,
-            "title": "docs: Update link to Loki Get Started",
-            "rank": 1,
-            "similarity_score": 0.0
-        },
-        "88115": {
-            "number": 88115,
-            "title": "[v10.4.x] Docs/usman plugin mgmt",
-            "rank": 2,
-            "similarity_score": 0.369
-        }
-    },
-    "87464": {
-        "88115": {
-            "number": 88115,
-            "title": "[v10.4.x] Docs/usman plugin mgmt",
-            "score": 0.369,
-            "rank": 1
-        },
-        "87464": {
-            "number": 87464,
-            "title": "docs: add heatmap play link",
-            "rank": 2,
-            "similarity_score": 0
-        }
-    },
-    "87009": {
-        "87009": {
-            "number": 87009,
-            "title": "Docs: Add thresholds shared content",
-            "rank": 1,
-            "similarity_score": 0.0
-        }
-    },
-    "88562": {
-        "88115": {
-            "number": 88115,
-            "title": "[v10.4.x] Docs/usman plugin mgmt",
-            "rank": 1,
-            "similarity_score": 0.369
-        },
-        "88562": {
-            "number": 88562,
-            "title": "InfluxDB: Use json-iterator package for json operations",
-            "rank": 2,
-            "similarity_score": 0
-        }
-    },
-    "89109": {
-        "89109": {
-            "number": 89109,
-            "title": "BrowseDashboards: Prepend subpath to New Browse Dashboard actions",
-            "similarity_score": 0.0,
-            "rank": 1
-        }
-    },
-    "87870": {
-        "88115": {
-            "number": 88115,
-            "title": "[v10.4.x] Docs/usman plugin mgmt",
-            "rank": 1,
-            "similarity_score": 0.369
-        },
-        "87870": {
-            "number": 87870,
-            "title": "Docs: public dashboards fixes",
-            "rank": 2,
-            "similarity_score": null
-        }
-    }
+  "83159": {
+    "number": 83159,
+    "title": "[v10.4.x] Alerting docs: adds simplified alert routing",
+    "score": 1.0
+  },
+  "83688": {
+    "number": 83688,
+    "title": "[v10.4.x] Tempo: Better fallbacks for metrics query",
+    "score": 1.0
+  },
+  "84216": {
+    "number": 84216,
+    "title": "[v10.4.x] Docs: add missing alt text",
+    "score": 1.0
+  },
+  "83404": {
+    "number": 83404,
+    "title": "[v10.4.x] Annotations: Improve query performance when using dashboard filter",
+    "score": 1.0
+  },
+  "84074": {
+    "number": 84074,
+    "title": "Docs: clarify query formatting for time range variable queries",
+    "score": 0.8
+  },
+  "84596": {
+    "number": 84596,
+    "title": "[v10.4.x] Alerting/Annotations: Prevent panics from composite store jobs from crashing Grafana",
+    "score": 0.8
+  },
+  "84325": {
+    "number": 84325,
+    "title": "[v10.4.x] Docs: clarify query formatting for time range variable queries",
+    "score": 0.75
+  },
+  "84169": {
+    "number": 84169,
+    "title": "Auth: Only call rotate token if we have a session expiry cookie",
+    "score": 0.75
+  },
+  "82158": {
+    "number": 82158,
+    "title": "Alerting docs: adds simplified alert routing",
+    "score": 0.7
+  },
+  "84685": {
+    "number": 84685,
+    "title": "[v10.4.x] Elasticsearch: Fix legend for alerting, expressions and previously frontend queries",
+    "score": 0.65
+  },
+  "84590": {
+    "number": 84590,
+    "title": "[v10.4.x] InfluxDB: Fix interpolation of multi value template variables by adding parenthesis around them",
+    "score": 0.6
+  },
+  "83213": {
+    "number": 83213,
+    "title": "Tempo: Add template variable interpolation for filters",
+    "score": 0.6
+  },
+  "82957": {
+    "number": 82957,
+    "title": "Docs: add information about filtering for annotations",
+    "score": 0.6
+  },
+  "83667": {
+    "number": 83667,
+    "title": "[v10.4.x] Tempo: Add template variable interpolation for filters",
+    "score": 0.6
+  },
+  "83860": {
+    "number": 83860,
+    "title": "[v10.4.x] [DOC] Add profile-traces intro material; update Pyroscope data source info",
+    "score": 0.6
+  },
+  "84587": {
+    "number": 84587,
+    "title": "[v10.4.x] InfluxDB: Fix sql query generation by adding quotes around the identifiers",
+    "score": 0.6
+  },
+  "83586": {
+    "number": 83586,
+    "title": "docs: link annotation queries video to documentation",
+    "score": 0.6
+  },
+  "84050": {
+    "number": 84050,
+    "title": "[v10.4.x] Alerting docs: update the supported export template functionality",
+    "score": 0.6
+  },
+  "84046": {
+    "number": 84046,
+    "title": "Docs: corrected data source management information",
+    "score": 0.5
+  },
+  "83194": {
+    "number": 83194,
+    "title": "[v10.4.x] Docs: add information about filtering for annotations",
+    "score": 0.5
+  },
+  "83985": {
+    "number": 83985,
+    "title": "[v10.4.x] Docs/datasources usman",
+    "score": 0.5
+  },
+  "84247": {
+    "number": 84247,
+    "title": "OrgUsers: Refactor change `LastSeenAtAge` from '10 years' to 'Never'",
+    "score": 0.5
+  },
+  "84224": {
+    "number": 84224,
+    "title": "docs: initial updates to state timeline documentation",
+    "score": 0.5
+  },
+  "84285": {
+    "number": 84285,
+    "title": "[v10.4.x] Users: Add back check for undefined / null for value for `lastSeenAtAge` in table view",
+    "score": 0.5
+  },
+  "83622": {
+    "number": 83622,
+    "title": "[v10.4.x] docs: link annotation queries video to documentation",
+    "score": 0.5
+  },
+  "84511": {
+    "number": 84511,
+    "title": "[v10.4.x] ExtSvcAccounts: FIX prevent service account deletion",
+    "score": 0.5
+  },
+  "83129": {
+    "number": 83129,
+    "title": "[v10.4.x] Logs Panel: Add option extra UI functionality for log context",
+    "score": 0.5
+  },
+  "84349": {
+    "number": 84349,
+    "title": "Service accounts: Same Org fix migration to account for duplicate entries",
+    "score": 0.4
+  },
+  "83739": {
+    "number": 83739,
+    "title": "[DOC] Add profile-traces intro material; update Pyroscope data source info",
+    "score": 0.4
+  },
+  "83165": {
+    "number": 83165,
+    "title": "[v10.4.x] Alerting docs: Fix migrating alert links",
+    "score": 0.4
+  },
+  "84265": {
+    "number": 84265,
+    "title": "Users: Add back check for undefined / null for value for `lastSeenAtAge` in table view",
+    "score": 0.4
+  },
+  "83966": {
+    "number": 83966,
+    "title": "Dashboard: Fix issue where out-of-view shared query panels caused blank dependent panels",
+    "score": 0.4
+  },
+  "83940": {
+    "number": 83940,
+    "title": "Alerting: Add \"Keep Last State\" backend functionality",
+    "score": 0.4
+  },
+  "84424": {
+    "number": 84424,
+    "title": "[v10.4.x] Alerting docs: document HTTP API to create templates",
+    "score": 0.4
+  },
+  "84406": {
+    "number": 84406,
+    "title": "[v10.4.x] Alerting: Add \"Keep Last State\" backend functionality",
+    "score": 0.4
+  },
+  "81445": {
+    "number": 81445,
+    "title": "AuthProxy: Invalidate previous cached item for user when changes are made to any header",
+    "score": 0.4
+  },
+  "84591": {
+    "number": 84591,
+    "title": "[v10.4.x] Service accounts: Same Org fix migration to account for duplicate entries",
+    "score": 0.3
+  },
+  "84313": {
+    "number": 84313,
+    "title": "Docs: add table visualization for logs entry to what's new",
+    "score": 0.3
+  },
+  "83348": {
+    "number": 83348,
+    "title": "[v10.4.x] Docs: restructure Configure field overrides",
+    "score": 0.3
+  },
+  "83164": {
+    "number": 83164,
+    "title": "[v10.4.x] DataQuery: Track panel plugin id not type",
+    "score": 0.3
+  },
+  "84758": {
+    "number": 84758,
+    "title": "[v10.4.x] docs: initial updates to state timeline documentation",
+    "score": 0.3
+  },
+  "83619": {
+    "number": 83619,
+    "title": "Tempo: Better fallbacks for metrics query",
+    "score": 0.3
+  },
+  "83181": {
+    "number": 83181,
+    "title": "[v10.4.x] QueryVariableEditor: Select a variable ds does not work",
+    "score": 0.3
+  },
+  "83953": {
+    "number": 83953,
+    "title": "[v10.4.x] Serviceaccounts: Add ability to add samename SA for different orgs",
+    "score": 0.3
+  },
+  "84585": {
+    "number": 84585,
+    "title": "[v10.4.x] InfluxDB: Fix escaping template variable when it was used in parentheses",
+    "score": 0.3
+  },
+  "83186": {
+    "number": 83186,
+    "title": "[v10.4.x] Alerting: Protect possible undefined",
+    "score": 0.3
+  },
+  "83597": {
+    "number": 83597,
+    "title": "[v10.4.x] Elasticsearch: Fix adhoc filters not applied in frontend mode",
+    "score": 0.3
+  },
+  "83816": {
+    "number": 83816,
+    "title": "Alerting docs: update the supported export template functionality",
+    "score": 0.3
+  },
+  "83715": {
+    "number": 83715,
+    "title": "LDAP: Fix LDAP users authenticated via auth proxy not being able to use LDAP active sync",
+    "score": 0.3
+  },
+  "84209": {
+    "number": 84209,
+    "title": "[v10.4.x] Docs: corrected data source management information",
+    "score": 0.2
+  },
+  "83712": { "number": 83712, "title": "Docs/datasources usman", "score": 0.2 },
+  "84260": {
+    "number": 84260,
+    "title": "[v10.4.x] OrgUsers: Refactor change `LastSeenAtAge` from '10 years' to 'Never'",
+    "score": 0.2
+  },
+  "83577": {
+    "number": 83577,
+    "title": "InfluxDB: Fix interpolation of multi value template variables by adding parenthesis around them",
+    "score": 0.2
+  },
+  "83133": {
+    "number": 83133,
+    "title": "Docs: What\u2019s new & Upgrade guide 10.4",
+    "score": 0.2
+  },
+  "83091": {
+    "number": 83091,
+    "title": "DataQuery: Track panel plugin id not type",
+    "score": 0.2
+  },
+  "83262": {
+    "number": 83262,
+    "title": "Docs: 10.4 technical note for alertingUpgradeDryrunOnStart",
+    "score": 0.2
+  },
+  "83944": {
+    "number": 83944,
+    "title": "[v10.4.x] Docs: What\u2019s new & Upgrade guide 10.4",
+    "score": 0.2
+  },
+  "81833": {
+    "number": 81833,
+    "title": "Docs: restructure Configure field overrides",
+    "score": 0.2
+  },
+  "83167": {
+    "number": 83167,
+    "title": "[v10.4.x] Alerting docs: fixes oncall broken links",
+    "score": 0.2
+  },
+  "84316": {
+    "number": 84316,
+    "title": "[v10.4.x] Docs: add table visualization for logs entry to what's new",
+    "score": 0.2
+  },
+  "84088": {
+    "number": 84088,
+    "title": "[v10.4.x] Embed two visualization videos from the Grafana for Beginners series",
+    "score": 0.2
+  },
+  "81834": {
+    "number": 81834,
+    "title": "Docs: edit Configure field overrides",
+    "score": 0.2
+  },
+  "83144": {
+    "number": 83144,
+    "title": "QueryVariableEditor: Select a variable ds does not work",
+    "score": 0.2
+  },
+  "83351": {
+    "number": 83351,
+    "title": "Docs: Add missing visualizations to Grafana vizualization index page",
+    "score": 0.2
+  },
+  "83927": {
+    "number": 83927,
+    "title": "chore: bump Go to 1.21.8",
+    "score": 0.2
+  },
+  "83937": {
+    "number": 83937,
+    "title": "[v10.4.x] chore: bump Go to 1.21.8",
+    "score": 0.2
+  },
+  "83139": {
+    "number": 83139,
+    "title": "Alerting docs: fixes oncall broken links",
+    "score": 0.2
+  },
+  "83928": {
+    "number": 83928,
+    "title": "Embed two visualization videos from the Grafana for Beginners series",
+    "score": 0.2
+  },
+  "83234": {
+    "number": 83234,
+    "title": "[v10.4.x] Alerting: Fix saving evaluation group.",
+    "score": 0.2
+  },
+  "83188": {
+    "number": 83188,
+    "title": "Alerting: Fix saving evaluation group.",
+    "score": 0.2
+  },
+  "83141": {
+    "number": 83141,
+    "title": "Alerting docs: Fix migrating alert links",
+    "score": 0.2
+  },
+  "83554": {
+    "number": 83554,
+    "title": "[v10.4.x] Docs: Add missing visualizations to Grafana vizualization index page",
+    "score": 0.2
+  },
+  "84181": {
+    "number": 84181,
+    "title": "[v10.4.x] Auth: Only call rotate token if we have a session expiry cookie",
+    "score": 0.2
+  },
+  "83765": {
+    "number": 83765,
+    "title": "InfluxDB: Fix sql query generation by adding quotes around the identifiers",
+    "score": 0.2
+  },
+  "83999": {
+    "number": 83999,
+    "title": "[v10.4.x] Configure Grafana docs: fix custom configuration file location",
+    "score": 0.2
+  },
+  "83924": {
+    "number": 83924,
+    "title": "Alerting docs: update file provisioning guide",
+    "score": 0.2
+  },
+  "84506": {
+    "number": 84506,
+    "title": "[v10.4.x] Chore: Removing error object from tracking",
+    "score": 0.2
+  },
+  "84500": {
+    "number": 84500,
+    "title": "Chore: Removing error object from tracking",
+    "score": 0.2
+  },
+  "83893": {
+    "number": 83893,
+    "title": "Serviceaccounts: Add ability to add samename SA for different orgs",
+    "score": 0.2
+  },
+  "83438": {
+    "number": 83438,
+    "title": "Docs: restructure Configure panel options",
+    "score": 0.2
+  },
+  "84771": {
+    "number": 84771,
+    "title": "[v10.4.x] Visualizations-TablePanel: added YouTube link to Table Panel",
+    "score": 0.2
+  },
+  "83977": {
+    "number": 83977,
+    "title": "[v10.4.x] Docs: comment youtube videos back in",
+    "score": 0.2
+  },
+  "83111": {
+    "number": 83111,
+    "title": "Snapshots: delete from same org",
+    "score": 0.2
+  },
+  "83898": {
+    "number": 83898,
+    "title": "Backport alerting docs changes to v10.4.x",
+    "score": 0.2
+  },
+  "83170": {
+    "number": 83170,
+    "title": "[v10.4.x] Snapshots: delete from same org",
+    "score": 0.2
+  },
+  "83682": { "number": 83682, "title": "[v10.4.x] Fix typos", "score": 0.2 },
+  "84290": {
+    "number": 84290,
+    "title": "SSO: fix mergeSettings() in case the DB contains empty URLs",
+    "score": 0.2
+  },
+  "83627": {
+    "number": 83627,
+    "title": "[v10.4.x] Review \"Team LBAC\" page",
+    "score": 0.2
+  },
+  "83592": {
+    "number": 83592,
+    "title": "Elasticsearch: Fix adhoc filters not applied in frontend mode",
+    "score": 0.2
+  },
+  "83245": {
+    "number": 83245,
+    "title": "[v10.4.x] Docs: update import troubleshoot dashboards links",
+    "score": 0.2
+  },
+  "80390": { "number": 80390, "title": "Docs/grafana helm", "score": 0.2 },
+  "83838": {
+    "number": 83838,
+    "title": "[v10.4.x] alerting:clarify silence preview",
+    "score": 0.2
+  },
+  "84227": {
+    "number": 84227,
+    "title": "docs: update angular deprecation notice",
+    "score": 0.2
+  },
+  "83400": {
+    "number": 83400,
+    "title": "InfluxDB: Fix escaping template variable when it was used in parentheses",
+    "score": 0.2
+  },
+  "83754": {
+    "number": 83754,
+    "title": "alerting:clarify silence preview",
+    "score": 0.2
+  },
+  "83946": {
+    "number": 83946,
+    "title": "Docs: fix commented out Slack team names",
+    "score": 0.2
+  },
+  "84093": {
+    "number": 84093,
+    "title": "[v10.4.x] docs: adds alt text to images where missing",
+    "score": 0.2
+  },
+  "84344": {
+    "number": 84344,
+    "title": "[v10.4.x] SSO: fix mergeSettings() in case the DB contains empty URLs",
+    "score": 0.2
+  },
+  "83773": {
+    "number": 83773,
+    "title": "Alerting docs: update the Terraform Provision guide",
+    "score": 0.2
+  },
+  "83974": {
+    "number": 83974,
+    "title": "Docs: comment youtube videos back in",
+    "score": 0.2
+  },
+  "83429": {
+    "number": 83429,
+    "title": "[v10.4.x] Docs/grafana helm",
+    "score": 0.2
+  },
+  "83112": {
+    "number": 83112,
+    "title": "Annotations: Improve query performance when using dashboard filter",
+    "score": 0.2
+  },
+  "83723": {
+    "number": 83723,
+    "title": "[v10.4.x] CI: Bump `alpine` image version",
+    "score": 0.2
+  },
+  "84452": {
+    "number": 84452,
+    "title": "[v10.4.x] Chore: Bump update checker interval to 1 day",
+    "score": 0.2
+  },
+  "84533": {
+    "number": 84533,
+    "title": "Visualizations-TablePanel: added YouTube link to Table Panel",
+    "score": 0.2
+  },
+  "83376": {
+    "number": 83376,
+    "title": "Alerting docs: update Alerting Provisioning",
+    "score": 0.2
+  },
+  "84584": {
+    "number": 84584,
+    "title": "Alerting: Fix optional fields requiring validation rule",
+    "score": 0.2
+  },
+  "83628": {
+    "number": 83628,
+    "title": "[v10.4.x] Anonymous: Add docs for anon users charged on enterprise",
+    "score": 0.2
+  },
+  "84401": {
+    "number": 84401,
+    "title": "[v10.4.x] Loki: Fix null pointer exception in case request returned an error",
+    "score": 0.2
+  },
+  "83655": {
+    "number": 83655,
+    "title": "[v10.4.x] Docs: restructure Configure panel options",
+    "score": 0.2
+  },
+  "83459": {
+    "number": 83459,
+    "title": "Alerting/Annotations: Prevent panics from composite store jobs from crashing Grafana",
+    "score": 0.2
+  },
+  "83128": {
+    "number": 83128,
+    "title": "Alerting: Protect possible undefined",
+    "score": 0.2
+  },
+  "84823": {
+    "number": 84823,
+    "title": "[v10.4.x] alerting docs: slack integration",
+    "score": 0.2
+  },
+  "83635": {
+    "number": 83635,
+    "title": "Update angular-plugins.md",
+    "score": 0.2
+  },
+  "83949": {
+    "number": 83949,
+    "title": "[v10.4.x] Docs: fix commented out Slack team names",
+    "score": 0.2
+  },
+  "82890": {
+    "number": 82890,
+    "title": "Alerting: Fix dashboard nav drawers disappearing",
+    "score": 0.2
+  },
+  "84580": {
+    "number": 84580,
+    "title": "[v10.4.x] Alerting docs: Fix broken links in TF Provisioning page",
+    "score": 0.2
+  },
+  "83892": {
+    "number": 83892,
+    "title": "Postgres: Allow disabling SNI on SSL-enabled connections",
+    "score": 0.2
+  },
+  "82936": {
+    "number": 82936,
+    "title": "remove oss from security config docs",
+    "score": 0.2
+  },
+  "83626": {
+    "number": 83626,
+    "title": "Anonymous: Add docs for anon users charged on enterprise",
+    "score": 0.2
+  },
+  "84595": {
+    "number": 84595,
+    "title": "[v10.4.x] Alerting: Fix optional fields requiring validation rule",
+    "score": 0.2
+  },
+  "83287": {
+    "number": 83287,
+    "title": "[v10.4.x] AuthProxy: Invalidate previous cached item for user when changes are made to any header",
+    "score": 0.2
+  },
+  "84055": {
+    "number": 84055,
+    "title": "Alerting docs: document HTTP API to create templates",
+    "score": 0.2
+  },
+  "83791": {
+    "number": 83791,
+    "title": "[v10.4.x] Fix: Cache busting of plugins module.js file",
+    "score": 0.2
+  },
+  "84345": {
+    "number": 84345,
+    "title": "[v10.4.x] Alerting: Improve alert list panel and alert rules toolbar permissions handling",
+    "score": 0.2
+  },
+  "84022": {
+    "number": 84022,
+    "title": "[v10.4.x] disable_sanitize_html update",
+    "score": 0.2
+  },
+  "83726": {
+    "number": 83726,
+    "title": "[v10.4.x] Chore: Improve domain validation for Google OAuth - Backport 83229 to v10.4.x",
+    "score": 0.2
+  },
+  "84249": {
+    "number": 84249,
+    "title": "[v10.4.x] Postgres: Allow disabling SNI on SSL-enabled connections",
+    "score": 0.2
+  },
+  "83879": {
+    "number": 83879,
+    "title": "GenAI: Update the component only when the response is fully generated",
+    "score": 0.2
+  },
+  "83326": {
+    "number": 83326,
+    "title": "[v10.4.x] remove oss from security config docs",
+    "score": 0.2
+  },
+  "83895": {
+    "number": 83895,
+    "title": "[v10.4.x] GenAI: Update the component only when the response is fully generated",
+    "score": 0.2
+  },
+  "83954": {
+    "number": 83954,
+    "title": "Alerting: Improve alert list panel and alert rules toolbar permissions handling",
+    "score": 0.2
+  },
+  "83763": {
+    "number": 83763,
+    "title": "Fix: Cache busting of plugins module.js file",
+    "score": 0.2
+  },
+  "83526": {
+    "number": 83526,
+    "title": "[v10.4.x] Plugins: Angular deprecation: Fix AngularDeprecationNotice not being rendered on first page load",
+    "score": 0.2
+  },
+  "83643": {
+    "number": 83643,
+    "title": "disable_sanitize_html update",
+    "score": 0.2
+  },
+  "84472": {
+    "number": 84472,
+    "title": "[v10.4.x] Chore: Adding log also for cases where datasource UID length is invalid",
+    "score": 0.1
+  },
+  "83703": {
+    "number": 83703,
+    "title": "[v10.4.x] Docs: fix config file info in upgrade guide",
+    "score": 0.1
+  },
+  "83124": {
+    "number": 83124,
+    "title": "Docs: update import troubleshoot dashboards links",
+    "score": 0.1
+  },
+  "84326": {
+    "number": 84326,
+    "title": "[DOC] V10.4 loki query tempo deprecate",
+    "score": 0.1
+  },
+  "83957": {
+    "number": 83957,
+    "title": "[v10.4.x] Alerting docs: update file provisioning guide",
+    "score": 0.1
+  },
+  "83169": {
+    "number": 83169,
+    "title": "Configure Grafana docs: fix custom configuration file location",
+    "score": 0.1
+  },
+  "83820": {
+    "number": 83820,
+    "title": "[v10.4.x] Alerting docs: update the Terraform Provision guide",
+    "score": 0.1
+  },
+  "84502": {
+    "number": 84502,
+    "title": "ExtSvcAccounts: FIX prevent service account deletion",
+    "score": 0.1
+  },
+  "84197": {
+    "number": 84197,
+    "title": "[v10.4.x] Dashboard: Fix issue where out-of-view shared query panels caused blank dependent panels",
+    "score": 0.1
+  },
+  "83621": { "number": 83621, "title": "Fix typos", "score": 0.1 },
+  "84398": {
+    "number": 84398,
+    "title": "Loki: Fix null pointer exception in case request returned an error",
+    "score": 0.1
+  },
+  "84485": {
+    "number": 84485,
+    "title": "Elasticsearch: Fix legend for alerting, expressions and previously frontend queries",
+    "score": 0.1
+  },
+  "83123": {
+    "number": 83123,
+    "title": "Logs Panel: Add option extra UI functionality for log context",
+    "score": 0.1
+  },
+  "83751": {
+    "number": 83751,
+    "title": "[v10.4.x] LDAP: Fix LDAP users authenticated via auth proxy not being able to use LDAP active sync",
+    "score": 0.1
+  },
+  "83221": {
+    "number": 83221,
+    "title": "Plugins: Angular deprecation: Fix AngularDeprecationNotice not being rendered on first page load",
+    "score": 0.1
+  },
+  "84443": {
+    "number": 84443,
+    "title": "Chore: Adding log also for cases where datasource UID length is invalid",
+    "score": 0.0
+  },
+  "83987": {
+    "number": 83987,
+    "title": "Changelog: Updated changelog for 10.4.0",
+    "score": 0.0
+  },
+  "84554": {
+    "number": 84554,
+    "title": "[v10.4.x] Chore: Fix changelog for v10.4.0",
+    "score": 0.0
+  },
+  "83988": {
+    "number": 83988,
+    "title": "[v10.4.x] Changelog: Updated changelog for 10.4.0",
+    "score": 0.0
+  },
+  "83273": {
+    "number": 83273,
+    "title": "Docs: fix config file info in upgrade guide",
+    "score": 0.0
+  },
+  "83439": {
+    "number": 83439,
+    "title": "Docs: Edit Configure panel options",
+    "score": 0.0
+  },
+  "84013": {
+    "number": 84013,
+    "title": "[v10.4.x] Docs: comment in SSO for terraform video",
+    "score": 0.0
+  },
+  "84532": { "number": 84532, "title": "Docs: add alt text", "score": 0.0 },
+  "83989": {
+    "number": 83989,
+    "title": "Release: Bump version to 10.4.1",
+    "score": 0.0
+  },
+  "84396": {
+    "number": 84396,
+    "title": "[v10.4.x] docs: update angular guidance",
+    "score": 0.0
+  },
+  "83978": {
+    "number": 83978,
+    "title": "Docs: comment in SSO for terraform video",
+    "score": 0.0
+  },
+  "84228": {
+    "number": 84228,
+    "title": "[v10.4.x] docs: update angular deprecation notice",
+    "score": 0.0
+  },
+  "84581": {
+    "number": 84581,
+    "title": "[v10.4.x] Docs: add alt text",
+    "score": 0.0
+  },
+  "84363": {
+    "number": 84363,
+    "title": "docs: update angular guidance",
+    "score": 0.0
+  },
+  "84220": {
+    "number": 84220,
+    "title": "[v10.4.x] Docs: fix broken link",
+    "score": 0.0
+  },
+  "84103": { "number": 84103, "title": "Docs: fix broken link", "score": 0.0 },
+  "84028": {
+    "number": 84028,
+    "title": "docs: adds alt text to images where missing",
+    "score": 0.0
+  },
+  "84102": {
+    "number": 84102,
+    "title": "Docs: add missing alt text",
+    "score": 0.0
+  },
+  "83664": {
+    "number": 83664,
+    "title": "[v10.4.x] Update angular-plugins.md",
+    "score": 0.0
+  },
+  "83229": {
+    "number": 83229,
+    "title": "Chore: Query oauth info from a new instance",
+    "score": 0.0
+  },
+  "83716": {
+    "number": 83716,
+    "title": "CI: Bump `alpine` image version",
+    "score": 0.0
+  },
+  "84033": {
+    "number": 84033,
+    "title": "Chore: Bump docker image versions",
+    "score": 0.0
+  },
+  "83205": {
+    "number": 83205,
+    "title": "[v10.4.x] Alerting: Fix dashboard nav drawers disappearing",
+    "score": 0.0
+  },
+  "84404": {
+    "number": 84404,
+    "title": "Chore: Bump update checker interval to 1 day",
+    "score": 0.0
+  },
+  "84065": {
+    "number": 84065,
+    "title": "[v10.4.x] Chore: Bump docker image versions",
+    "score": 0.0
+  }
 }

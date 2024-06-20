@@ -108,14 +108,26 @@ def get_pr_number_list(owner, repo, api_response, data={}):
 def read_data_from_json(averaged_sorted_data, n, owner, repo):
     print("........................................")
     results = []
+    i=1
     for key, value in averaged_sorted_data.items():
-        if value["rank"] <= n:
+        if i<=n:
+        # if value["rank"] <= n:
+        #     results.append({
+        #                 "index": value["rank"],  # assuming rank is used as the index
+        #                 "number": value["number"],
+        #                 "title": value["title"],
+        #                 "link": f"https://github.com/{owner}/{repo}/pull/{value['number']}"
+        #             })
+        
             results.append({
-                        "index": value["rank"],  # assuming rank is used as the index
-                        "number": value["number"],
-                        "title": value["title"],
-                        "link": f"https://github.com/{owner}/{repo}/pull/{value['number']}"
-                    })
+                            "index": i,  # assuming rank is used as the index
+                            "number": value["number"],
+                            "title": value["title"],
+                            "link": f"https://github.com/{owner}/{repo}/pull/{value['number']}"
+                        })
+            i+=1
+        else:
+            break
     return JsonResponse(results, safe=False)
 
 
