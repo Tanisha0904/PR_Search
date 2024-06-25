@@ -114,7 +114,7 @@
     </div>
 
     <div class="results-container">
-        <div id="loading-message" class="loading-message">Loading...</div>
+        <!-- <div id="loading-message" class="loading-message">Loading</div> -->
         <table id="results-table">
             <thead>
                 <tr>
@@ -123,10 +123,13 @@
                     <th>Title</th>
                 </tr>
                 </thead>
-                <tbody id="results-body">
+            <!-- <div id="loading-message" class="loading-message">Loading...</div> -->
+            <tbody id="results-body">
                     <!-- Results will be inserted here -->
-                </tbody>
-                </table>
+                    <tr id="loading-message" class="loading-message">
+                        <td colspan="3">Loading...</td>
+            </tbody>
+            </table>
         <!-- <div id="loading-message" class="loading-message">Loading...</div> -->
     </div>
 
@@ -163,12 +166,19 @@
                 populateDropdown(baseVersionDropdown, versions);
                 populateDropdown(compareVersionDropdown, versions);
             }
+                function clearResults() {
+                    const resultsBody = document.getElementById('results-body');
+                    while (resultsBody.firstChild) {
+                        resultsBody.removeChild(resultsBody.firstChild);
+                    }
+                }
 
-                function performSearch() {
-                    resultsBody.innerHTML = ''; // Clear previous results
 
+            function performSearch() {
+                // resultsBody.innerHTML = ''; // Clear previous results
                 const loadingMessage = document.getElementById('loading-message');
-                loadingMessage.style.display = 'block';
+                const resultsBody = document.getElementById('results-body');
+                loadingMessage.style.display = 'table-row';
 
                 const query = document.getElementById('search-input').value;
                 const baseVersion = document.getElementById('base-version').value;
@@ -186,16 +196,16 @@
                 })
                     .then(response => response.json())
                     .then(data => {
+                    // resultsBody.innerHTML = ''; // Clear previous results
+                    // clearResults();
                     const resultsBody = document.getElementById('results-body');
-                    resultsBody.innerHTML = ''; // Clear previous results
-
-                    data.forEach(result => {
+                    data.forEach((result, index) => {
                         const row = resultsBody.insertRow();
                         const cellIndex = row.insertCell(0);
                         const cellNumber = row.insertCell(1);
                         const cellTitle = row.insertCell(2);
 
-                        cellIndex.textContent = result.index;
+                        cellIndex.textContent = index + 1;
                         cellTitle.textContent = result.title;
 
                         const link = document.createElement('a');

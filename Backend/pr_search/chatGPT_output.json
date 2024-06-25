@@ -1,853 +1,177 @@
 {
-  "83159": {
-    "number": 83159,
-    "title": "[v10.4.x] Alerting docs: adds simplified alert routing",
-    "score": 1.0
-  },
-  "83688": {
-    "number": 83688,
-    "title": "[v10.4.x] Tempo: Better fallbacks for metrics query",
-    "score": 1.0
-  },
-  "84216": {
-    "number": 84216,
-    "title": "[v10.4.x] Docs: add missing alt text",
-    "score": 1.0
-  },
-  "83404": {
-    "number": 83404,
-    "title": "[v10.4.x] Annotations: Improve query performance when using dashboard filter",
-    "score": 1.0
-  },
-  "84074": {
-    "number": 84074,
-    "title": "Docs: clarify query formatting for time range variable queries",
+  "87612": {
+    "number": 87612,
+    "title": "[v11.0.x] Chore: Add login protection when user is trying different uppercase letters",
     "score": 0.8
   },
-  "84596": {
-    "number": 84596,
-    "title": "[v10.4.x] Alerting/Annotations: Prevent panics from composite store jobs from crashing Grafana",
+  "87588": {
+    "number": 87588,
+    "title": "Chore: Add login protection when user is trying different uppercase letters",
     "score": 0.8
   },
-  "84325": {
-    "number": 84325,
-    "title": "[v10.4.x] Docs: clarify query formatting for time range variable queries",
-    "score": 0.75
-  },
-  "84169": {
-    "number": 84169,
-    "title": "Auth: Only call rotate token if we have a session expiry cookie",
-    "score": 0.75
-  },
-  "82158": {
-    "number": 82158,
-    "title": "Alerting docs: adds simplified alert routing",
-    "score": 0.7
-  },
-  "84685": {
-    "number": 84685,
-    "title": "[v10.4.x] Elasticsearch: Fix legend for alerting, expressions and previously frontend queries",
-    "score": 0.65
-  },
-  "84590": {
-    "number": 84590,
-    "title": "[v10.4.x] InfluxDB: Fix interpolation of multi value template variables by adding parenthesis around them",
-    "score": 0.6
-  },
-  "83213": {
-    "number": 83213,
-    "title": "Tempo: Add template variable interpolation for filters",
-    "score": 0.6
-  },
-  "82957": {
-    "number": 82957,
-    "title": "Docs: add information about filtering for annotations",
-    "score": 0.6
-  },
-  "83667": {
-    "number": 83667,
-    "title": "[v10.4.x] Tempo: Add template variable interpolation for filters",
-    "score": 0.6
-  },
-  "83860": {
-    "number": 83860,
-    "title": "[v10.4.x] [DOC] Add profile-traces intro material; update Pyroscope data source info",
-    "score": 0.6
-  },
-  "84587": {
-    "number": 84587,
-    "title": "[v10.4.x] InfluxDB: Fix sql query generation by adding quotes around the identifiers",
-    "score": 0.6
-  },
-  "83586": {
-    "number": 83586,
-    "title": "docs: link annotation queries video to documentation",
-    "score": 0.6
-  },
-  "84050": {
-    "number": 84050,
-    "title": "[v10.4.x] Alerting docs: update the supported export template functionality",
-    "score": 0.6
-  },
-  "84046": {
-    "number": 84046,
-    "title": "Docs: corrected data source management information",
+  "86354": {
+    "number": 86354,
+    "title": "[v11.0.x] User: email verification completion",
     "score": 0.5
   },
-  "83194": {
-    "number": 83194,
-    "title": "[v10.4.x] Docs: add information about filtering for annotations",
+  "85259": {
+    "number": 85259,
+    "title": "User: email verification completion",
     "score": 0.5
   },
-  "83985": {
-    "number": 83985,
-    "title": "[v10.4.x] Docs/datasources usman",
-    "score": 0.5
-  },
-  "84247": {
-    "number": 84247,
-    "title": "OrgUsers: Refactor change `LastSeenAtAge` from '10 years' to 'Never'",
-    "score": 0.5
-  },
-  "84224": {
-    "number": 84224,
-    "title": "docs: initial updates to state timeline documentation",
-    "score": 0.5
-  },
-  "84285": {
-    "number": 84285,
-    "title": "[v10.4.x] Users: Add back check for undefined / null for value for `lastSeenAtAge` in table view",
-    "score": 0.5
-  },
-  "83622": {
-    "number": 83622,
-    "title": "[v10.4.x] docs: link annotation queries video to documentation",
-    "score": 0.5
-  },
-  "84511": {
-    "number": 84511,
-    "title": "[v10.4.x] ExtSvcAccounts: FIX prevent service account deletion",
-    "score": 0.5
-  },
-  "83129": {
-    "number": 83129,
-    "title": "[v10.4.x] Logs Panel: Add option extra UI functionality for log context",
-    "score": 0.5
-  },
-  "84349": {
-    "number": 84349,
-    "title": "Service accounts: Same Org fix migration to account for duplicate entries",
+  "86362": {
+    "number": 86362,
+    "title": "[v11.0.x] K8s: standalone authenticator that allows a type of downstream forwarding",
     "score": 0.4
   },
-  "83739": {
-    "number": 83739,
-    "title": "[DOC] Add profile-traces intro material; update Pyroscope data source info",
+  "85146": {
+    "number": 85146,
+    "title": "Auth: Improve org role sync debugging",
     "score": 0.4
   },
-  "83165": {
-    "number": 83165,
-    "title": "[v10.4.x] Alerting docs: Fix migrating alert links",
+  "86203": {
+    "number": 86203,
+    "title": "[v11.0.x] Auth: Improve org role sync debugging",
     "score": 0.4
   },
-  "84265": {
-    "number": 84265,
-    "title": "Users: Add back check for undefined / null for value for `lastSeenAtAge` in table view",
+  "85130": {
+    "number": 85130,
+    "title": "K8s: standalone authenticator that allows a type of downstream forwarding",
     "score": 0.4
   },
-  "83966": {
-    "number": 83966,
-    "title": "Dashboard: Fix issue where out-of-view shared query panels caused blank dependent panels",
+  "86359": {
+    "number": 86359,
+    "title": "Auth: Force lowercase login/email for users",
     "score": 0.4
   },
-  "83940": {
-    "number": 83940,
-    "title": "Alerting: Add \"Keep Last State\" backend functionality",
+  "86985": {
+    "number": 86985,
+    "title": "[v11.0.x] Auth: Force lowercase login/email for users",
     "score": 0.4
   },
-  "84424": {
-    "number": 84424,
-    "title": "[v10.4.x] Alerting docs: document HTTP API to create templates",
+  "86266": {
+    "number": 86266,
+    "title": "[v11.0.x] Alerting: Reduce set of fields that could trigger alert state change",
     "score": 0.4
   },
-  "84406": {
-    "number": 84406,
-    "title": "[v10.4.x] Alerting: Add \"Keep Last State\" backend functionality",
-    "score": 0.4
-  },
-  "81445": {
-    "number": 81445,
-    "title": "AuthProxy: Invalidate previous cached item for user when changes are made to any header",
-    "score": 0.4
-  },
-  "84591": {
-    "number": 84591,
-    "title": "[v10.4.x] Service accounts: Same Org fix migration to account for duplicate entries",
+  "87591": {
+    "number": 87591,
+    "title": "[v11.0.x] Chore: Implement GetOAuthProviders in FakeSocialService",
     "score": 0.3
   },
-  "84313": {
-    "number": 84313,
-    "title": "Docs: add table visualization for logs entry to what's new",
+  "86321": {
+    "number": 86321,
+    "title": "[v11.0.x] AuthN: Add IsAuthenticatedBy to identity interface and replace checks",
     "score": 0.3
   },
-  "83348": {
-    "number": 83348,
-    "title": "[v10.4.x] Docs: restructure Configure field overrides",
+  "87590": {
+    "number": 87590,
+    "title": "Chore: Implement GetOAuthProviders in FakeSocialService",
     "score": 0.3
   },
-  "83164": {
-    "number": 83164,
-    "title": "[v10.4.x] DataQuery: Track panel plugin id not type",
+  "85262": {
+    "number": 85262,
+    "title": "AuthN: Add IsAuthenticatedBy to identity interface and replace checks",
     "score": 0.3
   },
-  "84758": {
-    "number": 84758,
-    "title": "[v10.4.x] docs: initial updates to state timeline documentation",
-    "score": 0.3
-  },
-  "83619": {
-    "number": 83619,
-    "title": "Tempo: Better fallbacks for metrics query",
-    "score": 0.3
-  },
-  "83181": {
-    "number": 83181,
-    "title": "[v10.4.x] QueryVariableEditor: Select a variable ds does not work",
-    "score": 0.3
-  },
-  "83953": {
-    "number": 83953,
-    "title": "[v10.4.x] Serviceaccounts: Add ability to add samename SA for different orgs",
-    "score": 0.3
-  },
-  "84585": {
-    "number": 84585,
-    "title": "[v10.4.x] InfluxDB: Fix escaping template variable when it was used in parentheses",
-    "score": 0.3
-  },
-  "83186": {
-    "number": 83186,
-    "title": "[v10.4.x] Alerting: Protect possible undefined",
-    "score": 0.3
-  },
-  "83597": {
-    "number": 83597,
-    "title": "[v10.4.x] Elasticsearch: Fix adhoc filters not applied in frontend mode",
-    "score": 0.3
-  },
-  "83816": {
-    "number": 83816,
-    "title": "Alerting docs: update the supported export template functionality",
-    "score": 0.3
-  },
-  "83715": {
-    "number": 83715,
-    "title": "LDAP: Fix LDAP users authenticated via auth proxy not being able to use LDAP active sync",
-    "score": 0.3
-  },
-  "84209": {
-    "number": 84209,
-    "title": "[v10.4.x] Docs: corrected data source management information",
-    "score": 0.2
-  },
-  "83712": { "number": 83712, "title": "Docs/datasources usman", "score": 0.2 },
-  "84260": {
-    "number": 84260,
-    "title": "[v10.4.x] OrgUsers: Refactor change `LastSeenAtAge` from '10 years' to 'Never'",
-    "score": 0.2
-  },
-  "83577": {
-    "number": 83577,
-    "title": "InfluxDB: Fix interpolation of multi value template variables by adding parenthesis around them",
-    "score": 0.2
-  },
-  "83133": {
-    "number": 83133,
-    "title": "Docs: What\u2019s new & Upgrade guide 10.4",
-    "score": 0.2
-  },
-  "83091": {
-    "number": 83091,
-    "title": "DataQuery: Track panel plugin id not type",
-    "score": 0.2
-  },
-  "83262": {
-    "number": 83262,
-    "title": "Docs: 10.4 technical note for alertingUpgradeDryrunOnStart",
-    "score": 0.2
-  },
-  "83944": {
-    "number": 83944,
-    "title": "[v10.4.x] Docs: What\u2019s new & Upgrade guide 10.4",
-    "score": 0.2
-  },
-  "81833": {
-    "number": 81833,
-    "title": "Docs: restructure Configure field overrides",
-    "score": 0.2
-  },
-  "83167": {
-    "number": 83167,
-    "title": "[v10.4.x] Alerting docs: fixes oncall broken links",
-    "score": 0.2
-  },
-  "84316": {
-    "number": 84316,
-    "title": "[v10.4.x] Docs: add table visualization for logs entry to what's new",
-    "score": 0.2
-  },
-  "84088": {
-    "number": 84088,
-    "title": "[v10.4.x] Embed two visualization videos from the Grafana for Beginners series",
-    "score": 0.2
-  },
-  "81834": {
-    "number": 81834,
-    "title": "Docs: edit Configure field overrides",
-    "score": 0.2
-  },
-  "83144": {
-    "number": 83144,
-    "title": "QueryVariableEditor: Select a variable ds does not work",
-    "score": 0.2
-  },
-  "83351": {
-    "number": 83351,
-    "title": "Docs: Add missing visualizations to Grafana vizualization index page",
-    "score": 0.2
-  },
-  "83927": {
-    "number": 83927,
-    "title": "chore: bump Go to 1.21.8",
-    "score": 0.2
-  },
-  "83937": {
-    "number": 83937,
-    "title": "[v10.4.x] chore: bump Go to 1.21.8",
-    "score": 0.2
-  },
-  "83139": {
-    "number": 83139,
-    "title": "Alerting docs: fixes oncall broken links",
-    "score": 0.2
-  },
-  "83928": {
-    "number": 83928,
-    "title": "Embed two visualization videos from the Grafana for Beginners series",
-    "score": 0.2
-  },
-  "83234": {
-    "number": 83234,
-    "title": "[v10.4.x] Alerting: Fix saving evaluation group.",
-    "score": 0.2
-  },
-  "83188": {
-    "number": 83188,
-    "title": "Alerting: Fix saving evaluation group.",
-    "score": 0.2
-  },
-  "83141": {
-    "number": 83141,
-    "title": "Alerting docs: Fix migrating alert links",
-    "score": 0.2
-  },
-  "83554": {
-    "number": 83554,
-    "title": "[v10.4.x] Docs: Add missing visualizations to Grafana vizualization index page",
-    "score": 0.2
-  },
-  "84181": {
-    "number": 84181,
-    "title": "[v10.4.x] Auth: Only call rotate token if we have a session expiry cookie",
-    "score": 0.2
-  },
-  "83765": {
-    "number": 83765,
-    "title": "InfluxDB: Fix sql query generation by adding quotes around the identifiers",
-    "score": 0.2
-  },
-  "83999": {
-    "number": 83999,
-    "title": "[v10.4.x] Configure Grafana docs: fix custom configuration file location",
-    "score": 0.2
-  },
-  "83924": {
-    "number": 83924,
-    "title": "Alerting docs: update file provisioning guide",
-    "score": 0.2
-  },
-  "84506": {
-    "number": 84506,
-    "title": "[v10.4.x] Chore: Removing error object from tracking",
-    "score": 0.2
-  },
-  "84500": {
-    "number": 84500,
-    "title": "Chore: Removing error object from tracking",
-    "score": 0.2
-  },
-  "83893": {
-    "number": 83893,
-    "title": "Serviceaccounts: Add ability to add samename SA for different orgs",
-    "score": 0.2
-  },
-  "83438": {
-    "number": 83438,
-    "title": "Docs: restructure Configure panel options",
-    "score": 0.2
-  },
-  "84771": {
-    "number": 84771,
-    "title": "[v10.4.x] Visualizations-TablePanel: added YouTube link to Table Panel",
-    "score": 0.2
-  },
-  "83977": {
-    "number": 83977,
-    "title": "[v10.4.x] Docs: comment youtube videos back in",
-    "score": 0.2
-  },
-  "83111": {
-    "number": 83111,
-    "title": "Snapshots: delete from same org",
-    "score": 0.2
-  },
-  "83898": {
-    "number": 83898,
-    "title": "Backport alerting docs changes to v10.4.x",
-    "score": 0.2
-  },
-  "83170": {
-    "number": 83170,
-    "title": "[v10.4.x] Snapshots: delete from same org",
-    "score": 0.2
-  },
-  "83682": { "number": 83682, "title": "[v10.4.x] Fix typos", "score": 0.2 },
-  "84290": {
-    "number": 84290,
-    "title": "SSO: fix mergeSettings() in case the DB contains empty URLs",
-    "score": 0.2
-  },
-  "83627": {
-    "number": 83627,
-    "title": "[v10.4.x] Review \"Team LBAC\" page",
-    "score": 0.2
-  },
-  "83592": {
-    "number": 83592,
-    "title": "Elasticsearch: Fix adhoc filters not applied in frontend mode",
-    "score": 0.2
-  },
-  "83245": {
-    "number": 83245,
-    "title": "[v10.4.x] Docs: update import troubleshoot dashboards links",
-    "score": 0.2
-  },
-  "80390": { "number": 80390, "title": "Docs/grafana helm", "score": 0.2 },
-  "83838": {
-    "number": 83838,
-    "title": "[v10.4.x] alerting:clarify silence preview",
-    "score": 0.2
-  },
-  "84227": {
-    "number": 84227,
-    "title": "docs: update angular deprecation notice",
-    "score": 0.2
-  },
-  "83400": {
-    "number": 83400,
-    "title": "InfluxDB: Fix escaping template variable when it was used in parentheses",
-    "score": 0.2
-  },
-  "83754": {
-    "number": 83754,
-    "title": "alerting:clarify silence preview",
-    "score": 0.2
-  },
-  "83946": {
-    "number": 83946,
-    "title": "Docs: fix commented out Slack team names",
-    "score": 0.2
-  },
-  "84093": {
-    "number": 84093,
-    "title": "[v10.4.x] docs: adds alt text to images where missing",
-    "score": 0.2
-  },
-  "84344": {
-    "number": 84344,
-    "title": "[v10.4.x] SSO: fix mergeSettings() in case the DB contains empty URLs",
-    "score": 0.2
-  },
-  "83773": {
-    "number": 83773,
-    "title": "Alerting docs: update the Terraform Provision guide",
-    "score": 0.2
-  },
-  "83974": {
-    "number": 83974,
-    "title": "Docs: comment youtube videos back in",
-    "score": 0.2
-  },
-  "83429": {
-    "number": 83429,
-    "title": "[v10.4.x] Docs/grafana helm",
-    "score": 0.2
-  },
-  "83112": {
-    "number": 83112,
-    "title": "Annotations: Improve query performance when using dashboard filter",
-    "score": 0.2
-  },
-  "83723": {
-    "number": 83723,
-    "title": "[v10.4.x] CI: Bump `alpine` image version",
-    "score": 0.2
-  },
-  "84452": {
-    "number": 84452,
-    "title": "[v10.4.x] Chore: Bump update checker interval to 1 day",
-    "score": 0.2
-  },
-  "84533": {
-    "number": 84533,
-    "title": "Visualizations-TablePanel: added YouTube link to Table Panel",
-    "score": 0.2
-  },
-  "83376": {
-    "number": 83376,
-    "title": "Alerting docs: update Alerting Provisioning",
-    "score": 0.2
-  },
-  "84584": {
-    "number": 84584,
-    "title": "Alerting: Fix optional fields requiring validation rule",
-    "score": 0.2
-  },
-  "83628": {
-    "number": 83628,
-    "title": "[v10.4.x] Anonymous: Add docs for anon users charged on enterprise",
-    "score": 0.2
-  },
-  "84401": {
-    "number": 84401,
-    "title": "[v10.4.x] Loki: Fix null pointer exception in case request returned an error",
-    "score": 0.2
-  },
-  "83655": {
-    "number": 83655,
-    "title": "[v10.4.x] Docs: restructure Configure panel options",
-    "score": 0.2
-  },
-  "83459": {
-    "number": 83459,
-    "title": "Alerting/Annotations: Prevent panics from composite store jobs from crashing Grafana",
-    "score": 0.2
-  },
-  "83128": {
-    "number": 83128,
-    "title": "Alerting: Protect possible undefined",
-    "score": 0.2
-  },
-  "84823": {
-    "number": 84823,
-    "title": "[v10.4.x] alerting docs: slack integration",
+  "86939": {
+    "number": 86939,
+    "title": "`[backport to v11.0]` SSO: add SSO settings to secrets migrator (#86913)",
     "score": 0.2
   },
-  "83635": {
-    "number": 83635,
-    "title": "Update angular-plugins.md",
+  "86913": {
+    "number": 86913,
+    "title": "SSO: Add SSO settings to secrets migrator",
     "score": 0.2
   },
-  "83949": {
-    "number": 83949,
-    "title": "[v10.4.x] Docs: fix commented out Slack team names",
+  "87132": {
+    "number": 87132,
+    "title": "Alerting: Prevent search from locking the browser",
     "score": 0.2
   },
-  "82890": {
-    "number": 82890,
-    "title": "Alerting: Fix dashboard nav drawers disappearing",
+  "85206": {
+    "number": 85206,
+    "title": "Storage: GuaranteedUpdate fix & other improvements",
     "score": 0.2
   },
-  "84580": {
-    "number": 84580,
-    "title": "[v10.4.x] Alerting docs: Fix broken links in TF Provisioning page",
+  "87142": {
+    "number": 87142,
+    "title": "[v11.0.x] Data source: Maintain the default data source permissions when switching from unlicensed to licensed Grafana",
     "score": 0.2
   },
-  "83892": {
-    "number": 83892,
-    "title": "Postgres: Allow disabling SNI on SSL-enabled connections",
+  "87222": {
+    "number": 87222,
+    "title": "[v11.0.x] RBAC: Do not set permissions on data sources with wildcard UID in OSS",
     "score": 0.2
   },
-  "82936": {
-    "number": 82936,
-    "title": "remove oss from security config docs",
+  "86371": {
+    "number": 86371,
+    "title": "[v11.0.x] CloudMigrations: Add instance metadata to auth token",
     "score": 0.2
   },
-  "83626": {
-    "number": 83626,
-    "title": "Anonymous: Add docs for anon users charged on enterprise",
+  "87230": {
+    "number": 87230,
+    "title": "[v11.0.x] Alerting: Prevent search from locking the browser",
     "score": 0.2
   },
-  "84595": {
-    "number": 84595,
-    "title": "[v10.4.x] Alerting: Fix optional fields requiring validation rule",
+  "87220": {
+    "number": 87220,
+    "title": "RBAC: Do not set permissions on data sources with wildcard UID in OSS",
     "score": 0.2
   },
-  "83287": {
-    "number": 83287,
-    "title": "[v10.4.x] AuthProxy: Invalidate previous cached item for user when changes are made to any header",
+  "87115": {
+    "number": 87115,
+    "title": "[v11.0.x] Alerting: Allow deleting contact points referenced only by auto-generated policies",
     "score": 0.2
   },
-  "84055": {
-    "number": 84055,
-    "title": "Alerting docs: document HTTP API to create templates",
+  "86699": {
+    "number": 86699,
+    "title": "[v11.0.x] Alerting: Take receivers into account when custom grouping Alertmanager groups",
     "score": 0.2
   },
-  "83791": {
-    "number": 83791,
-    "title": "[v10.4.x] Fix: Cache busting of plugins module.js file",
+  "87119": {
+    "number": 87119,
+    "title": "Data source: Maintain the default data source permissions when switching from unlicensed to licensed Grafana",
     "score": 0.2
   },
-  "84345": {
-    "number": 84345,
-    "title": "[v10.4.x] Alerting: Improve alert list panel and alert rules toolbar permissions handling",
+  "85195": {
+    "number": 85195,
+    "title": "Alerting: Make hovercard accessible",
     "score": 0.2
   },
-  "84022": {
-    "number": 84022,
-    "title": "[v10.4.x] disable_sanitize_html update",
+  "85381": {
+    "number": 85381,
+    "title": "CloudMigrations: Add instance metadata to auth token",
     "score": 0.2
   },
-  "83726": {
-    "number": 83726,
-    "title": "[v10.4.x] Chore: Improve domain validation for Google OAuth - Backport 83229 to v10.4.x",
+  "86323": {
+    "number": 86323,
+    "title": "[v11.0.x] Storage: GuaranteedUpdate fix & other improvements",
     "score": 0.2
   },
-  "84249": {
-    "number": 84249,
-    "title": "[v10.4.x] Postgres: Allow disabling SNI on SSL-enabled connections",
+  "86542": {
+    "number": 86542,
+    "title": "[v11.0.x] RolePicker: Adjust dynamic position",
     "score": 0.2
   },
-  "83879": {
-    "number": 83879,
-    "title": "GenAI: Update the component only when the response is fully generated",
+  "87570": {
+    "number": 87570,
+    "title": "[v11.0.x] Dashboard scene: Discard panel changes disabled/enabled depending of changes",
     "score": 0.2
   },
-  "83326": {
-    "number": 83326,
-    "title": "[v10.4.x] remove oss from security config docs",
+  "87163": {
+    "number": 87163,
+    "title": "[v11.0.x] Chore: Remove extra sql select from the Insert function of userimpl.store",
     "score": 0.2
   },
-  "83895": {
-    "number": 83895,
-    "title": "[v10.4.x] GenAI: Update the component only when the response is fully generated",
+  "84955": {
+    "number": 84955,
+    "title": "Scopes: Name relationship objects *binding",
     "score": 0.2
   },
-  "83954": {
-    "number": 83954,
-    "title": "Alerting: Improve alert list panel and alert rules toolbar permissions handling",
+  "87070": {
+    "number": 87070,
+    "title": "[v11.0.x] Alerting: Improve error when receiver or time interval used by rule is deleted",
     "score": 0.2
-  },
-  "83763": {
-    "number": 83763,
-    "title": "Fix: Cache busting of plugins module.js file",
-    "score": 0.2
-  },
-  "83526": {
-    "number": 83526,
-    "title": "[v10.4.x] Plugins: Angular deprecation: Fix AngularDeprecationNotice not being rendered on first page load",
-    "score": 0.2
-  },
-  "83643": {
-    "number": 83643,
-    "title": "disable_sanitize_html update",
-    "score": 0.2
-  },
-  "84472": {
-    "number": 84472,
-    "title": "[v10.4.x] Chore: Adding log also for cases where datasource UID length is invalid",
-    "score": 0.1
-  },
-  "83703": {
-    "number": 83703,
-    "title": "[v10.4.x] Docs: fix config file info in upgrade guide",
-    "score": 0.1
-  },
-  "83124": {
-    "number": 83124,
-    "title": "Docs: update import troubleshoot dashboards links",
-    "score": 0.1
-  },
-  "84326": {
-    "number": 84326,
-    "title": "[DOC] V10.4 loki query tempo deprecate",
-    "score": 0.1
-  },
-  "83957": {
-    "number": 83957,
-    "title": "[v10.4.x] Alerting docs: update file provisioning guide",
-    "score": 0.1
-  },
-  "83169": {
-    "number": 83169,
-    "title": "Configure Grafana docs: fix custom configuration file location",
-    "score": 0.1
-  },
-  "83820": {
-    "number": 83820,
-    "title": "[v10.4.x] Alerting docs: update the Terraform Provision guide",
-    "score": 0.1
-  },
-  "84502": {
-    "number": 84502,
-    "title": "ExtSvcAccounts: FIX prevent service account deletion",
-    "score": 0.1
-  },
-  "84197": {
-    "number": 84197,
-    "title": "[v10.4.x] Dashboard: Fix issue where out-of-view shared query panels caused blank dependent panels",
-    "score": 0.1
-  },
-  "83621": { "number": 83621, "title": "Fix typos", "score": 0.1 },
-  "84398": {
-    "number": 84398,
-    "title": "Loki: Fix null pointer exception in case request returned an error",
-    "score": 0.1
-  },
-  "84485": {
-    "number": 84485,
-    "title": "Elasticsearch: Fix legend for alerting, expressions and previously frontend queries",
-    "score": 0.1
-  },
-  "83123": {
-    "number": 83123,
-    "title": "Logs Panel: Add option extra UI functionality for log context",
-    "score": 0.1
-  },
-  "83751": {
-    "number": 83751,
-    "title": "[v10.4.x] LDAP: Fix LDAP users authenticated via auth proxy not being able to use LDAP active sync",
-    "score": 0.1
-  },
-  "83221": {
-    "number": 83221,
-    "title": "Plugins: Angular deprecation: Fix AngularDeprecationNotice not being rendered on first page load",
-    "score": 0.1
-  },
-  "84443": {
-    "number": 84443,
-    "title": "Chore: Adding log also for cases where datasource UID length is invalid",
-    "score": 0.0
-  },
-  "83987": {
-    "number": 83987,
-    "title": "Changelog: Updated changelog for 10.4.0",
-    "score": 0.0
-  },
-  "84554": {
-    "number": 84554,
-    "title": "[v10.4.x] Chore: Fix changelog for v10.4.0",
-    "score": 0.0
-  },
-  "83988": {
-    "number": 83988,
-    "title": "[v10.4.x] Changelog: Updated changelog for 10.4.0",
-    "score": 0.0
-  },
-  "83273": {
-    "number": 83273,
-    "title": "Docs: fix config file info in upgrade guide",
-    "score": 0.0
-  },
-  "83439": {
-    "number": 83439,
-    "title": "Docs: Edit Configure panel options",
-    "score": 0.0
-  },
-  "84013": {
-    "number": 84013,
-    "title": "[v10.4.x] Docs: comment in SSO for terraform video",
-    "score": 0.0
-  },
-  "84532": { "number": 84532, "title": "Docs: add alt text", "score": 0.0 },
-  "83989": {
-    "number": 83989,
-    "title": "Release: Bump version to 10.4.1",
-    "score": 0.0
-  },
-  "84396": {
-    "number": 84396,
-    "title": "[v10.4.x] docs: update angular guidance",
-    "score": 0.0
-  },
-  "83978": {
-    "number": 83978,
-    "title": "Docs: comment in SSO for terraform video",
-    "score": 0.0
-  },
-  "84228": {
-    "number": 84228,
-    "title": "[v10.4.x] docs: update angular deprecation notice",
-    "score": 0.0
-  },
-  "84581": {
-    "number": 84581,
-    "title": "[v10.4.x] Docs: add alt text",
-    "score": 0.0
-  },
-  "84363": {
-    "number": 84363,
-    "title": "docs: update angular guidance",
-    "score": 0.0
-  },
-  "84220": {
-    "number": 84220,
-    "title": "[v10.4.x] Docs: fix broken link",
-    "score": 0.0
-  },
-  "84103": { "number": 84103, "title": "Docs: fix broken link", "score": 0.0 },
-  "84028": {
-    "number": 84028,
-    "title": "docs: adds alt text to images where missing",
-    "score": 0.0
-  },
-  "84102": {
-    "number": 84102,
-    "title": "Docs: add missing alt text",
-    "score": 0.0
-  },
-  "83664": {
-    "number": 83664,
-    "title": "[v10.4.x] Update angular-plugins.md",
-    "score": 0.0
-  },
-  "83229": {
-    "number": 83229,
-    "title": "Chore: Query oauth info from a new instance",
-    "score": 0.0
-  },
-  "83716": {
-    "number": 83716,
-    "title": "CI: Bump `alpine` image version",
-    "score": 0.0
-  },
-  "84033": {
-    "number": 84033,
-    "title": "Chore: Bump docker image versions",
-    "score": 0.0
-  },
-  "83205": {
-    "number": 83205,
-    "title": "[v10.4.x] Alerting: Fix dashboard nav drawers disappearing",
-    "score": 0.0
-  },
-  "84404": {
-    "number": 84404,
-    "title": "Chore: Bump update checker interval to 1 day",
-    "score": 0.0
-  },
-  "84065": {
-    "number": 84065,
-    "title": "[v10.4.x] Chore: Bump docker image versions",
-    "score": 0.0
   }
 }

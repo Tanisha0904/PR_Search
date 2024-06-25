@@ -1,1227 +1,3355 @@
 {
-    "84209": {
-        "number": 84209,
-        "title": "[v10.4.x] Docs: corrected data source management information",
+    "87612": {
+        "number": 87612,
+        "title": "[v11.0.x] Chore: Add login protection when user is trying different uppercase letters",
         "scores": {
-            "all_MiniLM_L12": 0.2781752347946167
+            "all_MiniLM_L12": 0.30043700337409973
         }
     },
-    "84046": {
-        "number": 84046,
-        "title": "Docs: corrected data source management information",
+    "86362": {
+        "number": 86362,
+        "title": "[v11.0.x] K8s: standalone authenticator that allows a type of downstream forwarding",
         "scores": {
-            "all_MiniLM_L12": 0.2603956460952759
+            "all_MiniLM_L12": 0.2870257496833801
         }
     },
-    "83194": {
-        "number": 83194,
-        "title": "[v10.4.x] Docs: add information about filtering for annotations",
+    "87588": {
+        "number": 87588,
+        "title": "Chore: Add login protection when user is trying different uppercase letters",
         "scores": {
-            "all_MiniLM_L12": 0.19628863036632538
+            "all_MiniLM_L12": 0.2662164270877838
         }
     },
-    "84590": {
-        "number": 84590,
-        "title": "[v10.4.x] InfluxDB: Fix interpolation of multi value template variables by adding parenthesis around them",
+    "87591": {
+        "number": 87591,
+        "title": "[v11.0.x] Chore: Implement GetOAuthProviders in FakeSocialService",
         "scores": {
-            "all_MiniLM_L12": 0.18781805038452148
+            "all_MiniLM_L12": 0.2531697750091553
         }
     },
-    "83712": {
-        "number": 83712,
-        "title": "Docs/datasources usman",
+    "85146": {
+        "number": 85146,
+        "title": "Auth: Improve org role sync debugging",
         "scores": {
-            "all_MiniLM_L12": 0.18039141595363617
+            "all_MiniLM_L12": 0.21282422542572021
         }
     },
-    "84260": {
-        "number": 84260,
-        "title": "[v10.4.x] OrgUsers: Refactor change `LastSeenAtAge` from '10 years' to 'Never'",
+    "86939": {
+        "number": 86939,
+        "title": "`[backport to v11.0]` SSO: add SSO settings to secrets migrator (#86913)",
         "scores": {
-            "all_MiniLM_L12": 0.17001432180404663
+            "all_MiniLM_L12": 0.21120202541351318
         }
     },
-    "83577": {
-        "number": 83577,
-        "title": "InfluxDB: Fix interpolation of multi value template variables by adding parenthesis around them",
+    "86321": {
+        "number": 86321,
+        "title": "[v11.0.x] AuthN: Add IsAuthenticatedBy to identity interface and replace checks",
         "scores": {
-            "all_MiniLM_L12": 0.16757182776927948
+            "all_MiniLM_L12": 0.20988866686820984
         }
     },
-    "83133": {
-        "number": 83133,
-        "title": "Docs: What\u2019s new & Upgrade guide 10.4",
+    "86203": {
+        "number": 86203,
+        "title": "[v11.0.x] Auth: Improve org role sync debugging",
         "scores": {
-            "all_MiniLM_L12": 0.16238145530223846
+            "all_MiniLM_L12": 0.20786884427070618
         }
     },
-    "83213": {
-        "number": 83213,
-        "title": "Tempo: Add template variable interpolation for filters",
+    "86913": {
+        "number": 86913,
+        "title": "SSO: Add SSO settings to secrets migrator",
         "scores": {
-            "all_MiniLM_L12": 0.1595306098461151
+            "all_MiniLM_L12": 0.19565638899803162
         }
     },
-    "83985": {
-        "number": 83985,
-        "title": "[v10.4.x] Docs/datasources usman",
+    "85130": {
+        "number": 85130,
+        "title": "K8s: standalone authenticator that allows a type of downstream forwarding",
         "scores": {
-            "all_MiniLM_L12": 0.15671415627002716
+            "all_MiniLM_L12": 0.18431849777698517
         }
     },
-    "82957": {
-        "number": 82957,
-        "title": "Docs: add information about filtering for annotations",
+    "87132": {
+        "number": 87132,
+        "title": "Alerting: Prevent search from locking the browser",
         "scores": {
-            "all_MiniLM_L12": 0.1553354561328888
+            "all_MiniLM_L12": 0.17398014664649963
         }
     },
-    "83091": {
-        "number": 83091,
-        "title": "DataQuery: Track panel plugin id not type",
+    "85206": {
+        "number": 85206,
+        "title": "Storage: GuaranteedUpdate fix & other improvements",
         "scores": {
-            "all_MiniLM_L12": 0.14873047173023224
+            "all_MiniLM_L12": 0.16652843356132507
         }
     },
-    "84472": {
-        "number": 84472,
-        "title": "[v10.4.x] Chore: Adding log also for cases where datasource UID length is invalid",
+    "87590": {
+        "number": 87590,
+        "title": "Chore: Implement GetOAuthProviders in FakeSocialService",
         "scores": {
-            "all_MiniLM_L12": 0.14827442169189453
+            "all_MiniLM_L12": 0.15875251591205597
         }
     },
-    "83262": {
-        "number": 83262,
-        "title": "Docs: 10.4 technical note for alertingUpgradeDryrunOnStart",
+    "86359": {
+        "number": 86359,
+        "title": "Auth: Force lowercase login/email for users",
         "scores": {
-            "all_MiniLM_L12": 0.1465456336736679
+            "all_MiniLM_L12": 0.1556563824415207
         }
     },
-    "83944": {
-        "number": 83944,
-        "title": "[v10.4.x] Docs: What\u2019s new & Upgrade guide 10.4",
+    "86354": {
+        "number": 86354,
+        "title": "[v11.0.x] User: email verification completion",
         "scores": {
-            "all_MiniLM_L12": 0.14479532837867737
+            "all_MiniLM_L12": 0.14853714406490326
         }
     },
-    "84443": {
-        "number": 84443,
-        "title": "Chore: Adding log also for cases where datasource UID length is invalid",
+    "85262": {
+        "number": 85262,
+        "title": "AuthN: Add IsAuthenticatedBy to identity interface and replace checks",
         "scores": {
-            "all_MiniLM_L12": 0.1417771428823471
+            "all_MiniLM_L12": 0.14845407009124756
         }
     },
-    "84325": {
-        "number": 84325,
-        "title": "[v10.4.x] Docs: clarify query formatting for time range variable queries",
+    "87142": {
+        "number": 87142,
+        "title": "[v11.0.x] Data source: Maintain the default data source permissions when switching from unlicensed to licensed Grafana",
         "scores": {
-            "all_MiniLM_L12": 0.1399061381816864
+            "all_MiniLM_L12": 0.14286503195762634
         }
     },
-    "84247": {
-        "number": 84247,
-        "title": "OrgUsers: Refactor change `LastSeenAtAge` from '10 years' to 'Never'",
+    "87222": {
+        "number": 87222,
+        "title": "[v11.0.x] RBAC: Do not set permissions on data sources with wildcard UID in OSS",
         "scores": {
-            "all_MiniLM_L12": 0.13529250025749207
+            "all_MiniLM_L12": 0.14261312782764435
         }
     },
-    "83987": {
-        "number": 83987,
-        "title": "Changelog: Updated changelog for 10.4.0",
+    "86371": {
+        "number": 86371,
+        "title": "[v11.0.x] CloudMigrations: Add instance metadata to auth token",
         "scores": {
-            "all_MiniLM_L12": 0.12929002940654755
+            "all_MiniLM_L12": 0.13836511969566345
         }
     },
-    "84591": {
-        "number": 84591,
-        "title": "[v10.4.x] Service accounts: Same Org fix migration to account for duplicate entries",
+    "87230": {
+        "number": 87230,
+        "title": "[v11.0.x] Alerting: Prevent search from locking the browser",
         "scores": {
-            "all_MiniLM_L12": 0.12855035066604614
+            "all_MiniLM_L12": 0.13785818219184875
         }
     },
-    "84554": {
-        "number": 84554,
-        "title": "[v10.4.x] Chore: Fix changelog for v10.4.0",
+    "87220": {
+        "number": 87220,
+        "title": "RBAC: Do not set permissions on data sources with wildcard UID in OSS",
         "scores": {
-            "all_MiniLM_L12": 0.12290738523006439
+            "all_MiniLM_L12": 0.1346902847290039
         }
     },
-    "83667": {
-        "number": 83667,
-        "title": "[v10.4.x] Tempo: Add template variable interpolation for filters",
+    "87115": {
+        "number": 87115,
+        "title": "[v11.0.x] Alerting: Allow deleting contact points referenced only by auto-generated policies",
         "scores": {
-            "all_MiniLM_L12": 0.12154367566108704
+            "all_MiniLM_L12": 0.13293538987636566
         }
     },
-    "84313": {
-        "number": 84313,
-        "title": "Docs: add table visualization for logs entry to what's new",
+    "86699": {
+        "number": 86699,
+        "title": "[v11.0.x] Alerting: Take receivers into account when custom grouping Alertmanager groups",
         "scores": {
-            "all_MiniLM_L12": 0.11882960796356201
+            "all_MiniLM_L12": 0.12771272659301758
         }
     },
-    "83988": {
-        "number": 83988,
-        "title": "[v10.4.x] Changelog: Updated changelog for 10.4.0",
+    "86985": {
+        "number": 86985,
+        "title": "[v11.0.x] Auth: Force lowercase login/email for users",
         "scores": {
-            "all_MiniLM_L12": 0.11817551404237747
+            "all_MiniLM_L12": 0.12626245617866516
         }
     },
-    "81833": {
-        "number": 81833,
-        "title": "Docs: restructure Configure field overrides",
+    "87119": {
+        "number": 87119,
+        "title": "Data source: Maintain the default data source permissions when switching from unlicensed to licensed Grafana",
         "scores": {
-            "all_MiniLM_L12": 0.11695124208927155
+            "all_MiniLM_L12": 0.12605533003807068
         }
     },
-    "83348": {
-        "number": 83348,
-        "title": "[v10.4.x] Docs: restructure Configure field overrides",
+    "86266": {
+        "number": 86266,
+        "title": "[v11.0.x] Alerting: Reduce set of fields that could trigger alert state change",
         "scores": {
-            "all_MiniLM_L12": 0.11688344180583954
+            "all_MiniLM_L12": 0.12538081407546997
         }
     },
-    "84349": {
-        "number": 84349,
-        "title": "Service accounts: Same Org fix migration to account for duplicate entries",
+    "85259": {
+        "number": 85259,
+        "title": "User: email verification completion",
         "scores": {
-            "all_MiniLM_L12": 0.11673251539468765
+            "all_MiniLM_L12": 0.1245499849319458
         }
     },
-    "83164": {
-        "number": 83164,
-        "title": "[v10.4.x] DataQuery: Track panel plugin id not type",
+    "85195": {
+        "number": 85195,
+        "title": "Alerting: Make hovercard accessible",
         "scores": {
-            "all_MiniLM_L12": 0.11479903757572174
+            "all_MiniLM_L12": 0.12374601513147354
         }
     },
-    "83167": {
-        "number": 83167,
-        "title": "[v10.4.x] Alerting docs: fixes oncall broken links",
+    "85381": {
+        "number": 85381,
+        "title": "CloudMigrations: Add instance metadata to auth token",
         "scores": {
-            "all_MiniLM_L12": 0.1107521504163742
+            "all_MiniLM_L12": 0.12201390415430069
         }
     },
-    "84316": {
-        "number": 84316,
-        "title": "[v10.4.x] Docs: add table visualization for logs entry to what's new",
+    "86323": {
+        "number": 86323,
+        "title": "[v11.0.x] Storage: GuaranteedUpdate fix & other improvements",
         "scores": {
-            "all_MiniLM_L12": 0.11064048111438751
+            "all_MiniLM_L12": 0.11838370561599731
         }
     },
-    "84758": {
-        "number": 84758,
-        "title": "[v10.4.x] docs: initial updates to state timeline documentation",
+    "86542": {
+        "number": 86542,
+        "title": "[v11.0.x] RolePicker: Adjust dynamic position",
         "scores": {
-            "all_MiniLM_L12": 0.11006832867860794
+            "all_MiniLM_L12": 0.11803967505693436
         }
     },
-    "84088": {
-        "number": 84088,
-        "title": "[v10.4.x] Embed two visualization videos from the Grafana for Beginners series",
+    "87570": {
+        "number": 87570,
+        "title": "[v11.0.x] Dashboard scene: Discard panel changes disabled/enabled depending of changes",
         "scores": {
-            "all_MiniLM_L12": 0.10934171825647354
+            "all_MiniLM_L12": 0.11461231112480164
         }
     },
-    "81834": {
-        "number": 81834,
-        "title": "Docs: edit Configure field overrides",
+    "87163": {
+        "number": 87163,
+        "title": "[v11.0.x] Chore: Remove extra sql select from the Insert function of userimpl.store",
         "scores": {
-            "all_MiniLM_L12": 0.10885397344827652
+            "all_MiniLM_L12": 0.11320488899946213
         }
     },
-    "84074": {
-        "number": 84074,
-        "title": "Docs: clarify query formatting for time range variable queries",
+    "84955": {
+        "number": 84955,
+        "title": "Scopes: Name relationship objects *binding",
         "scores": {
-            "all_MiniLM_L12": 0.10852658748626709
+            "all_MiniLM_L12": 0.11137650161981583
         }
     },
-    "84224": {
-        "number": 84224,
-        "title": "docs: initial updates to state timeline documentation",
+    "87070": {
+        "number": 87070,
+        "title": "[v11.0.x] Alerting: Improve error when receiver or time interval used by rule is deleted",
         "scores": {
-            "all_MiniLM_L12": 0.10793447494506836
+            "all_MiniLM_L12": 0.10920381546020508
         }
     },
-    "83703": {
-        "number": 83703,
-        "title": "[v10.4.x] Docs: fix config file info in upgrade guide",
+    "86272": {
+        "number": 86272,
+        "title": "[v11.0.x] Alerting: Make hovercard accessible",
         "scores": {
-            "all_MiniLM_L12": 0.10729654133319855
+            "all_MiniLM_L12": 0.10810856521129608
         }
     },
-    "83739": {
-        "number": 83739,
-        "title": "[DOC] Add profile-traces intro material; update Pyroscope data source info",
+    "86127": {
+        "number": 86127,
+        "title": "Alerting: Take receivers into account when custom grouping Alertmanager groups",
         "scores": {
-            "all_MiniLM_L12": 0.10621270537376404
+            "all_MiniLM_L12": 0.10544152557849884
         }
     },
-    "83619": {
-        "number": 83619,
-        "title": "Tempo: Better fallbacks for metrics query",
+    "83496": {
+        "number": 83496,
+        "title": "Alerting: Reduce set of fields that could trigger alert state change",
         "scores": {
-            "all_MiniLM_L12": 0.09267643094062805
+            "all_MiniLM_L12": 0.1052209660410881
         }
     },
-    "83144": {
-        "number": 83144,
-        "title": "QueryVariableEditor: Select a variable ds does not work",
+    "86202": {
+        "number": 86202,
+        "title": "[v11.0.x] Scopes: Name relationship objects *binding",
         "scores": {
-            "all_MiniLM_L12": 0.08882326632738113
+            "all_MiniLM_L12": 0.10368470847606659
         }
     },
-    "83351": {
-        "number": 83351,
-        "title": "Docs: Add missing visualizations to Grafana vizualization index page",
+    "87335": {
+        "number": 87335,
+        "title": "DashboardScene: Restrict dashboard in read only state (#87316)",
         "scores": {
-            "all_MiniLM_L12": 0.08438422530889511
+            "all_MiniLM_L12": 0.10303126275539398
         }
     },
-    "83273": {
-        "number": 83273,
-        "title": "Docs: fix config file info in upgrade guide",
+    "87137": {
+        "number": 87137,
+        "title": "Dashboard scene: Discard panel changes disabled/enabled depending of changes",
         "scores": {
-            "all_MiniLM_L12": 0.08425001055002213
+            "all_MiniLM_L12": 0.09844207763671875
         }
     },
-    "83927": {
-        "number": 83927,
-        "title": "chore: bump Go to 1.21.8",
+    "86715": {
+        "number": 86715,
+        "title": "[v11.0.x] Embed Managing users and permissions video to the documentation",
         "scores": {
-            "all_MiniLM_L12": 0.08232711255550385
+            "all_MiniLM_L12": 0.09792907536029816
         }
     },
-    "84285": {
-        "number": 84285,
-        "title": "[v10.4.x] Users: Add back check for undefined / null for value for `lastSeenAtAge` in table view",
+    "87315": {
+        "number": 87315,
+        "title": "sql expressions - Backport 87277 to v11.0.x",
         "scores": {
-            "all_MiniLM_L12": 0.08150734007358551
+            "all_MiniLM_L12": 0.09638151526451111
         }
     },
-    "83165": {
-        "number": 83165,
-        "title": "[v10.4.x] Alerting docs: Fix migrating alert links",
+    "84744": {
+        "number": 84744,
+        "title": "Auth: add Dex example to generic OAuth2 documentation",
         "scores": {
-            "all_MiniLM_L12": 0.08065866678953171
+            "all_MiniLM_L12": 0.09482546150684357
         }
     },
-    "83937": {
-        "number": 83937,
-        "title": "[v10.4.x] chore: bump Go to 1.21.8",
+    "87681": {
+        "number": 87681,
+        "title": "[v11.0.x] AuthN: Fix signout redirect url",
         "scores": {
-            "all_MiniLM_L12": 0.07982023060321808
+            "all_MiniLM_L12": 0.09388841688632965
         }
     },
-    "83181": {
-        "number": 83181,
-        "title": "[v10.4.x] QueryVariableEditor: Select a variable ds does not work",
+    "86322": {
+        "number": 86322,
+        "title": "[v11.0.x] Update dependency sass to v1.72.0",
         "scores": {
-            "all_MiniLM_L12": 0.07873160392045975
+            "all_MiniLM_L12": 0.09365540742874146
         }
     },
-    "83139": {
-        "number": 83139,
-        "title": "Alerting docs: fixes oncall broken links",
+    "87078": {
+        "number": 87078,
+        "title": "Backport 87073 to v11.0.x",
         "scores": {
-            "all_MiniLM_L12": 0.07640533894300461
+            "all_MiniLM_L12": 0.08872431516647339
         }
     },
-    "83860": {
-        "number": 83860,
-        "title": "[v10.4.x] [DOC] Add profile-traces intro material; update Pyroscope data source info",
+    "87072": {
+        "number": 87072,
+        "title": "[v11.0.x] Auth: Sign sigV4 request after adding headers",
         "scores": {
-            "all_MiniLM_L12": 0.07625354081392288
+            "all_MiniLM_L12": 0.08546235412359238
         }
     },
-    "83439": {
-        "number": 83439,
-        "title": "Docs: Edit Configure panel options",
+    "86424": {
+        "number": 86424,
+        "title": "RolePicker: Adjust dynamic position",
         "scores": {
-            "all_MiniLM_L12": 0.07591740787029266
+            "all_MiniLM_L12": 0.0838419646024704
         }
     },
-    "83928": {
-        "number": 83928,
-        "title": "Embed two visualization videos from the Grafana for Beginners series",
+    "86364": {
+        "number": 86364,
+        "title": "[v11.0.x] Auth: add Dex example to generic OAuth2 documentation",
         "scores": {
-            "all_MiniLM_L12": 0.07531432807445526
+            "all_MiniLM_L12": 0.08190914243459702
         }
     },
-    "83234": {
-        "number": 83234,
-        "title": "[v10.4.x] Alerting: Fix saving evaluation group.",
+    "87271": {
+        "number": 87271,
+        "title": "Alerting: Fix max alerts",
         "scores": {
-            "all_MiniLM_L12": 0.07471663504838943
+            "all_MiniLM_L12": 0.08124598115682602
         }
     },
-    "83188": {
-        "number": 83188,
-        "title": "Alerting: Fix saving evaluation group.",
+    "85272": {
+        "number": 85272,
+        "title": "Update dependency sass to v1.72.0",
         "scores": {
-            "all_MiniLM_L12": 0.07297774404287338
+            "all_MiniLM_L12": 0.08054276555776596
         }
     },
-    "83141": {
-        "number": 83141,
-        "title": "Alerting docs: Fix migrating alert links",
+    "86271": {
+        "number": 86271,
+        "title": "[v11.0.x] CloudWatch : Add missing AWS/ES metrics",
         "scores": {
-            "all_MiniLM_L12": 0.07258480042219162
+            "all_MiniLM_L12": 0.0794442892074585
         }
     },
-    "83554": {
-        "number": 83554,
-        "title": "[v10.4.x] Docs: Add missing visualizations to Grafana vizualization index page",
+    "86865": {
+        "number": 86865,
+        "title": "Alerting: Improve error when receiver or time interval used by rule is deleted",
         "scores": {
-            "all_MiniLM_L12": 0.07130946218967438
+            "all_MiniLM_L12": 0.07741054147481918
         }
     },
-    "84013": {
-        "number": 84013,
-        "title": "[v10.4.x] Docs: comment in SSO for terraform video",
+    "86336": {
+        "number": 86336,
+        "title": "[v11.0.x] Update dependency eslint-plugin-jsdoc to v48.2.2",
         "scores": {
-            "all_MiniLM_L12": 0.0702759250998497
+            "all_MiniLM_L12": 0.07627172768115997
         }
     },
-    "84587": {
-        "number": 84587,
-        "title": "[v10.4.x] InfluxDB: Fix sql query generation by adding quotes around the identifiers",
+    "86334": {
+        "number": 86334,
+        "title": "[v11.0.x] Update dependency stylelint-config-sass-guidelines to v11.1.0",
         "scores": {
-            "all_MiniLM_L12": 0.06379856169223785
+            "all_MiniLM_L12": 0.07621435821056366
         }
     },
-    "84532": {
-        "number": 84532,
-        "title": "Docs: add alt text",
+    "86689": {
+        "number": 86689,
+        "title": "[v11.0.x] LDAP: Fix listing all non-matching groups",
         "scores": {
-            "all_MiniLM_L12": 0.06145862489938736
+            "all_MiniLM_L12": 0.07366566359996796
         }
     },
-    "84181": {
-        "number": 84181,
-        "title": "[v10.4.x] Auth: Only call rotate token if we have a session expiry cookie",
+    "86673": {
+        "number": 86673,
+        "title": "[v11.0.x] Alerting: Fix max_alerts field handling",
         "scores": {
-            "all_MiniLM_L12": 0.05863428860902786
+            "all_MiniLM_L12": 0.06804090738296509
         }
     },
-    "83124": {
-        "number": 83124,
-        "title": "Docs: update import troubleshoot dashboards links",
+    "86292": {
+        "number": 86292,
+        "title": "[v11.0.x] Update dependency xss to v1.0.15",
         "scores": {
-            "all_MiniLM_L12": 0.05639619380235672
+            "all_MiniLM_L12": 0.06758531183004379
         }
     },
-    "83765": {
-        "number": 83765,
-        "title": "InfluxDB: Fix sql query generation by adding quotes around the identifiers",
+    "86479": {
+        "number": 86479,
+        "title": "DashboardScene: Fixes deleting dirty dashboard",
         "scores": {
-            "all_MiniLM_L12": 0.055810388177633286
+            "all_MiniLM_L12": 0.06723648309707642
         }
     },
-    "84326": {
-        "number": 84326,
-        "title": "[DOC] V10.4 loki query tempo deprecate",
+    "86615": {
+        "number": 86615,
+        "title": "docs: update flame graph visualization",
         "scores": {
-            "all_MiniLM_L12": 0.05546825751662254
+            "all_MiniLM_L12": 0.06684932112693787
         }
     },
-    "83989": {
-        "number": 83989,
-        "title": "Release: Bump version to 10.4.1",
+    "87063": {
+        "number": 87063,
+        "title": "Auth: Sign sigV4 request after adding headers",
         "scores": {
-            "all_MiniLM_L12": 0.05532429367303848
+            "all_MiniLM_L12": 0.06583359837532043
         }
     },
-    "83159": {
-        "number": 83159,
-        "title": "[v10.4.x] Alerting docs: adds simplified alert routing",
+    "87316": {
+        "number": 87316,
+        "title": "DashboardScene: Restrict dashboard in read only state",
         "scores": {
-            "all_MiniLM_L12": 0.05510528385639191
+            "all_MiniLM_L12": 0.06438641995191574
         }
     },
-    "84396": {
-        "number": 84396,
-        "title": "[v10.4.x] docs: update angular guidance",
+    "85215": {
+        "number": 85215,
+        "title": "Update dependency xss to v1.0.15",
         "scores": {
-            "all_MiniLM_L12": 0.05418971925973892
+            "all_MiniLM_L12": 0.06418155133724213
         }
     },
-    "83978": {
-        "number": 83978,
-        "title": "Docs: comment in SSO for terraform video",
+    "85210": {
+        "number": 85210,
+        "title": "CloudWatch : Add missing AWS/ES metrics",
         "scores": {
-            "all_MiniLM_L12": 0.0538196787238121
+            "all_MiniLM_L12": 0.05963019281625748
         }
     },
-    "83999": {
-        "number": 83999,
-        "title": "[v10.4.x] Configure Grafana docs: fix custom configuration file location",
+    "86757": {
+        "number": 86757,
+        "title": "[v11.0.x] DashboardScene: Fixes deleting dirty dashboard",
         "scores": {
-            "all_MiniLM_L12": 0.053489044308662415
+            "all_MiniLM_L12": 0.05869437754154205
         }
     },
-    "83924": {
-        "number": 83924,
-        "title": "Alerting docs: update file provisioning guide",
+    "87572": {
+        "number": 87572,
+        "title": "[v11.0.x] Alerting: Add two sets of provisioning actions for rules and notifications ",
         "scores": {
-            "all_MiniLM_L12": 0.05248403921723366
+            "all_MiniLM_L12": 0.058309707790613174
         }
     },
-    "84506": {
-        "number": 84506,
-        "title": "[v10.4.x] Chore: Removing error object from tracking",
+    "86682": {
+        "number": 86682,
+        "title": "LDAP: Fix listing all non-matching groups",
         "scores": {
-            "all_MiniLM_L12": 0.050347041338682175
+            "all_MiniLM_L12": 0.05793704837560654
         }
     },
-    "83688": {
-        "number": 83688,
-        "title": "[v10.4.x] Tempo: Better fallbacks for metrics query",
+    "86299": {
+        "number": 86299,
+        "title": "[v11.0.x] Dashboard scenes: Export isExpressionReference to be accessible from scenes",
         "scores": {
-            "all_MiniLM_L12": 0.05003861337900162
+            "all_MiniLM_L12": 0.05765695497393608
         }
     },
-    "84500": {
-        "number": 84500,
-        "title": "Chore: Removing error object from tracking",
+    "86961": {
+        "number": 86961,
+        "title": "Home dashboard test",
         "scores": {
-            "all_MiniLM_L12": 0.049934662878513336
+            "all_MiniLM_L12": 0.056550998240709305
         }
     },
-    "84265": {
-        "number": 84265,
-        "title": "Users: Add back check for undefined / null for value for `lastSeenAtAge` in table view",
+    "87269": {
+        "number": 87269,
+        "title": "[v11.0.x] docs: update flame graph visualization",
         "scores": {
-            "all_MiniLM_L12": 0.04886200278997421
+            "all_MiniLM_L12": 0.05634322389960289
         }
     },
-    "83893": {
-        "number": 83893,
-        "title": "Serviceaccounts: Add ability to add samename SA for different orgs",
+    "87300": {
+        "number": 87300,
+        "title": "[v11.0.x] Alerting: Fix max alerts",
         "scores": {
-            "all_MiniLM_L12": 0.04873908683657646
+            "all_MiniLM_L12": 0.055079493671655655
         }
     },
-    "83438": {
-        "number": 83438,
-        "title": "Docs: restructure Configure panel options",
+    "86269": {
+        "number": 86269,
+        "title": "[v11.0.x] Update dependency eslint-scope to v8.0.1",
         "scores": {
-            "all_MiniLM_L12": 0.04801268130540848
+            "all_MiniLM_L12": 0.05447257310152054
         }
     },
-    "84771": {
-        "number": 84771,
-        "title": "[v10.4.x] Visualizations-TablePanel: added YouTube link to Table Panel",
+    "87143": {
+        "number": 87143,
+        "title": "[v11.0.x] Alerting: Also fix HCL field name for MuteTimeIntervals",
         "scores": {
-            "all_MiniLM_L12": 0.04787099361419678
+            "all_MiniLM_L12": 0.054400280117988586
         }
     },
-    "83977": {
-        "number": 83977,
-        "title": "[v10.4.x] Docs: comment youtube videos back in",
+    "86797": {
+        "number": 86797,
+        "title": "[v11.0.x] Navigation: Add a return to previous button when navigating to different sections",
         "scores": {
-            "all_MiniLM_L12": 0.047463152557611465
+            "all_MiniLM_L12": 0.05414462834596634
         }
     },
-    "83957": {
-        "number": 83957,
-        "title": "[v10.4.x] Alerting docs: update file provisioning guide",
+    "86742": {
+        "number": 86742,
+        "title": "[v11.0.x] Dashboard scenes: fix textbox value only set to first character of default value",
         "scores": {
-            "all_MiniLM_L12": 0.046695806086063385
+            "all_MiniLM_L12": 0.05382543057203293
         }
     },
-    "83622": {
-        "number": 83622,
-        "title": "[v10.4.x] docs: link annotation queries video to documentation",
+    "87060": {
+        "number": 87060,
+        "title": "Chore: Remove extra sql select from the Insert function of userimpl.store",
         "scores": {
-            "all_MiniLM_L12": 0.04583089053630829
+            "all_MiniLM_L12": 0.05358472466468811
         }
     },
-    "83953": {
-        "number": 83953,
-        "title": "[v10.4.x] Serviceaccounts: Add ability to add samename SA for different orgs",
+    "86200": {
+        "number": 86200,
+        "title": "[v11.0.x] Changelog: Updated changelog for 10.2.6",
         "scores": {
-            "all_MiniLM_L12": 0.04536062106490135
+            "all_MiniLM_L12": 0.05232220143079758
         }
     },
-    "83111": {
-        "number": 83111,
-        "title": "Snapshots: delete from same org",
+    "86595": {
+        "number": 86595,
+        "title": "Dashboard scenes: fix textbox value only set to first character of default value",
         "scores": {
-            "all_MiniLM_L12": 0.0436001718044281
+            "all_MiniLM_L12": 0.05148577690124512
         }
     },
-    "84228": {
-        "number": 84228,
-        "title": "[v10.4.x] docs: update angular deprecation notice",
+    "87024": {
+        "number": 87024,
+        "title": "[v11.0.x] Home dashboard test",
         "scores": {
-            "all_MiniLM_L12": 0.043495144695043564
+            "all_MiniLM_L12": 0.05016284063458443
         }
     },
-    "83898": {
-        "number": 83898,
-        "title": "Backport alerting docs changes to v10.4.x",
+    "87631": {
+        "number": 87631,
+        "title": "AuthN: Fix signout redirect url",
         "scores": {
-            "all_MiniLM_L12": 0.04256340116262436
+            "all_MiniLM_L12": 0.04999884217977524
         }
     },
-    "82158": {
-        "number": 82158,
-        "title": "Alerting docs: adds simplified alert routing",
+    "87022": {
+        "number": 87022,
+        "title": "[v11.0.x] Dashboard scenes: Fix min interval not saving",
         "scores": {
-            "all_MiniLM_L12": 0.041720129549503326
+            "all_MiniLM_L12": 0.04995084926486015
         }
     },
-    "84581": {
-        "number": 84581,
-        "title": "[v10.4.x] Docs: add alt text",
+    "86196": {
+        "number": 86196,
+        "title": "[v11.0.x] Changelog: Updated changelog for 10.0.13",
         "scores": {
-            "all_MiniLM_L12": 0.04169932380318642
+            "all_MiniLM_L12": 0.04992884397506714
         }
     },
-    "83169": {
-        "number": 83169,
-        "title": "Configure Grafana docs: fix custom configuration file location",
+    "87003": {
+        "number": 87003,
+        "title": "[v11.0.x] DataTrails: Exploring alternatives to history issues",
         "scores": {
-            "all_MiniLM_L12": 0.04022613540291786
+            "all_MiniLM_L12": 0.04912341758608818
         }
     },
-    "84511": {
-        "number": 84511,
-        "title": "[v10.4.x] ExtSvcAccounts: FIX prevent service account deletion",
+    "86300": {
+        "number": 86300,
+        "title": "[v11.0.x] Update dependency date-fns to v3.6.0",
         "scores": {
-            "all_MiniLM_L12": 0.039920300245285034
+            "all_MiniLM_L12": 0.04646557569503784
         }
     },
-    "83820": {
-        "number": 83820,
-        "title": "[v10.4.x] Alerting docs: update the Terraform Provision guide",
+    "85228": {
+        "number": 85228,
+        "title": "Dashboard scenes: Export isExpressionReference to be accessible from scenes",
         "scores": {
-            "all_MiniLM_L12": 0.03963182121515274
+            "all_MiniLM_L12": 0.04598923400044441
         }
     },
-    "83170": {
-        "number": 83170,
-        "title": "[v10.4.x] Snapshots: delete from same org",
+    "86326": {
+        "number": 86326,
+        "title": "[v11.0.x] Scopes: Add Filtering for ScopeDashoardBinding and Update Prometheus for ScopeFilterOperator Changes",
         "scores": {
-            "all_MiniLM_L12": 0.03925257921218872
+            "all_MiniLM_L12": 0.04537363350391388
         }
     },
-    "83682": {
-        "number": 83682,
-        "title": "[v10.4.x] Fix typos",
+    "87312": {
+        "number": 87312,
+        "title": "sql expressions - Backport 87263 to v11.0.x",
         "scores": {
-            "all_MiniLM_L12": 0.039048030972480774
+            "all_MiniLM_L12": 0.043306149542331696
         }
     },
-    "84290": {
-        "number": 84290,
-        "title": "SSO: fix mergeSettings() in case the DB contains empty URLs",
+    "86351": {
+        "number": 86351,
+        "title": "[v11.0.x] Docs: Add capture_timeout option",
         "scores": {
-            "all_MiniLM_L12": 0.037838179618120193
+            "all_MiniLM_L12": 0.040789537131786346
         }
     },
-    "84216": {
-        "number": 84216,
-        "title": "[v10.4.x] Docs: add missing alt text",
+    "86962": {
+        "number": 86962,
+        "title": "Dashboard scenes: Fix min interval not saving",
         "scores": {
-            "all_MiniLM_L12": 0.03725115954875946
+            "all_MiniLM_L12": 0.04069969803094864
         }
     },
-    "84502": {
-        "number": 84502,
-        "title": "ExtSvcAccounts: FIX prevent service account deletion",
+    "87481": {
+        "number": 87481,
+        "title": "Azure data sources: Set selected config type before save",
         "scores": {
-            "all_MiniLM_L12": 0.034763872623443604
+            "all_MiniLM_L12": 0.04036233201622963
         }
     },
-    "83627": {
-        "number": 83627,
-        "title": "[v10.4.x] Review \"Team LBAC\" page",
+    "85291": {
+        "number": 85291,
+        "title": "Update dependency stylelint-config-sass-guidelines to v11.1.0",
         "scores": {
-            "all_MiniLM_L12": 0.03288863226771355
+            "all_MiniLM_L12": 0.04016289487481117
         }
     },
-    "84197": {
-        "number": 84197,
-        "title": "[v10.4.x] Dashboard: Fix issue where out-of-view shared query panels caused blank dependent panels",
+    "86357": {
+        "number": 86357,
+        "title": "[v11.0.x] JWT: Find login and email claims with JMESPATH",
         "scores": {
-            "all_MiniLM_L12": 0.032687656581401825
+            "all_MiniLM_L12": 0.039876364171504974
         }
     },
-    "83592": {
-        "number": 83592,
-        "title": "Elasticsearch: Fix adhoc filters not applied in frontend mode",
+    "86563": {
+        "number": 86563,
+        "title": "[v11.0.x] Alerting: Fix simplified routing group by override",
         "scores": {
-            "all_MiniLM_L12": 0.03267720714211464
+            "all_MiniLM_L12": 0.03970446065068245
         }
     },
-    "84363": {
-        "number": 84363,
-        "title": "docs: update angular guidance",
+    "86560": {
+        "number": 86560,
+        "title": "[v11.0.x] InfluxDB: Fix interpolating field keys in influxql",
         "scores": {
-            "all_MiniLM_L12": 0.03217529505491257
+            "all_MiniLM_L12": 0.0395660400390625
         }
     },
-    "83966": {
-        "number": 83966,
-        "title": "Dashboard: Fix issue where out-of-view shared query panels caused blank dependent panels",
+    "87305": {
+        "number": 87305,
+        "title": "[v11.0.x] fix: sql expressions - sql parser table name case",
         "scores": {
-            "all_MiniLM_L12": 0.032085269689559937
+            "all_MiniLM_L12": 0.038617298007011414
         }
     },
-    "84585": {
-        "number": 84585,
-        "title": "[v10.4.x] InfluxDB: Fix escaping template variable when it was used in parentheses",
+    "86800": {
+        "number": 86800,
+        "title": "Alerting: Allow deleting contact points referenced only by auto-generated policies",
         "scores": {
-            "all_MiniLM_L12": 0.03202957287430763
+            "all_MiniLM_L12": 0.038511499762535095
         }
     },
-    "83245": {
-        "number": 83245,
-        "title": "[v10.4.x] Docs: update import troubleshoot dashboards links",
+    "86069": {
+        "number": 86069,
+        "title": "CloudMonitoring: Improve legacy query migrations",
         "scores": {
-            "all_MiniLM_L12": 0.030715057626366615
+            "all_MiniLM_L12": 0.038432247936725616
         }
     },
-    "84220": {
-        "number": 84220,
-        "title": "[v10.4.x] Docs: fix broken link",
+    "87648": {
+        "number": 87648,
+        "title": "[v11.0.x] CloudMonitoring: Improve legacy query migrations",
         "scores": {
-            "all_MiniLM_L12": 0.030545011162757874
+            "all_MiniLM_L12": 0.03764677047729492
         }
     },
-    "84103": {
-        "number": 84103,
-        "title": "Docs: fix broken link",
+    "86241": {
+        "number": 86241,
+        "title": "[v11.0.x] docs: add thresholds play link",
         "scores": {
-            "all_MiniLM_L12": 0.02955772913992405
+            "all_MiniLM_L12": 0.03743012249469757
         }
     },
-    "83621": {
-        "number": 83621,
-        "title": "Fix typos",
+    "86194": {
+        "number": 86194,
+        "title": "[v11.0.x] Changelog: Updated changelog for 9.5.18",
         "scores": {
-            "all_MiniLM_L12": 0.028298482298851013
+            "all_MiniLM_L12": 0.03706397861242294
         }
     },
-    "80390": {
-        "number": 80390,
-        "title": "Docs/grafana helm",
+    "86353": {
+        "number": 86353,
+        "title": "[v11.0.x] Loki: Fix test flake",
         "scores": {
-            "all_MiniLM_L12": 0.028152815997600555
+            "all_MiniLM_L12": 0.037021830677986145
         }
     },
-    "83838": {
-        "number": 83838,
-        "title": "[v10.4.x] alerting:clarify silence preview",
+    "85340": {
+        "number": 85340,
+        "title": "Docs: Add capture_timeout option",
         "scores": {
-            "all_MiniLM_L12": 0.027454936876893044
+            "all_MiniLM_L12": 0.036505214869976044
         }
     },
-    "84227": {
-        "number": 84227,
-        "title": "docs: update angular deprecation notice",
+    "86335": {
+        "number": 86335,
+        "title": "[v11.0.x] Update dependency @grafana/aws-sdk to v0.3.3",
         "scores": {
-            "all_MiniLM_L12": 0.026914995163679123
+            "all_MiniLM_L12": 0.036379702389240265
         }
     },
-    "83400": {
-        "number": 83400,
-        "title": "InfluxDB: Fix escaping template variable when it was used in parentheses",
+    "87154": {
+        "number": 87154,
+        "title": "[v11.0.x] Docs: Add thresholds shared content",
         "scores": {
-            "all_MiniLM_L12": 0.026901906356215477
+            "all_MiniLM_L12": 0.03637506067752838
         }
     },
-    "83754": {
-        "number": 83754,
-        "title": "alerting:clarify silence preview",
+    "86390": {
+        "number": 86390,
+        "title": "Docs: change availability to public preview for v11",
         "scores": {
-            "all_MiniLM_L12": 0.026575550436973572
+            "all_MiniLM_L12": 0.035981886088848114
         }
     },
-    "83186": {
-        "number": 83186,
-        "title": "[v10.4.x] Alerting: Protect possible undefined",
+    "86553": {
+        "number": 86553,
+        "title": "Docs: add tooltips shared content",
         "scores": {
-            "all_MiniLM_L12": 0.02576928772032261
+            "all_MiniLM_L12": 0.03553292900323868
         }
     },
-    "83946": {
-        "number": 83946,
-        "title": "Docs: fix commented out Slack team names",
+    "86687": {
+        "number": 86687,
+        "title": "DashboardScene: Fixes issue with editing panels that uses instanceState",
         "scores": {
-            "all_MiniLM_L12": 0.02527904137969017
+            "all_MiniLM_L12": 0.03528433293104172
         }
     },
-    "84093": {
-        "number": 84093,
-        "title": "[v10.4.x] docs: adds alt text to images where missing",
+    "87197": {
+        "number": 87197,
+        "title": "Docs: add field overrides shared content",
         "scores": {
-            "all_MiniLM_L12": 0.02228390797972679
+            "all_MiniLM_L12": 0.03524772822856903
         }
     },
-    "84344": {
-        "number": 84344,
-        "title": "[v10.4.x] SSO: fix mergeSettings() in case the DB contains empty URLs",
+    "86630": {
+        "number": 86630,
+        "title": "[v11.0.x] Docs: Update example docs for `rename by regex`",
         "scores": {
-            "all_MiniLM_L12": 0.02171230874955654
+            "all_MiniLM_L12": 0.03489992022514343
         }
     },
-    "83773": {
-        "number": 83773,
-        "title": "Alerting docs: update the Terraform Provision guide",
+    "87531": {
+        "number": 87531,
+        "title": "Sql Expressions: use display name for sql tables (#87530)",
         "scores": {
-            "all_MiniLM_L12": 0.020840317010879517
+            "all_MiniLM_L12": 0.0348779633641243
         }
     },
-    "84028": {
-        "number": 84028,
-        "title": "docs: adds alt text to images where missing",
+    "85311": {
+        "number": 85311,
+        "title": "Docs:  added note to RBAC doc from support escalation",
         "scores": {
-            "all_MiniLM_L12": 0.020508043467998505
+            "all_MiniLM_L12": 0.03471219539642334
         }
     },
-    "83404": {
-        "number": 83404,
-        "title": "[v10.4.x] Annotations: Improve query performance when using dashboard filter",
+    "87374": {
+        "number": 87374,
+        "title": "[v11.0.x] Docs:  added note to RBAC doc from support escalation",
         "scores": {
-            "all_MiniLM_L12": 0.019380461424589157
+            "all_MiniLM_L12": 0.03459902107715607
         }
     },
-    "83974": {
-        "number": 83974,
-        "title": "Docs: comment youtube videos back in",
+    "86053": {
+        "number": 86053,
+        "title": "docs: update candlestick visualization",
         "scores": {
-            "all_MiniLM_L12": 0.019112640991806984
+            "all_MiniLM_L12": 0.03332361578941345
         }
     },
-    "83429": {
-        "number": 83429,
-        "title": "[v10.4.x] Docs/grafana helm",
+    "86836": {
+        "number": 86836,
+        "title": "[v11.0.x] DashboardScene: Measure and report scene load time",
         "scores": {
-            "all_MiniLM_L12": 0.01787538453936577
+            "all_MiniLM_L12": 0.0330677255988121
         }
     },
-    "83586": {
-        "number": 83586,
-        "title": "docs: link annotation queries video to documentation",
+    "87530": {
+        "number": 87530,
+        "title": "Sql Expressions: use display name for sql tables",
         "scores": {
-            "all_MiniLM_L12": 0.01774599216878414
+            "all_MiniLM_L12": 0.033060554414987564
         }
     },
-    "83112": {
-        "number": 83112,
-        "title": "Annotations: Improve query performance when using dashboard filter",
+    "86294": {
+        "number": 86294,
+        "title": "[v11.0.x] Update dependency @grafana/faro-web-sdk to v1.5.0",
         "scores": {
-            "all_MiniLM_L12": 0.01580362394452095
+            "all_MiniLM_L12": 0.03180793300271034
         }
     },
-    "83597": {
-        "number": 83597,
-        "title": "[v10.4.x] Elasticsearch: Fix adhoc filters not applied in frontend mode",
+    "86355": {
+        "number": 86355,
+        "title": "[v11.0.x] Explore: Nested Content Outline",
         "scores": {
-            "all_MiniLM_L12": 0.012302031740546227
+            "all_MiniLM_L12": 0.03102721832692623
         }
     },
-    "83723": {
-        "number": 83723,
-        "title": "[v10.4.x] CI: Bump `alpine` image version",
+    "86198": {
+        "number": 86198,
+        "title": "[v11.0.x] Changelog: Updated changelog for 10.1.9",
         "scores": {
-            "all_MiniLM_L12": 0.01197046134620905
+            "all_MiniLM_L12": 0.03054036758840084
         }
     },
-    "84685": {
-        "number": 84685,
-        "title": "[v10.4.x] Elasticsearch: Fix legend for alerting, expressions and previously frontend queries",
+    "86725": {
+        "number": 86725,
+        "title": "Docs: add snapshot deletion info",
         "scores": {
-            "all_MiniLM_L12": 0.011482101865112782
+            "all_MiniLM_L12": 0.02972165308892727
         }
     },
-    "84452": {
-        "number": 84452,
-        "title": "[v10.4.x] Chore: Bump update checker interval to 1 day",
+    "86514": {
+        "number": 86514,
+        "title": "[v11.0.x] docs: update heatmap visualization and add play links",
         "scores": {
-            "all_MiniLM_L12": 0.011297957971692085
+            "all_MiniLM_L12": 0.029657032340765
         }
     },
-    "84533": {
-        "number": 84533,
-        "title": "Visualizations-TablePanel: added YouTube link to Table Panel",
+    "86701": {
+        "number": 86701,
+        "title": "[v11.0.x] docs: update candlestick visualization",
         "scores": {
-            "all_MiniLM_L12": 0.010736094787716866
+            "all_MiniLM_L12": 0.029309961944818497
         }
     },
-    "83376": {
-        "number": 83376,
-        "title": "Alerting docs: update Alerting Provisioning",
+    "86685": {
+        "number": 86685,
+        "title": "[v11.0.x] Dashboards: Check if dashboard.meta is undefined, if undefined handle redirect in dashboard scene.",
         "scores": {
-            "all_MiniLM_L12": 0.010248012840747833
+            "all_MiniLM_L12": 0.029013849794864655
         }
     },
-    "84584": {
-        "number": 84584,
-        "title": "Alerting: Fix optional fields requiring validation rule",
+    "85926": {
+        "number": 85926,
+        "title": "docs: update heatmap visualization and add play links",
         "scores": {
-            "all_MiniLM_L12": 0.010059915482997894
+            "all_MiniLM_L12": 0.028847593814134598
         }
     },
-    "83628": {
-        "number": 83628,
-        "title": "[v10.4.x] Anonymous: Add docs for anon users charged on enterprise",
+    "86824": {
+        "number": 86824,
+        "title": "[v11.0.x] DashboardScene: Fixes issue with editing panels that uses instanceState",
         "scores": {
-            "all_MiniLM_L12": 0.01005731150507927
+            "all_MiniLM_L12": 0.0285023283213377
         }
     },
-    "84050": {
-        "number": 84050,
-        "title": "[v10.4.x] Alerting docs: update the supported export template functionality",
+    "86468": {
+        "number": 86468,
+        "title": "[v11.0.x] VizTooltip: Fix heatmap mode All",
         "scores": {
-            "all_MiniLM_L12": 0.009870050475001335
+            "all_MiniLM_L12": 0.02848024107515812
         }
     },
-    "84102": {
-        "number": 84102,
-        "title": "Docs: add missing alt text",
+    "85159": {
+        "number": 85159,
+        "title": "Changelog: Updated changelog for 9.5.18",
         "scores": {
-            "all_MiniLM_L12": 0.007351316511631012
+            "all_MiniLM_L12": 0.02847827970981598
         }
     },
-    "84398": {
-        "number": 84398,
-        "title": "Loki: Fix null pointer exception in case request returned an error",
+    "85171": {
+        "number": 85171,
+        "title": "Changelog: Updated changelog for 10.2.6",
         "scores": {
-            "all_MiniLM_L12": 0.00671622809022665
+            "all_MiniLM_L12": 0.027967888861894608
         }
     },
-    "84401": {
-        "number": 84401,
-        "title": "[v10.4.x] Loki: Fix null pointer exception in case request returned an error",
+    "86798": {
+        "number": 86798,
+        "title": "[v11.0.x] Chore: Fix CVE-2024-22363",
         "scores": {
-            "all_MiniLM_L12": 0.005185391753911972
+            "all_MiniLM_L12": 0.027821801602840424
         }
     },
-    "83816": {
-        "number": 83816,
-        "title": "Alerting docs: update the supported export template functionality",
+    "87297": {
+        "number": 87297,
+        "title": "[v11.0.x] InfluxDB: Support cardinality queries with backend mode",
         "scores": {
-            "all_MiniLM_L12": 0.003343174234032631
+            "all_MiniLM_L12": 0.02734067291021347
         }
     },
-    "83655": {
-        "number": 83655,
-        "title": "[v10.4.x] Docs: restructure Configure panel options",
+    "86263": {
+        "number": 86263,
+        "title": "[v11.0.x] Dashboard: Migration -  Add public dashboard tag in the nav bar",
         "scores": {
-            "all_MiniLM_L12": 0.0033124657347798347
+            "all_MiniLM_L12": 0.02715187892317772
         }
     },
-    "83459": {
-        "number": 83459,
-        "title": "Alerting/Annotations: Prevent panics from composite store jobs from crashing Grafana",
+    "87263": {
+        "number": 87263,
+        "title": "fix: sql expressions parser with join",
         "scores": {
-            "all_MiniLM_L12": 0.0022348319180309772
+            "all_MiniLM_L12": 0.026762347668409348
         }
     },
-    "84169": {
-        "number": 84169,
-        "title": "Auth: Only call rotate token if we have a session expiry cookie",
+    "86306": {
+        "number": 86306,
+        "title": "[v11.0.x] Update dependency @grafana/faro-web-sdk to v1.5.0",
         "scores": {
-            "all_MiniLM_L12": -0.0018915832042694092
+            "all_MiniLM_L12": 0.026715191081166267
         }
     },
-    "83664": {
-        "number": 83664,
-        "title": "[v10.4.x] Update angular-plugins.md",
+    "86297": {
+        "number": 86297,
+        "title": "[v11.0.x] Pa11y: Decrease error thresholds for PRs",
         "scores": {
-            "all_MiniLM_L12": -0.0019673965871334076
+            "all_MiniLM_L12": 0.025960635393857956
         }
     },
-    "83128": {
-        "number": 83128,
-        "title": "Alerting: Protect possible undefined",
+    "86333": {
+        "number": 86333,
+        "title": "[v11.0.x] Tempo: Show <1ms when durationMs not in response",
         "scores": {
-            "all_MiniLM_L12": -0.0020742295309901237
+            "all_MiniLM_L12": 0.025631602853536606
         }
     },
-    "84823": {
-        "number": 84823,
-        "title": "[v10.4.x] alerting docs: slack integration",
+    "86548": {
+        "number": 86548,
+        "title": "[v11.0.x] NodeGraph: Fix invisible arrow tips in Editor",
         "scores": {
-            "all_MiniLM_L12": -0.004060773178935051
+            "all_MiniLM_L12": 0.02513694390654564
         }
     },
-    "84485": {
-        "number": 84485,
-        "title": "Elasticsearch: Fix legend for alerting, expressions and previously frontend queries",
+    "85356": {
+        "number": 85356,
+        "title": "Loki: Fix test flake",
         "scores": {
-            "all_MiniLM_L12": -0.006496122106909752
+            "all_MiniLM_L12": 0.02497759647667408
         }
     },
-    "83635": {
-        "number": 83635,
-        "title": "Update angular-plugins.md",
+    "86338": {
+        "number": 86338,
+        "title": "[v11.0.x] Update dependency webpack-assets-manifest to v5.2.1",
         "scores": {
-            "all_MiniLM_L12": -0.007941063493490219
+            "all_MiniLM_L12": 0.02323441207408905
         }
     },
-    "84596": {
-        "number": 84596,
-        "title": "[v10.4.x] Alerting/Annotations: Prevent panics from composite store jobs from crashing Grafana",
+    "86255": {
+        "number": 86255,
+        "title": "[v11.0.x] DashboardScene: Fixes saving dashboard with angular panels ",
         "scores": {
-            "all_MiniLM_L12": -0.008408372290432453
+            "all_MiniLM_L12": 0.0227922722697258
         }
     },
-    "83123": {
-        "number": 83123,
-        "title": "Logs Panel: Add option extra UI functionality for log context",
+    "86098": {
+        "number": 86098,
+        "title": "DashboardScene: Fixes saving dashboard with angular panels ",
         "scores": {
-            "all_MiniLM_L12": -0.009039655327796936
+            "all_MiniLM_L12": 0.02213212102651596
         }
     },
-    "83229": {
-        "number": 83229,
-        "title": "Chore: Query oauth info from a new instance",
+    "87009": {
+        "number": 87009,
+        "title": "Docs: Add thresholds shared content",
         "scores": {
-            "all_MiniLM_L12": -0.009937389753758907
+            "all_MiniLM_L12": 0.02190542221069336
         }
     },
-    "83716": {
-        "number": 83716,
-        "title": "CI: Bump `alpine` image version",
+    "86350": {
+        "number": 86350,
+        "title": "[v11.0.x] CloudMigration:  Add service to list all migrations",
         "scores": {
-            "all_MiniLM_L12": -0.011180547997355461
+            "all_MiniLM_L12": 0.02166512794792652
         }
     },
-    "83949": {
-        "number": 83949,
-        "title": "[v10.4.x] Docs: fix commented out Slack team names",
+    "87632": {
+        "number": 87632,
+        "title": "[v11.0.x] Azure data sources: Set selected config type before save",
         "scores": {
-            "all_MiniLM_L12": -0.011478545144200325
+            "all_MiniLM_L12": 0.021455220878124237
         }
     },
-    "83940": {
-        "number": 83940,
-        "title": "Alerting: Add \"Keep Last State\" backend functionality",
+    "86358": {
+        "number": 86358,
+        "title": "[v11.0.x] Update dependency @swc/helpers to v0.5.8",
         "scores": {
-            "all_MiniLM_L12": -0.015482797287404537
+            "all_MiniLM_L12": 0.021228287369012833
         }
     },
-    "84033": {
-        "number": 84033,
-        "title": "Chore: Bump docker image versions",
+    "87249": {
+        "number": 87249,
+        "title": "[v11.0.x] Select: Fixes issue preserving search term (input) when selecting a value",
         "scores": {
-            "all_MiniLM_L12": -0.0172426700592041
+            "all_MiniLM_L12": 0.02071002684533596
         }
     },
-    "83751": {
-        "number": 83751,
-        "title": "[v10.4.x] LDAP: Fix LDAP users authenticated via auth proxy not being able to use LDAP active sync",
+    "86275": {
+        "number": 86275,
+        "title": "[v11.0.x] Update dependency @floating-ui/react to v0.26.10",
         "scores": {
-            "all_MiniLM_L12": -0.01805426925420761
+            "all_MiniLM_L12": 0.020208444446325302
         }
     },
-    "82890": {
-        "number": 82890,
-        "title": "Alerting: Fix dashboard nav drawers disappearing",
+    "86356": {
+        "number": 86356,
+        "title": "[v11.0.x] Panel: Description display event is reported multiple times",
         "scores": {
-            "all_MiniLM_L12": -0.01822064071893692
+            "all_MiniLM_L12": 0.01886696182191372
         }
     },
-    "84580": {
-        "number": 84580,
-        "title": "[v10.4.x] Alerting docs: Fix broken links in TF Provisioning page",
+    "86291": {
+        "number": 86291,
+        "title": "[v11.0.x] Update dependency nanoid to v5.0.6",
         "scores": {
-            "all_MiniLM_L12": -0.018518220633268356
+            "all_MiniLM_L12": 0.018775224685668945
         }
     },
-    "83892": {
-        "number": 83892,
-        "title": "Postgres: Allow disabling SNI on SSL-enabled connections",
+    "86301": {
+        "number": 86301,
+        "title": "[v11.0.x] Update dependency diff to v5.2.0",
         "scores": {
-            "all_MiniLM_L12": -0.019584713503718376
+            "all_MiniLM_L12": 0.018394628539681435
         }
     },
-    "84424": {
-        "number": 84424,
-        "title": "[v10.4.x] Alerting docs: document HTTP API to create templates",
+    "85243": {
+        "number": 85243,
+        "title": "Update dependency date-fns to v3.6.0",
         "scores": {
-            "all_MiniLM_L12": -0.019894223660230637
+            "all_MiniLM_L12": 0.018322858959436417
         }
     },
-    "82936": {
-        "number": 82936,
-        "title": "remove oss from security config docs",
+    "86268": {
+        "number": 86268,
+        "title": "[v11.0.x] Chore: InfluxQL stream parser improvements",
         "scores": {
-            "all_MiniLM_L12": -0.021785352379083633
+            "all_MiniLM_L12": 0.018272431567311287
         }
     },
-    "83129": {
-        "number": 83129,
-        "title": "[v10.4.x] Logs Panel: Add option extra UI functionality for log context",
+    "85163": {
+        "number": 85163,
+        "title": "Changelog: Updated changelog for 10.0.13",
         "scores": {
-            "all_MiniLM_L12": -0.02230006642639637
+            "all_MiniLM_L12": 0.018031302839517593
         }
     },
-    "83626": {
-        "number": 83626,
-        "title": "Anonymous: Add docs for anon users charged on enterprise",
+    "86329": {
+        "number": 86329,
+        "title": "[v11.0.x] ci: Stop running ephemeral instances workflow when not needed",
         "scores": {
-            "all_MiniLM_L12": -0.025299057364463806
+            "all_MiniLM_L12": 0.01629200391471386
         }
     },
-    "84595": {
-        "number": 84595,
-        "title": "[v10.4.x] Alerting: Fix optional fields requiring validation rule",
+    "86843": {
+        "number": 86843,
+        "title": "DataTrails: Exploring alternatives to history issues",
         "scores": {
-            "all_MiniLM_L12": -0.02543681301176548
+            "all_MiniLM_L12": 0.015737459063529968
         }
     },
-    "83287": {
-        "number": 83287,
-        "title": "[v10.4.x] AuthProxy: Invalidate previous cached item for user when changes are made to any header",
+    "87468": {
+        "number": 87468,
+        "title": "[v11.0.x] Provisioning: Look up provisioned folders by UID when possible",
         "scores": {
-            "all_MiniLM_L12": -0.025461841374635696
+            "all_MiniLM_L12": 0.015402702614665031
         }
     },
-    "83205": {
-        "number": 83205,
-        "title": "[v10.4.x] Alerting: Fix dashboard nav drawers disappearing",
+    "87196": {
+        "number": 87196,
+        "title": "fix: sql expressions - sql parser table name case",
         "scores": {
-            "all_MiniLM_L12": -0.02695775218307972
+            "all_MiniLM_L12": 0.014725470915436745
         }
     },
-    "84055": {
-        "number": 84055,
-        "title": "Alerting docs: document HTTP API to create templates",
+    "86293": {
+        "number": 86293,
+        "title": "[v11.0.x] Update dependency msw to v2.2.12",
         "scores": {
-            "all_MiniLM_L12": -0.028122954070568085
+            "all_MiniLM_L12": 0.014703869819641113
         }
     },
-    "83791": {
-        "number": 83791,
-        "title": "[v10.4.x] Fix: Cache busting of plugins module.js file",
+    "86934": {
+        "number": 86934,
+        "title": "[v11.0.x] Canvas: Ensure tangency for first segment",
         "scores": {
-            "all_MiniLM_L12": -0.029720447957515717
+            "all_MiniLM_L12": 0.014501599594950676
         }
     },
-    "84404": {
-        "number": 84404,
-        "title": "Chore: Bump update checker interval to 1 day",
+    "85077": {
+        "number": 85077,
+        "title": "Prometheus: Create jsonschema spec",
         "scores": {
-            "all_MiniLM_L12": -0.03325257450342178
+            "all_MiniLM_L12": 0.014113316312432289
         }
     },
-    "84345": {
-        "number": 84345,
-        "title": "[v10.4.x] Alerting: Improve alert list panel and alert rules toolbar permissions handling",
+    "86199": {
+        "number": 86199,
+        "title": "[v11.0.x] Get started with alerting fixes for publish",
         "scores": {
-            "all_MiniLM_L12": -0.03326673060655594
+            "all_MiniLM_L12": 0.014091513119637966
         }
     },
-    "84406": {
-        "number": 84406,
-        "title": "[v10.4.x] Alerting: Add \"Keep Last State\" backend functionality",
+    "86325": {
+        "number": 86325,
+        "title": "[v11.0.x] Update dependency stylelint to v16.3.1",
         "scores": {
-            "all_MiniLM_L12": -0.034428711980581284
+            "all_MiniLM_L12": 0.013934094458818436
         }
     },
-    "84022": {
-        "number": 84022,
-        "title": "[v10.4.x] disable_sanitize_html update",
+    "86342": {
+        "number": 86342,
+        "title": "Change folder breadcrumb on folder change in general settings",
         "scores": {
-            "all_MiniLM_L12": -0.03490065783262253
+            "all_MiniLM_L12": 0.013261198997497559
         }
     },
-    "83726": {
-        "number": 83726,
-        "title": "[v10.4.x] Chore: Improve domain validation for Google OAuth - Backport 83229 to v10.4.x",
+    "87277": {
+        "number": 87277,
+        "title": "sql expressions: improve parser",
         "scores": {
-            "all_MiniLM_L12": -0.03607562184333801
+            "all_MiniLM_L12": 0.012757958844304085
         }
     },
-    "81445": {
-        "number": 81445,
-        "title": "AuthProxy: Invalidate previous cached item for user when changes are made to any header",
+    "86352": {
+        "number": 86352,
+        "title": "[v11.0.x] Revert \"Update ephemeral instances workflow to get version from package.json\"",
         "scores": {
-            "all_MiniLM_L12": -0.03683680295944214
+            "all_MiniLM_L12": 0.012712204828858376
         }
     },
-    "83715": {
-        "number": 83715,
-        "title": "LDAP: Fix LDAP users authenticated via auth proxy not being able to use LDAP active sync",
+    "87062": {
+        "number": 87062,
+        "title": "Docs: Update Explore Metrics doc based on feedback",
         "scores": {
-            "all_MiniLM_L12": -0.037127524614334106
+            "all_MiniLM_L12": 0.012692522257566452
         }
     },
-    "84249": {
-        "number": 84249,
-        "title": "[v10.4.x] Postgres: Allow disabling SNI on SSL-enabled connections",
+    "86295": {
+        "number": 86295,
+        "title": "[v11.0.x] Update dependency @grafana/plugin-e2e to ^0.25.0",
         "scores": {
-            "all_MiniLM_L12": -0.04016637057065964
+            "all_MiniLM_L12": 0.012554436922073364
         }
     },
-    "83879": {
-        "number": 83879,
-        "title": "GenAI: Update the component only when the response is fully generated",
+    "87025": {
+        "number": 87025,
+        "title": "[v11.0.x] DashboardScene: Fixes issue with dashboard links and variables",
         "scores": {
-            "all_MiniLM_L12": -0.04039154201745987
+            "all_MiniLM_L12": 0.01219659298658371
         }
     },
-    "83221": {
-        "number": 83221,
-        "title": "Plugins: Angular deprecation: Fix AngularDeprecationNotice not being rendered on first page load",
+    "86270": {
+        "number": 86270,
+        "title": "[v11.0.x] Update dependency msw to v2.2.11",
         "scores": {
-            "all_MiniLM_L12": -0.042856767773628235
+            "all_MiniLM_L12": 0.012116003781557083
         }
     },
-    "83326": {
-        "number": 83326,
-        "title": "[v10.4.x] remove oss from security config docs",
+    "86328": {
+        "number": 86328,
+        "title": "[v11.0.x] Update dependency msw to v2.2.13",
         "scores": {
-            "all_MiniLM_L12": -0.04493149369955063
+            "all_MiniLM_L12": 0.01197787281125784
         }
     },
-    "83895": {
-        "number": 83895,
-        "title": "[v10.4.x] GenAI: Update the component only when the response is fully generated",
+    "86209": {
+        "number": 86209,
+        "title": "docs: added logs panel play link; added dedup options, reformatted fig",
         "scores": {
-            "all_MiniLM_L12": -0.05053810775279999
+            "all_MiniLM_L12": 0.011861761100590229
         }
     },
-    "83954": {
-        "number": 83954,
-        "title": "Alerting: Improve alert list panel and alert rules toolbar permissions handling",
+    "86392": {
+        "number": 86392,
+        "title": "[v11.0.x] Docs: change availability to public preview for v11",
         "scores": {
-            "all_MiniLM_L12": -0.05281755328178406
+            "all_MiniLM_L12": 0.011774436570703983
         }
     },
-    "83763": {
-        "number": 83763,
-        "title": "Fix: Cache busting of plugins module.js file",
+    "86212": {
+        "number": 86212,
+        "title": "docs: add thresholds play link",
         "scores": {
-            "all_MiniLM_L12": -0.05292762443423271
+            "all_MiniLM_L12": 0.011528152972459793
         }
     },
-    "83526": {
-        "number": 83526,
-        "title": "[v10.4.x] Plugins: Angular deprecation: Fix AngularDeprecationNotice not being rendered on first page load",
+    "87237": {
+        "number": 87237,
+        "title": "[v11.0.x] Dashboard: POC to run existing e2e with `dashboardScene` feature toggle",
         "scores": {
-            "all_MiniLM_L12": -0.056697312742471695
+            "all_MiniLM_L12": 0.011517063714563847
         }
     },
-    "83643": {
-        "number": 83643,
-        "title": "disable_sanitize_html update",
+    "87079": {
+        "number": 87079,
+        "title": "Alerting: Also fix HCL field name for MuteTimeIntervals",
         "scores": {
-            "all_MiniLM_L12": -0.06049937382340431
+            "all_MiniLM_L12": 0.011472239159047604
         }
     },
-    "84065": {
-        "number": 84065,
-        "title": "[v10.4.x] Chore: Bump docker image versions",
+    "85326": {
+        "number": 85326,
+        "title": "Update dependency @grafana/aws-sdk to v0.3.3",
         "scores": {
-            "all_MiniLM_L12": -0.0639370009303093
+            "all_MiniLM_L12": 0.010774010792374611
+        }
+    },
+    "86310": {
+        "number": 86310,
+        "title": "[v11.0.x] Docs: Update broken links to grafana play",
+        "scores": {
+            "all_MiniLM_L12": 0.010619854554533958
+        }
+    },
+    "86495": {
+        "number": 86495,
+        "title": "[v11.0.x] InfluxDB: Fix interpolation for floating point number values",
+        "scores": {
+            "all_MiniLM_L12": 0.01032969355583191
+        }
+    },
+    "87195": {
+        "number": 87195,
+        "title": "Scenes/Dashboard: Fix issue where changes to panel in row weren't detected in panel edit",
+        "scores": {
+            "all_MiniLM_L12": 0.01025392860174179
+        }
+    },
+    "87465": {
+        "number": 87465,
+        "title": "Provisioning: Look up provisioned folders by UID when possible",
+        "scores": {
+            "all_MiniLM_L12": 0.00987841933965683
+        }
+    },
+    "86344": {
+        "number": 86344,
+        "title": "[v11.0.x] Update dependency webpack to v5.91.0",
+        "scores": {
+            "all_MiniLM_L12": 0.00890720821917057
+        }
+    },
+    "86552": {
+        "number": 86552,
+        "title": "Alerting: Fix simplified routing group by override",
+        "scores": {
+            "all_MiniLM_L12": 0.008854412473738194
+        }
+    },
+    "86517": {
+        "number": 86517,
+        "title": "NodeGraph: Fix invisible arrow tips in Editor",
+        "scores": {
+            "all_MiniLM_L12": 0.008331015706062317
+        }
+    },
+    "87199": {
+        "number": 87199,
+        "title": "Docs: add standard options shared content",
+        "scores": {
+            "all_MiniLM_L12": 0.008330494165420532
+        }
+    },
+    "85421": {
+        "number": 85421,
+        "title": "Canvas: Match connection anchor points to elements",
+        "scores": {
+            "all_MiniLM_L12": 0.008192088454961777
+        }
+    },
+    "86238": {
+        "number": 86238,
+        "title": "[v11.0.x] docs: added logs panel play link; added dedup options, reformatted fig",
+        "scores": {
+            "all_MiniLM_L12": 0.008146528154611588
+        }
+    },
+    "85167": {
+        "number": 85167,
+        "title": "Changelog: Updated changelog for 10.1.9",
+        "scores": {
+            "all_MiniLM_L12": 0.008127748966217041
+        }
+    },
+    "86197": {
+        "number": 86197,
+        "title": "[v11.0.x] Prometheus: Create jsonschema spec",
+        "scores": {
+            "all_MiniLM_L12": 0.008086394518613815
+        }
+    },
+    "86996": {
+        "number": 86996,
+        "title": "Docs: Add value mappings shared content",
+        "scores": {
+            "all_MiniLM_L12": 0.007932893931865692
+        }
+    },
+    "86591": {
+        "number": 86591,
+        "title": "[v11.0.x] IntervalVariableEditor: Do not add current value as interval prop",
+        "scores": {
+            "all_MiniLM_L12": 0.007751673460006714
+        }
+    },
+    "86274": {
+        "number": 86274,
+        "title": "[v11.0.x] Update dependency @glideapps/glide-data-grid to v6.0.3",
+        "scores": {
+            "all_MiniLM_L12": 0.007321183569729328
+        }
+    },
+    "85269": {
+        "number": 85269,
+        "title": "[v11.0.x] LLMApp: Skip 404 requests to know if the plugin exists",
+        "scores": {
+            "all_MiniLM_L12": 0.0069319577887654305
+        }
+    },
+    "87074": {
+        "number": 87074,
+        "title": "[v11.0.x] Docs: Update Explore Metrics doc based on feedback",
+        "scores": {
+            "all_MiniLM_L12": 0.006851690821349621
+        }
+    },
+    "86327": {
+        "number": 86327,
+        "title": "[v11.0.x] Update dependency @types/react to v18.2.73",
+        "scores": {
+            "all_MiniLM_L12": 0.00628610560670495
+        }
+    },
+    "86651": {
+        "number": 86651,
+        "title": "Alerting: Fix max_alerts field handling",
+        "scores": {
+            "all_MiniLM_L12": 0.005878271535038948
+        }
+    },
+    "85492": {
+        "number": 85492,
+        "title": "Canvas: Render selected connection last",
+        "scores": {
+            "all_MiniLM_L12": 0.00567181222140789
+        }
+    },
+    "86910": {
+        "number": 86910,
+        "title": "DashboardScene: Fixes issue with dashboard links and variables",
+        "scores": {
+            "all_MiniLM_L12": 0.005656789056956768
+        }
+    },
+    "85224": {
+        "number": 85224,
+        "title": "Graphite: second function as another function argument parsing error fix",
+        "scores": {
+            "all_MiniLM_L12": 0.005052473396062851
+        }
+    },
+    "86399": {
+        "number": 86399,
+        "title": "[v11.0.x] datatrails: track user interactions",
+        "scores": {
+            "all_MiniLM_L12": 0.004440709948539734
+        }
+    },
+    "86204": {
+        "number": 86204,
+        "title": "Dashboard: Migration -  Add public dashboard tag in the nav bar",
+        "scores": {
+            "all_MiniLM_L12": 0.00430678203701973
+        }
+    },
+    "86881": {
+        "number": 86881,
+        "title": "[v11.0.x] Add onClick behaviour to links to new tooltips",
+        "scores": {
+            "all_MiniLM_L12": 0.003928063437342644
+        }
+    },
+    "87345": {
+        "number": 87345,
+        "title": "[v11.0.x] Cloudwatch: Update grafana-aws-sdk to fix sts endpoints",
+        "scores": {
+            "all_MiniLM_L12": 0.0037802523002028465
+        }
+    },
+    "86409": {
+        "number": 86409,
+        "title": "[v11.0.x] DashboardScene: Move add library panel view from grid item to drawer",
+        "scores": {
+            "all_MiniLM_L12": 0.003676963970065117
+        }
+    },
+    "86283": {
+        "number": 86283,
+        "title": "[v11.0.x] Update dependency @types/react to v18.2.72",
+        "scores": {
+            "all_MiniLM_L12": 0.0033030379563570023
+        }
+    },
+    "86315": {
+        "number": 86315,
+        "title": "[v11.0.x] Update dependency react-hook-form to v7.51.2",
+        "scores": {
+            "all_MiniLM_L12": 0.003137364983558655
+        }
+    },
+    "85308": {
+        "number": 85308,
+        "title": "CloudMigration:  Add service to list all migrations",
+        "scores": {
+            "all_MiniLM_L12": 0.0022079553455114365
+        }
+    },
+    "86384": {
+        "number": 86384,
+        "title": "[v11.0.x] Docs: add panels & visualizations landing page",
+        "scores": {
+            "all_MiniLM_L12": 0.0020922161638736725
+        }
+    },
+    "86267": {
+        "number": 86267,
+        "title": "DashboardScene: Measure and report scene load time",
+        "scores": {
+            "all_MiniLM_L12": 0.0019110115244984627
+        }
+    },
+    "87293": {
+        "number": 87293,
+        "title": "[v11.0.x] Scenes/Dashboard: Fix issue where changes to panel in row weren't detected in panel edit",
+        "scores": {
+            "all_MiniLM_L12": 0.0017079263925552368
+        }
+    },
+    "85181": {
+        "number": 85181,
+        "title": "Update dependency @floating-ui/react to v0.26.10",
+        "scores": {
+            "all_MiniLM_L12": 0.0015849396586418152
+        }
+    },
+    "86276": {
+        "number": 86276,
+        "title": "[v11.0.x] Update dependency @kusto/monaco-kusto to v10.0.18",
+        "scores": {
+            "all_MiniLM_L12": 0.0014848709106445312
+        }
+    },
+    "86348": {
+        "number": 86348,
+        "title": "[v11.0.x] Update dependency yaml to v2.4.1",
+        "scores": {
+            "all_MiniLM_L12": 0.001238856464624405
+        }
+    },
+    "85306": {
+        "number": 85306,
+        "title": "ci: Stop running ephemeral instances workflow when not needed",
+        "scores": {
+            "all_MiniLM_L12": 0.0009461008012294769
+        }
+    },
+    "86233": {
+        "number": 86233,
+        "title": "Docs: Update broken links to grafana play",
+        "scores": {
+            "all_MiniLM_L12": 0.00046206824481487274
+        }
+    },
+    "85305": {
+        "number": 85305,
+        "title": "JWT: Find login and email claims with JMESPATH",
+        "scores": {
+            "all_MiniLM_L12": 3.171199932694435e-05
+        }
+    },
+    "85327": {
+        "number": 85327,
+        "title": "Update dependency @swc/helpers to v0.5.8",
+        "scores": {
+            "all_MiniLM_L12": -0.00040502287447452545
+        }
+    },
+    "87075": {
+        "number": 87075,
+        "title": "[v11.0.x] Alerting: Use expected field name for receiver in HCL export",
+        "scores": {
+            "all_MiniLM_L12": -0.0005675386637449265
+        }
+    },
+    "84974": {
+        "number": 84974,
+        "title": "Add onClick behaviour to links to new tooltips",
+        "scores": {
+            "all_MiniLM_L12": -0.0006409101188182831
+        }
+    },
+    "85234": {
+        "number": 85234,
+        "title": "Update dependency @grafana/faro-web-sdk to v1.5.0",
+        "scores": {
+            "all_MiniLM_L12": -0.000710219144821167
+        }
+    },
+    "85235": {
+        "number": 85235,
+        "title": "Update dependency @grafana/faro-web-sdk to v1.5.0",
+        "scores": {
+            "all_MiniLM_L12": -0.000710219144821167
+        }
+    },
+    "85205": {
+        "number": 85205,
+        "title": "Update dependency nanoid to v5.0.6",
+        "scores": {
+            "all_MiniLM_L12": -0.0015440471470355988
+        }
+    },
+    "85236": {
+        "number": 85236,
+        "title": "Update dependency @grafana/plugin-e2e to ^0.25.0",
+        "scores": {
+            "all_MiniLM_L12": -0.001987641677260399
+        }
+    },
+    "86366": {
+        "number": 86366,
+        "title": "[v11.0.x] Canvas: Fix SVG items background glitch",
+        "scores": {
+            "all_MiniLM_L12": -0.0020468924194574356
+        }
+    },
+    "86738": {
+        "number": 86738,
+        "title": "Chore: Fix CVE-2024-22363",
+        "scores": {
+            "all_MiniLM_L12": -0.00243401899933815
+        }
+    },
+    "85257": {
+        "number": 85257,
+        "title": "I18n: Download translations from Crowdin",
+        "scores": {
+            "all_MiniLM_L12": -0.002822951413691044
+        }
+    },
+    "83819": {
+        "number": 83819,
+        "title": "Add FolderUID for library elements",
+        "scores": {
+            "all_MiniLM_L12": -0.003009175881743431
+        }
+    },
+    "87073": {
+        "number": 87073,
+        "title": "Chore: Update go-duck dependency to v0.0.18",
+        "scores": {
+            "all_MiniLM_L12": -0.0030277613550424576
+        }
+    },
+    "87205": {
+        "number": 87205,
+        "title": "[v11.0.x] Docs: add field overrides shared content",
+        "scores": {
+            "all_MiniLM_L12": -0.0030845925211906433
+        }
+    },
+    "87313": {
+        "number": 87313,
+        "title": "[v11.0.x] Datatrails: Fix overflow of labels",
+        "scores": {
+            "all_MiniLM_L12": -0.003176674246788025
+        }
+    },
+    "87151": {
+        "number": 87151,
+        "title": "[v11.0.x] XYChart2: Fix tooltip mode",
+        "scores": {
+            "all_MiniLM_L12": -0.003544781357049942
+        }
+    },
+    "81890": {
+        "number": 81890,
+        "title": "Typo fix in User API doc example",
+        "scores": {
+            "all_MiniLM_L12": -0.00397505983710289
+        }
+    },
+    "86726": {
+        "number": 86726,
+        "title": "Docs: Add config guidance for embedding",
+        "scores": {
+            "all_MiniLM_L12": -0.004330698400735855
+        }
+    },
+    "86073": {
+        "number": 86073,
+        "title": "Docs: add panels & visualizations landing page",
+        "scores": {
+            "all_MiniLM_L12": -0.004845384508371353
+        }
+    },
+    "86324": {
+        "number": 86324,
+        "title": "[v11.0.x] Update dependency react-zoom-pan-pinch to v3.4.3",
+        "scores": {
+            "all_MiniLM_L12": -0.004913993179798126
+        }
+    },
+    "85249": {
+        "number": 85249,
+        "title": "Update dependency react-hook-form to v7.51.2",
+        "scores": {
+            "all_MiniLM_L12": -0.005668651312589645
+        }
+    },
+    "86786": {
+        "number": 86786,
+        "title": "Fix home breadcrumbs",
+        "scores": {
+            "all_MiniLM_L12": -0.00575475487858057
+        }
+    },
+    "87472": {
+        "number": 87472,
+        "title": "[v11.0.x] Chore: Upgrade go to 1.21.10",
+        "scores": {
+            "all_MiniLM_L12": -0.0062528639100492
+        }
+    },
+    "86231": {
+        "number": 86231,
+        "title": "[v11.0.x] docs: query data/relative time range override play link",
+        "scores": {
+            "all_MiniLM_L12": -0.006761951372027397
+        }
+    },
+    "87001": {
+        "number": 87001,
+        "title": "[v11.0.x] Dasbhoard scenes: Don't return null when uids are not matching for new dashboards",
+        "scores": {
+            "all_MiniLM_L12": -0.006764870136976242
+        }
+    },
+    "85443": {
+        "number": 85443,
+        "title": "Canvas: Fix division by zero",
+        "scores": {
+            "all_MiniLM_L12": -0.0070819370448589325
+        }
+    },
+    "85267": {
+        "number": 85267,
+        "title": "Tempo: Show <1ms when durationMs not in response",
+        "scores": {
+            "all_MiniLM_L12": -0.00720558688044548
+        }
+    },
+    "85283": {
+        "number": 85283,
+        "title": "Panel: Description display event is reported multiple times",
+        "scores": {
+            "all_MiniLM_L12": -0.007631926331669092
+        }
+    },
+    "86533": {
+        "number": 86533,
+        "title": "[v11.0.x] Docs: Add GeoMaps YouTube Video",
+        "scores": {
+            "all_MiniLM_L12": -0.008096832782030106
+        }
+    },
+    "84598": {
+        "number": 84598,
+        "title": "Dashboard: POC to run existing e2e with `dashboardScene` feature toggle",
+        "scores": {
+            "all_MiniLM_L12": -0.008211052045226097
+        }
+    },
+    "86463": {
+        "number": 86463,
+        "title": "VizTooltip: Fix heatmap mode All",
+        "scores": {
+            "all_MiniLM_L12": -0.00831615924835205
+        }
+    },
+    "86347": {
+        "number": 86347,
+        "title": "[v11.0.x] I18n: Download translations from Crowdin",
+        "scores": {
+            "all_MiniLM_L12": -0.008707037195563316
+        }
+    },
+    "81382": {
+        "number": 81382,
+        "title": "Update dependency @kusto/monaco-kusto to v10",
+        "scores": {
+            "all_MiniLM_L12": -0.008745817467570305
+        }
+    },
+    "86006": {
+        "number": 86006,
+        "title": "Alerting: Fix simplified routes '...' groupBy creating invalid routes",
+        "scores": {
+            "all_MiniLM_L12": -0.009028954431414604
+        }
+    },
+    "85332": {
+        "number": 85332,
+        "title": "Scopes: Create binding per relationship",
+        "scores": {
+            "all_MiniLM_L12": -0.009304691106081009
+        }
+    },
+    "85244": {
+        "number": 85244,
+        "title": "Update dependency diff to v5.2.0",
+        "scores": {
+            "all_MiniLM_L12": -0.009327630512416363
+        }
+    },
+    "86201": {
+        "number": 86201,
+        "title": "[v11.0.x] Update dependency @msagl/parser to v1.1.18",
+        "scores": {
+            "all_MiniLM_L12": -0.009375147521495819
+        }
+    },
+    "87357": {
+        "number": 87357,
+        "title": "[v11.0.x] XY Chart: Prevent crash when deleting a series ",
+        "scores": {
+            "all_MiniLM_L12": -0.009430733509361744
+        }
+    },
+    "86849": {
+        "number": 86849,
+        "title": "[v11.0.x] Fix home breadcrumbs",
+        "scores": {
+            "all_MiniLM_L12": -0.009535154327750206
+        }
+    },
+    "85331": {
+        "number": 85331,
+        "title": "Update dependency webpack-assets-manifest to v5.2.1",
+        "scores": {
+            "all_MiniLM_L12": -0.00994679145514965
+        }
+    },
+    "86767": {
+        "number": 86767,
+        "title": "[v11.0.x] Update `make docs` procedure",
+        "scores": {
+            "all_MiniLM_L12": -0.010103289969265461
+        }
+    },
+    "85284": {
+        "number": 85284,
+        "title": "Scopes: Add Filtering for ScopeDashoardBinding and Update Prometheus for ScopeFilterOperator Changes",
+        "scores": {
+            "all_MiniLM_L12": -0.010446343570947647
+        }
+    },
+    "86290": {
+        "number": 86290,
+        "title": "Fix new dashboard save name validation",
+        "scores": {
+            "all_MiniLM_L12": -0.010697866789996624
+        }
+    },
+    "86632": {
+        "number": 86632,
+        "title": "[v11.0.x] [DOC] Update the traces to profile content based upon SDK updates",
+        "scores": {
+            "all_MiniLM_L12": -0.010729312896728516
+        }
+    },
+    "87207": {
+        "number": 87207,
+        "title": "[v11.0.x] Docs: add standard options shared content",
+        "scores": {
+            "all_MiniLM_L12": -0.0107622891664505
+        }
+    },
+    "86931": {
+        "number": 86931,
+        "title": "[v11.0.x] Canvas: Render selected connection last",
+        "scores": {
+            "all_MiniLM_L12": -0.011484084650874138
+        }
+    },
+    "86475": {
+        "number": 86475,
+        "title": "[v11.0.x] DashboardScene: Fixes minor issue transitioning between dashboards",
+        "scores": {
+            "all_MiniLM_L12": -0.01158272847533226
+        }
+    },
+    "85347": {
+        "number": 85347,
+        "title": "Revert \"Update ephemeral instances workflow to get version from package.json\"",
+        "scores": {
+            "all_MiniLM_L12": -0.011652149260044098
+        }
+    },
+    "87485": {
+        "number": 87485,
+        "title": "[v11.0.x] DashboardScene: Fixes editing transformations after toggling table view",
+        "scores": {
+            "all_MiniLM_L12": -0.011789947748184204
+        }
+    },
+    "86254": {
+        "number": 86254,
+        "title": "[v11.0.x] DashboardScene: Fix empty row repeat issue",
+        "scores": {
+            "all_MiniLM_L12": -0.011791583150625229
+        }
+    },
+    "80688": {
+        "number": 80688,
+        "title": "Explore: Nested Content Outline",
+        "scores": {
+            "all_MiniLM_L12": -0.011968648061156273
+        }
+    },
+    "85178": {
+        "number": 85178,
+        "title": "Pa11y: Decrease error thresholds for PRs",
+        "scores": {
+            "all_MiniLM_L12": -0.011981510557234287
+        }
+    },
+    "87065": {
+        "number": 87065,
+        "title": "Alerting: Use expected field name for receiver in HCL export",
+        "scores": {
+            "all_MiniLM_L12": -0.012005450204014778
+        }
+    },
+    "86262": {
+        "number": 86262,
+        "title": "DashboardScene: Fixes minor issue transitioning between dashboards",
+        "scores": {
+            "all_MiniLM_L12": -0.012061766348779202
+        }
+    },
+    "86316": {
+        "number": 86316,
+        "title": "[v11.0.x] Fix new dashboard save name validation",
+        "scores": {
+            "all_MiniLM_L12": -0.01214379258453846
+        }
+    },
+    "87264": {
+        "number": 87264,
+        "title": "InfluxDB: Support cardinality queries with backend mode",
+        "scores": {
+            "all_MiniLM_L12": -0.012653721496462822
+        }
+    },
+    "87581": {
+        "number": 87581,
+        "title": "[v11.0.x] Canvas: Improve connection vertex logic",
+        "scores": {
+            "all_MiniLM_L12": -0.012899556197226048
+        }
+    },
+    "86674": {
+        "number": 86674,
+        "title": "Dashboards: Check if dashboard.meta is undefined, if undefined handle redirect in dashboard scene.",
+        "scores": {
+            "all_MiniLM_L12": -0.013257515616714954
+        }
+    },
+    "85245": {
+        "number": 85245,
+        "title": "correct a url",
+        "scores": {
+            "all_MiniLM_L12": -0.013613928109407425
+        }
+    },
+    "87227": {
+        "number": 87227,
+        "title": "[v11.0.x] DashboardScene: Remove min height on viz picker scroll container",
+        "scores": {
+            "all_MiniLM_L12": -0.013799361884593964
+        }
+    },
+    "87580": {
+        "number": 87580,
+        "title": "Canvas: Improve connection vertex logic",
+        "scores": {
+            "all_MiniLM_L12": -0.013800162822008133
+        }
+    },
+    "87600": {
+        "number": 87600,
+        "title": "[v11.0.x] Loki: Fix log context when no label types are present",
+        "scores": {
+            "all_MiniLM_L12": -0.013961948454380035
+        }
+    },
+    "86302": {
+        "number": 86302,
+        "title": "[v11.0.x] correct a url",
+        "scores": {
+            "all_MiniLM_L12": -0.01442768331617117
+        }
+    },
+    "86736": {
+        "number": 86736,
+        "title": "[v11.0.x] Docs: add snapshot deletion info",
+        "scores": {
+            "all_MiniLM_L12": -0.014594761654734612
+        }
+    },
+    "85263": {
+        "number": 85263,
+        "title": "Update dependency react-zoom-pan-pinch to v3.4.3",
+        "scores": {
+            "all_MiniLM_L12": -0.015178661793470383
+        }
+    },
+    "86376": {
+        "number": 86376,
+        "title": "[v11.0.x] Alerting: Fix simplified routes '...' groupBy creating invalid routes",
+        "scores": {
+            "all_MiniLM_L12": -0.015227947384119034
+        }
+    },
+    "85909": {
+        "number": 85909,
+        "title": "datatrails: track user interactions",
+        "scores": {
+            "all_MiniLM_L12": -0.015376430004835129
+        }
+    },
+    "87492": {
+        "number": 87492,
+        "title": "alerting/webhook doc update",
+        "scores": {
+            "all_MiniLM_L12": -0.015526169911026955
+        }
+    },
+    "86446": {
+        "number": 86446,
+        "title": "IntervalVariableEditor: Do not add current value as interval prop",
+        "scores": {
+            "all_MiniLM_L12": -0.01563570648431778
+        }
+    },
+    "87484": {
+        "number": 87484,
+        "title": "[v11.0.x] DashboardDataSource: Fixes issue where sometimes untransformed data could be returned ",
+        "scores": {
+            "all_MiniLM_L12": -0.015659013763070107
+        }
+    },
+    "85302": {
+        "number": 85302,
+        "title": "Update dependency webpack to v5.91.0",
+        "scores": {
+            "all_MiniLM_L12": -0.015728501603007317
+        }
+    },
+    "87301": {
+        "number": 87301,
+        "title": "Datatrails: Fix overflow of labels",
+        "scores": {
+            "all_MiniLM_L12": -0.01585698314011097
+        }
+    },
+    "87228": {
+        "number": 87228,
+        "title": "[v11.0.x] DashboardQueryEditor: Adjust options filtering in scenes",
+        "scores": {
+            "all_MiniLM_L12": -0.015965536236763
+        }
+    },
+    "87165": {
+        "number": 87165,
+        "title": "[v11.0.x] DashboardScene: Fixes issue with panel edit options pane and data",
+        "scores": {
+            "all_MiniLM_L12": -0.01619635336101055
+        }
+    },
+    "86932": {
+        "number": 86932,
+        "title": "[v11.0.x] Canvas: Fix division by zero",
+        "scores": {
+            "all_MiniLM_L12": -0.016244571655988693
+        }
+    },
+    "86716": {
+        "number": 86716,
+        "title": "Tooltips: Ensure new viz tooltips are visible within modals (alternative solution)",
+        "scores": {
+            "all_MiniLM_L12": -0.016254493966698647
+        }
+    },
+    "87010": {
+        "number": 87010,
+        "title": "[v11.0.x] Docs: Add value mappings shared content",
+        "scores": {
+            "all_MiniLM_L12": -0.016331715509295464
+        }
+    },
+    "86312": {
+        "number": 86312,
+        "title": "[v11.0.x] QueryLibrary: Use default variable values in render",
+        "scores": {
+            "all_MiniLM_L12": -0.01692178100347519
+        }
+    },
+    "86095": {
+        "number": 86095,
+        "title": "DashboardScene: Fix empty row repeat issue",
+        "scores": {
+            "all_MiniLM_L12": -0.01790189929306507
+        }
+    },
+    "86885": {
+        "number": 86885,
+        "title": "Scenes/PanelVizTypePicker: Use default tab if listMode is unsupported",
+        "scores": {
+            "all_MiniLM_L12": -0.017908243462443352
+        }
+    },
+    "86730": {
+        "number": 86730,
+        "title": "[v11.0.x] Docs: Add config guidance for embedding",
+        "scores": {
+            "all_MiniLM_L12": -0.018023723736405373
+        }
+    },
+    "86445": {
+        "number": 86445,
+        "title": "[v11.0.x] Transforms: Fix 'Filter data by values' removing rows in unrelated frames",
+        "scores": {
+            "all_MiniLM_L12": -0.018286366015672684
+        }
+    },
+    "86248": {
+        "number": 86248,
+        "title": "[v11.0.x] docs: add annotations play link",
+        "scores": {
+            "all_MiniLM_L12": -0.01832759752869606
+        }
+    },
+    "85189": {
+        "number": 85189,
+        "title": "Update dependency @glideapps/glide-data-grid to v6.0.3",
+        "scores": {
+            "all_MiniLM_L12": -0.01873607188463211
+        }
+    },
+    "86087": {
+        "number": 86087,
+        "title": "Transforms: Fix 'Filter data by values' removing rows in unrelated frames",
+        "scores": {
+            "all_MiniLM_L12": -0.018796654418110847
+        }
+    },
+    "86361": {
+        "number": 86361,
+        "title": "[v11.0.x] Graphite: second function as another function argument parsing error fix",
+        "scores": {
+            "all_MiniLM_L12": -0.01937934011220932
+        }
+    },
+    "86925": {
+        "number": 86925,
+        "title": "[v11.0.x] Explore: add links to metrics and correlations editor to Explore",
+        "scores": {
+            "all_MiniLM_L12": -0.019389256834983826
+        }
+    },
+    "86998": {
+        "number": 86998,
+        "title": "Dashboard scenes: Don't return null when uids are not matching for new dashboards",
+        "scores": {
+            "all_MiniLM_L12": -0.019627738744020462
+        }
+    },
+    "86480": {
+        "number": 86480,
+        "title": "[v11.0.x] DashboardScene: Fixes issue saving new dashboard from panel edit",
+        "scores": {
+            "all_MiniLM_L12": -0.020202023908495903
+        }
+    },
+    "86628": {
+        "number": 86628,
+        "title": "[DOC] Update the traces to profile content based upon SDK updates",
+        "scores": {
+            "all_MiniLM_L12": -0.020400656387209892
+        }
+    },
+    "85041": {
+        "number": 85041,
+        "title": "Chore: InfluxQL stream parser improvements",
+        "scores": {
+            "all_MiniLM_L12": -0.021096937358379364
+        }
+    },
+    "87161": {
+        "number": 87161,
+        "title": "DashboardScene: Fixes issue with panel edit options pane and data",
+        "scores": {
+            "all_MiniLM_L12": -0.021123016253113747
+        }
+    },
+    "86522": {
+        "number": 86522,
+        "title": "[v11.0.x] Cli: Check missing plugin parameter of plugin update command",
+        "scores": {
+            "all_MiniLM_L12": -0.02119925059378147
+        }
+    },
+    "86330": {
+        "number": 86330,
+        "title": "[v11.0.x] AngularMigration: Allow dashboard by dashboard migration",
+        "scores": {
+            "all_MiniLM_L12": -0.02163424715399742
+        }
+    },
+    "87251": {
+        "number": 87251,
+        "title": "[v11.0.x] Scenes: Adjust styles to allow shrinking of variable selectors",
+        "scores": {
+            "all_MiniLM_L12": -0.022598301991820335
+        }
+    },
+    "87246": {
+        "number": 87246,
+        "title": "[v11.0.x] DashboardScenes: Pin go version to go.mod file in scenes e2e workflow",
+        "scores": {
+            "all_MiniLM_L12": -0.022902270779013634
+        }
+    },
+    "87004": {
+        "number": 87004,
+        "title": "[v11.0.x] datatrails: fix bookmark/recent trail detection, prevent duplications, save trail on browser close/reload",
+        "scores": {
+            "all_MiniLM_L12": -0.02302704006433487
+        }
+    },
+    "86205": {
+        "number": 86205,
+        "title": "Docs: added bar gauge play link",
+        "scores": {
+            "all_MiniLM_L12": -0.023050105199217796
+        }
+    },
+    "86396": {
+        "number": 86396,
+        "title": "InfluxDB: Fix interpolation for floating point number values",
+        "scores": {
+            "all_MiniLM_L12": -0.023161068558692932
+        }
+    },
+    "86368": {
+        "number": 86368,
+        "title": "[v11.0.x] Scopes: Create binding per relationship",
+        "scores": {
+            "all_MiniLM_L12": -0.02319006249308586
+        }
+    },
+    "87415": {
+        "number": 87415,
+        "title": "[v11.0.x] alerting: config notif page improvement",
+        "scores": {
+            "all_MiniLM_L12": -0.023600410670042038
+        }
+    },
+    "86825": {
+        "number": 86825,
+        "title": "LogContext: Fix structured metadata labels being added as stream selectors",
+        "scores": {
+            "all_MiniLM_L12": -0.024273209273815155
+        }
+    },
+    "87672": {
+        "number": 87672,
+        "title": "[v11.0.x] alerting: docs - pagerduty",
+        "scores": {
+            "all_MiniLM_L12": -0.024296503514051437
+        }
+    },
+    "86536": {
+        "number": 86536,
+        "title": "[v11.0.x] Dashboard: DashboardPageProxy - Use chaining operators to prevent runtime error",
+        "scores": {
+            "all_MiniLM_L12": -0.02452230453491211
+        }
+    },
+    "87172": {
+        "number": 87172,
+        "title": "DashboardScene: Remove min height on viz picker scroll container",
+        "scores": {
+            "all_MiniLM_L12": -0.02456454560160637
+        }
+    },
+    "87244": {
+        "number": 87244,
+        "title": "scenes: update to v4.14.0: opt-in to `useQueriesAsFilterForOptions`",
+        "scores": {
+            "all_MiniLM_L12": -0.02459169179201126
+        }
+    },
+    "87334": {
+        "number": 87334,
+        "title": "[v11.0.x] scenes: update to v4.14.0: opt-in to ",
+        "scores": {
+            "all_MiniLM_L12": -0.02476816065609455
+        }
+    },
+    "86227": {
+        "number": 86227,
+        "title": "[v11.0.x] Docs: added bar gauge play link",
+        "scores": {
+            "all_MiniLM_L12": -0.02563539519906044
+        }
+    },
+    "87006": {
+        "number": 87006,
+        "title": "[v11.0.x] Scenes/PanelVizTypePicker: Use default tab if listMode is unsupported",
+        "scores": {
+            "all_MiniLM_L12": -0.025833558291196823
+        }
+    },
+    "87149": {
+        "number": 87149,
+        "title": "Alerting: Add two sets of provisioning actions for rules and notifications ",
+        "scores": {
+            "all_MiniLM_L12": -0.02594154328107834
+        }
+    },
+    "86411": {
+        "number": 86411,
+        "title": "[v11.0.x] DashboardScene: Fixes react panels with old angular options",
+        "scores": {
+            "all_MiniLM_L12": -0.026270151138305664
+        }
+    },
+    "87549": {
+        "number": 87549,
+        "title": "alerting: webhook doc update (#87492)",
+        "scores": {
+            "all_MiniLM_L12": -0.026383379474282265
+        }
+    },
+    "86337": {
+        "number": 86337,
+        "title": "[v11.0.x] K8s/Frontend: Add generic resource server and use it for playlists",
+        "scores": {
+            "all_MiniLM_L12": -0.026403916999697685
+        }
+    },
+    "86314": {
+        "number": 86314,
+        "title": "[v11.0.x] Update dependency jest-date-mock to v1.0.9",
+        "scores": {
+            "all_MiniLM_L12": -0.02652788907289505
+        }
+    },
+    "86543": {
+        "number": 86543,
+        "title": "Canvas: Ensure tangency for first segment",
+        "scores": {
+            "all_MiniLM_L12": -0.02687421813607216
+        }
+    },
+    "87061": {
+        "number": 87061,
+        "title": "[v11.0.x] Canvas: Connection original persistence check",
+        "scores": {
+            "all_MiniLM_L12": -0.027021922171115875
+        }
+    },
+    "86590": {
+        "number": 86590,
+        "title": "[v11.0.x] CommandPalette: Fix keyboard shortcut alignment",
+        "scores": {
+            "all_MiniLM_L12": -0.02715969830751419
+        }
+    },
+    "86822": {
+        "number": 86822,
+        "title": "[v11.0.x] Typo fix in User API doc example",
+        "scores": {
+            "all_MiniLM_L12": -0.02717635966837406
+        }
+    },
+    "86183": {
+        "number": 86183,
+        "title": "[v11.0.x] Docs: add panel overview",
+        "scores": {
+            "all_MiniLM_L12": -0.02757606841623783
+        }
+    },
+    "87284": {
+        "number": 87284,
+        "title": "datatrails: recently loaded trails modify parent variables when making new steps",
+        "scores": {
+            "all_MiniLM_L12": -0.028060246258974075
+        }
+    },
+    "86589": {
+        "number": 86589,
+        "title": "[v11.0.x] EmptyState: Set a max width on the empty state component",
+        "scores": {
+            "all_MiniLM_L12": -0.028160862624645233
+        }
+    },
+    "86893": {
+        "number": 86893,
+        "title": "Docs: Add data links shared content",
+        "scores": {
+            "all_MiniLM_L12": -0.028165657073259354
+        }
+    },
+    "87238": {
+        "number": 87238,
+        "title": "DashboardScenes: Pin go version to go.mod file in scenes e2e workflow",
+        "scores": {
+            "all_MiniLM_L12": -0.028212858363986015
+        }
+    },
+    "85226": {
+        "number": 85226,
+        "title": "LLMApp: Skip 404 requests to know if the plugin exists",
+        "scores": {
+            "all_MiniLM_L12": -0.02836938574910164
+        }
+    },
+    "86365": {
+        "number": 86365,
+        "title": "[v11.0.x] Canvas: Fix styles applying glitch on element type changing",
+        "scores": {
+            "all_MiniLM_L12": -0.028954533860087395
+        }
+    },
+    "86804": {
+        "number": 86804,
+        "title": "Templating: Fix issue where updated custom var options weren't persisted",
+        "scores": {
+            "all_MiniLM_L12": -0.029678771272301674
+        }
+    },
+    "86891": {
+        "number": 86891,
+        "title": "[v11.0.x] Docs: add tooltips shared content",
+        "scores": {
+            "all_MiniLM_L12": -0.030012186616659164
+        }
+    },
+    "86776": {
+        "number": 86776,
+        "title": "[v11.0.x] TimeOfDayPicker: Fix text colours in light mode",
+        "scores": {
+            "all_MiniLM_L12": -0.030756551772356033
+        }
+    },
+    "86477": {
+        "number": 86477,
+        "title": "DashboardScene: Fixes issue saving new dashboard from panel edit",
+        "scores": {
+            "all_MiniLM_L12": -0.03085673414170742
+        }
+    },
+    "87397": {
+        "number": 87397,
+        "title": "DashboardScene: Fixes editing transformations after toggling table view",
+        "scores": {
+            "all_MiniLM_L12": -0.03139960765838623
+        }
+    },
+    "87092": {
+        "number": 87092,
+        "title": "[v11.0.x] Heatmap: Fix histogram highlighted series",
+        "scores": {
+            "all_MiniLM_L12": -0.031493593007326126
+        }
+    },
+    "86583": {
+        "number": 86583,
+        "title": "[v11.0.x] Change folder breadcrumb on folder change in general settings",
+        "scores": {
+            "all_MiniLM_L12": -0.03214215487241745
+        }
+    },
+    "86540": {
+        "number": 86540,
+        "title": "CommandPalette: Fix keyboard shortcut alignment",
+        "scores": {
+            "all_MiniLM_L12": -0.03266008943319321
+        }
+    },
+    "86627": {
+        "number": 86627,
+        "title": "Docs: Update example docs for `rename by regex`",
+        "scores": {
+            "all_MiniLM_L12": -0.033000700175762177
+        }
+    },
+    "86363": {
+        "number": 86363,
+        "title": "[v11.0.x] AWS DataSource: Fix namespaces in sagemaker metrics",
+        "scores": {
+            "all_MiniLM_L12": -0.03361911699175835
+        }
+    },
+    "87034": {
+        "number": 87034,
+        "title": "[v11.0.x] Docs: Create the Azure AD application section has outdated information.",
+        "scores": {
+            "all_MiniLM_L12": -0.03365999087691307
+        }
+    },
+    "86213": {
+        "number": 86213,
+        "title": "docs: query data/relative time range override play link",
+        "scores": {
+            "all_MiniLM_L12": -0.03377767652273178
+        }
+    },
+    "86826": {
+        "number": 86826,
+        "title": "[v11.0.x] LogContext: Fix structured metadata labels being added as stream selectors",
+        "scores": {
+            "all_MiniLM_L12": -0.03402901440858841
+        }
+    },
+    "86075": {
+        "number": 86075,
+        "title": "Docs: add panel overview",
+        "scores": {
+            "all_MiniLM_L12": -0.03418628126382828
+        }
+    },
+    "85158": {
+        "number": 85158,
+        "title": "Get started with alerting fixes for publish",
+        "scores": {
+            "all_MiniLM_L12": -0.03462894260883331
+        }
+    },
+    "85357": {
+        "number": 85357,
+        "title": "AWS DataSource: Fix namespaces in sagemaker metrics",
+        "scores": {
+            "all_MiniLM_L12": -0.035152073949575424
+        }
+    },
+    "85138": {
+        "number": 85138,
+        "title": "Update dependency @msagl/parser to v1.1.18",
+        "scores": {
+            "all_MiniLM_L12": -0.03603653982281685
+        }
+    },
+    "86195": {
+        "number": 86195,
+        "title": "[v11.0.x] Nodegraph: Fix issue with rendering single node",
+        "scores": {
+            "all_MiniLM_L12": -0.036372069269418716
+        }
+    },
+    "86507": {
+        "number": 86507,
+        "title": "Dashboard: DashboardPageProxy - Use chaining operators to prevent runtime error",
+        "scores": {
+            "all_MiniLM_L12": -0.03711912781000137
+        }
+    },
+    "87085": {
+        "number": 87085,
+        "title": "Scenes: Adjust styles to allow shrinking of variable selectors",
+        "scores": {
+            "all_MiniLM_L12": -0.03769104927778244
+        }
+    },
+    "85286": {
+        "number": 85286,
+        "title": "Update dependency stylelint to v16.3.1",
+        "scores": {
+            "all_MiniLM_L12": -0.03781181573867798
+        }
+    },
+    "86814": {
+        "number": 86814,
+        "title": "Docs: add legends shared content",
+        "scores": {
+            "all_MiniLM_L12": -0.037856169044971466
+        }
+    },
+    "87193": {
+        "number": 87193,
+        "title": "[v11.0.x] XYChart2: Fix migration of pointSize fieldConfig",
+        "scores": {
+            "all_MiniLM_L12": -0.0388188362121582
+        }
+    },
+    "87587": {
+        "number": 87587,
+        "title": "Loki: Fix log context when no label types are present",
+        "scores": {
+            "all_MiniLM_L12": -0.03891296684741974
+        }
+    },
+    "87152": {
+        "number": 87152,
+        "title": "[v11.0.x] Docs: add legends shared content",
+        "scores": {
+            "all_MiniLM_L12": -0.038945652544498444
+        }
+    },
+    "87173": {
+        "number": 87173,
+        "title": "[v11.0.x] DashboardScene: Fixes issue referring to library panel in dashboard data source ",
+        "scores": {
+            "all_MiniLM_L12": -0.039343398064374924
+        }
+    },
+    "86954": {
+        "number": 86954,
+        "title": "[v11.0.x] Tooltips: Ensure new viz tooltips are visible within modals (alternative solution)",
+        "scores": {
+            "all_MiniLM_L12": -0.03951539099216461
+        }
+    },
+    "87556": {
+        "number": 87556,
+        "title": "[v11.0.x] Templating: Fix issue where updated custom var options weren't persisted",
+        "scores": {
+            "all_MiniLM_L12": -0.03963039815425873
+        }
+    },
+    "86265": {
+        "number": 86265,
+        "title": "[v11.0.x] Update dependency @kusto/monaco-kusto to v10 (#81382)",
+        "scores": {
+            "all_MiniLM_L12": -0.039940424263477325
+        }
+    },
+    "86221": {
+        "number": 86221,
+        "title": "[v11.0.x] Docs: add template var Play link; cleanup existing",
+        "scores": {
+            "all_MiniLM_L12": -0.04009750857949257
+        }
+    },
+    "86906": {
+        "number": 86906,
+        "title": "[v11.0.x] Alerting: Fix instances link when served from subpath",
+        "scores": {
+            "all_MiniLM_L12": -0.040159571915864944
+        }
+    },
+    "85386": {
+        "number": 85386,
+        "title": "Cloudmigration: create migration",
+        "scores": {
+            "all_MiniLM_L12": -0.04036138579249382
+        }
+    },
+    "86349": {
+        "number": 86349,
+        "title": "[v11.0.x] Templating: Link label to input",
+        "scores": {
+            "all_MiniLM_L12": -0.04079267010092735
+        }
+    },
+    "86815": {
+        "number": 86815,
+        "title": "[v11.0.x] Canvas: Match connection anchor points to elements",
+        "scores": {
+            "all_MiniLM_L12": -0.04104773700237274
+        }
+    },
+    "87433": {
+        "number": 87433,
+        "title": "DashboardDataSource: Fixes issue where sometimes untransformed data could be returned ",
+        "scores": {
+            "all_MiniLM_L12": -0.04134164750576019
+        }
+    },
+    "86476": {
+        "number": 86476,
+        "title": "Canvas: Connection original persistence check",
+        "scores": {
+            "all_MiniLM_L12": -0.04141595587134361
+        }
+    },
+    "87338": {
+        "number": 87338,
+        "title": "[v11.0.x] datatrails: quick bugfix: handle undefined step",
+        "scores": {
+            "all_MiniLM_L12": -0.04188817739486694
+        }
+    },
+    "86955": {
+        "number": 86955,
+        "title": "Heatmap: Fix histogram highlighted series",
+        "scores": {
+            "all_MiniLM_L12": -0.043506354093551636
+        }
+    },
+    "86795": {
+        "number": 86795,
+        "title": "[v11.0.x] Table Panel: Fix images not showing on hover with multiple data links",
+        "scores": {
+            "all_MiniLM_L12": -0.04375513643026352
+        }
+    },
+    "86280": {
+        "number": 86280,
+        "title": "[v11.0.x] Add FolderUID for library elements",
+        "scores": {
+            "all_MiniLM_L12": -0.04427742213010788
+        }
+    },
+    "86193": {
+        "number": 86193,
+        "title": "[v11.0.x] SaveDashboardForm: Remove deprecated Form usage",
+        "scores": {
+            "all_MiniLM_L12": -0.04457515478134155
+        }
+    },
+    "87113": {
+        "number": 87113,
+        "title": "[v11.0.x] Dashboard Scene - Variable Fix: cancel out margin-bottom of placeholder in loading state",
+        "scores": {
+            "all_MiniLM_L12": -0.044867467135190964
+        }
+    },
+    "85335": {
+        "number": 85335,
+        "title": "Update dependency yaml to v2.4.1",
+        "scores": {
+            "all_MiniLM_L12": -0.044968217611312866
+        }
+    },
+    "86311": {
+        "number": 86311,
+        "title": "[v11.0.x] EmptyState: use `not-found` empty state variant everywhere in core",
+        "scores": {
+            "all_MiniLM_L12": -0.04500109702348709
+        }
+    },
+    "87350": {
+        "number": 87350,
+        "title": "Docs: add data link cell type information",
+        "scores": {
+            "all_MiniLM_L12": -0.0454062893986702
+        }
+    },
+    "87174": {
+        "number": 87174,
+        "title": "DashboardQueryEditor: Adjust options filtering in scenes",
+        "scores": {
+            "all_MiniLM_L12": -0.04542763531208038
+        }
+    },
+    "86074": {
+        "number": 86074,
+        "title": "Docs: add template var Play link; cleanup existing",
+        "scores": {
+            "all_MiniLM_L12": -0.04590632766485214
+        }
+    },
+    "86206": {
+        "number": 86206,
+        "title": "docs: add annotations play link",
+        "scores": {
+            "all_MiniLM_L12": -0.04733230918645859
+        }
+    },
+    "86732": {
+        "number": 86732,
+        "title": "Table Panel: Fix images not showing on hover with multiple data links",
+        "scores": {
+            "all_MiniLM_L12": -0.047404829412698746
+        }
+    },
+    "71498": {
+        "number": 71498,
+        "title": "Docs: Create the Azure AD application section has outdated information.",
+        "scores": {
+            "all_MiniLM_L12": -0.048261649906635284
+        }
+    },
+    "87333": {
+        "number": 87333,
+        "title": "[v11.0.x] datatrails: recently loaded trails modify parent variables when making new steps",
+        "scores": {
+            "all_MiniLM_L12": -0.04967281222343445
+        }
+    },
+    "83339": {
+        "number": 83339,
+        "title": "K8s/Frontend: Add generic resource server and use it for playlists",
+        "scores": {
+            "all_MiniLM_L12": -0.04999403655529022
+        }
+    },
+    "86021": {
+        "number": 86021,
+        "title": "EmptyState: Provide custom messages for existing empty states",
+        "scores": {
+            "all_MiniLM_L12": -0.05132467299699783
+        }
+    },
+    "87140": {
+        "number": 87140,
+        "title": "alerting: config notif page improvement",
+        "scores": {
+            "all_MiniLM_L12": -0.05144035443663597
+        }
+    },
+    "86339": {
+        "number": 86339,
+        "title": "[v11.0.x] fix internal url in tutorials",
+        "scores": {
+            "all_MiniLM_L12": -0.05248109996318817
+        }
+    },
+    "86401": {
+        "number": 86401,
+        "title": "InfluxDB: Fix interpolating field keys in influxql",
+        "scores": {
+            "all_MiniLM_L12": -0.05293229967355728
+        }
+    },
+    "86373": {
+        "number": 86373,
+        "title": "[v11.0.x] Cloudmigration: create migration",
+        "scores": {
+            "all_MiniLM_L12": -0.05305571109056473
+        }
+    },
+    "87183": {
+        "number": 87183,
+        "title": "[v11.0.x] XY Chart: Show mapped size/color fields in tooltip",
+        "scores": {
+            "all_MiniLM_L12": -0.053498223423957825
+        }
+    },
+    "87120": {
+        "number": 87120,
+        "title": "DashboardScene: adjust lib panel as a dashboard datasource refresh logic",
+        "scores": {
+            "all_MiniLM_L12": -0.05359778553247452
+        }
+    },
+    "87604": {
+        "number": 87604,
+        "title": "alerting: docs - pagerduty",
+        "scores": {
+            "all_MiniLM_L12": -0.05385042354464531
+        }
+    },
+    "86569": {
+        "number": 86569,
+        "title": "EmptyState: Set a max width on the empty state component",
+        "scores": {
+            "all_MiniLM_L12": -0.0544997937977314
+        }
+    },
+    "84930": {
+        "number": 84930,
+        "title": "Nodegraph: Fix issue with rendering single node",
+        "scores": {
+            "all_MiniLM_L12": -0.05478181317448616
+        }
+    },
+    "87239": {
+        "number": 87239,
+        "title": "[v11.0.x] Dashboard Scene: Chore - Add missing unit test to PanelDataQueryTab",
+        "scores": {
+            "all_MiniLM_L12": -0.054786574095487595
+        }
+    },
+    "84678": {
+        "number": 84678,
+        "title": "QueryLibrary: Use default variable values in render",
+        "scores": {
+            "all_MiniLM_L12": -0.05570010095834732
+        }
+    },
+    "86771": {
+        "number": 86771,
+        "title": "TimeOfDayPicker: Fix text colours in light mode",
+        "scores": {
+            "all_MiniLM_L12": -0.05604775995016098
+        }
+    },
+    "87232": {
+        "number": 87232,
+        "title": "[v11.0.x] DashboardScene: adjust lib panel as a dashboard datasource refresh logic",
+        "scores": {
+            "all_MiniLM_L12": -0.05617710202932358
+        }
+    },
+    "87362": {
+        "number": 87362,
+        "title": "[v11.0.x] Canvas: Add support to rotate a group of elements",
+        "scores": {
+            "all_MiniLM_L12": -0.05762988701462746
+        }
+    },
+    "87066": {
+        "number": 87066,
+        "title": "[v11.0.x] Canvas: Fix connection hyperbolic bug",
+        "scores": {
+            "all_MiniLM_L12": -0.05907805263996124
+        }
+    },
+    "86867": {
+        "number": 86867,
+        "title": "[v11.0.x] SQLStore: Disable redundant create and drop unique index migrations on dashboard table",
+        "scores": {
+            "all_MiniLM_L12": -0.05961032211780548
+        }
+    },
+    "87200": {
+        "number": 87200,
+        "title": "[v11.0.x] Docs: Add data links shared content",
+        "scores": {
+            "all_MiniLM_L12": -0.06061609834432602
+        }
+    },
+    "84100": {
+        "number": 84100,
+        "title": "AngularMigration: Allow dashboard by dashboard migration",
+        "scores": {
+            "all_MiniLM_L12": -0.06152469664812088
+        }
+    },
+    "87125": {
+        "number": 87125,
+        "title": "DashboardScene: Fixes issue referring to library panel in dashboard data source ",
+        "scores": {
+            "all_MiniLM_L12": -0.06165339797735214
+        }
+    },
+    "86257": {
+        "number": 86257,
+        "title": "DashboardScene: Move add library panel view from grid item to drawer",
+        "scores": {
+            "all_MiniLM_L12": -0.06282635033130646
+        }
+    },
+    "86945": {
+        "number": 86945,
+        "title": "[v11.0.x] Migrations: Graph (old) percent stacked",
+        "scores": {
+            "all_MiniLM_L12": -0.0631200447678566
+        }
+    },
+    "86472": {
+        "number": 86472,
+        "title": "Docs: Add GeoMaps YouTube Video",
+        "scores": {
+            "all_MiniLM_L12": -0.06315651535987854
+        }
+    },
+    "84172": {
+        "number": 84172,
+        "title": "SaveDashboardForm: Remove deprecated Form usage",
+        "scores": {
+            "all_MiniLM_L12": -0.06388067454099655
+        }
+    },
+    "86343": {
+        "number": 86343,
+        "title": "[v11.0.x] Chore: Bump Nx to 18.1.x",
+        "scores": {
+            "all_MiniLM_L12": -0.06496217846870422
+        }
+    },
+    "87026": {
+        "number": 87026,
+        "title": "[v11.0.x] DashboardScene: Fixes issues with relative time range in panel edit",
+        "scores": {
+            "all_MiniLM_L12": -0.06497061252593994
+        }
+    },
+    "83875": {
+        "number": 83875,
+        "title": "Docs: add `Provisioning` section to `Install on Kubernetes` docs",
+        "scores": {
+            "all_MiniLM_L12": -0.06522940844297409
+        }
+    },
+    "86789": {
+        "number": 86789,
+        "title": "Dashboard: Migration [Panel Edit] Missing Query Editor when datasource is not found ",
+        "scores": {
+            "all_MiniLM_L12": -0.06531378626823425
+        }
+    },
+    "84335": {
+        "number": 84335,
+        "title": "Migrations: Graph (old) percent stacked",
+        "scores": {
+            "all_MiniLM_L12": -0.06535831838846207
+        }
+    },
+    "86799": {
+        "number": 86799,
+        "title": "[v11.0.x] Docs: add `Provisioning` section to `Install on Kubernetes` docs",
+        "scores": {
+            "all_MiniLM_L12": -0.06668222695589066
+        }
+    },
+    "87139": {
+        "number": 87139,
+        "title": "Dashboard Scene: Chore - Add missing unit test to PanelDataQueryTab",
+        "scores": {
+            "all_MiniLM_L12": -0.06680858880281448
+        }
+    },
+    "86828": {
+        "number": 86828,
+        "title": "[v11.0.x] Dashboard: Migration [Panel Edit] Missing Query Editor when datasource is not found ",
+        "scores": {
+            "all_MiniLM_L12": -0.06731972098350525
+        }
+    },
+    "85823": {
+        "number": 85823,
+        "title": "MSSQL: Add `SQL_VARIANT` converter and update test",
+        "scores": {
+            "all_MiniLM_L12": -0.06733427941799164
+        }
+    },
+    "85329": {
+        "number": 85329,
+        "title": "Templating: Link label to input",
+        "scores": {
+            "all_MiniLM_L12": -0.06938563287258148
+        }
+    },
+    "87041": {
+        "number": 87041,
+        "title": "[v11.0.x] DateTimePicker: Alternate timezones now behave correctly",
+        "scores": {
+            "all_MiniLM_L12": -0.06958112120628357
+        }
+    },
+    "86502": {
+        "number": 86502,
+        "title": "[v11.0.x] Select: Increase size of virtualized list options",
+        "scores": {
+            "all_MiniLM_L12": -0.06962545961141586
+        }
+    },
+    "87569": {
+        "number": 87569,
+        "title": "[v11.0.x] Canvas: Fix bug for connection first vertex",
+        "scores": {
+            "all_MiniLM_L12": -0.07091133296489716
+        }
+    },
+    "85417": {
+        "number": 85417,
+        "title": "Canvas: Add flowchart example to gdev",
+        "scores": {
+            "all_MiniLM_L12": -0.07270446419715881
+        }
+    },
+    "85677": {
+        "number": 85677,
+        "title": "datatrails: fix bookmark/recent trail detection, prevent duplications, save trail on browser close/reload",
+        "scores": {
+            "all_MiniLM_L12": -0.07327284663915634
+        }
+    },
+    "87002": {
+        "number": 87002,
+        "title": "Canvas: Fix connection hyperbolic bug",
+        "scores": {
+            "all_MiniLM_L12": -0.07367144525051117
+        }
+    },
+    "85184": {
+        "number": 85184,
+        "title": "Canvas: Fix styles applying glitch on element type changing",
+        "scores": {
+            "all_MiniLM_L12": -0.07437381148338318
+        }
+    },
+    "87256": {
+        "number": 87256,
+        "title": "[v11.0.x] Docs: Fix link to values.yaml file",
+        "scores": {
+            "all_MiniLM_L12": -0.07439437508583069
+        }
+    },
+    "86439": {
+        "number": 86439,
+        "title": "[v11.0.x] EmptyState: Add `call-to-action` variant",
+        "scores": {
+            "all_MiniLM_L12": -0.07507336884737015
+        }
+    },
+    "87534": {
+        "number": 87534,
+        "title": "Canvas: Fix bug for connection first vertex",
+        "scores": {
+            "all_MiniLM_L12": -0.07522318512201309
+        }
+    },
+    "87356": {
+        "number": 87356,
+        "title": "XY Chart: Prevent crash when deleting a series ",
+        "scores": {
+            "all_MiniLM_L12": -0.0760737955570221
+        }
+    },
+    "87354": {
+        "number": 87354,
+        "title": "[v11.0.x] Docs: add data link cell type information",
+        "scores": {
+            "all_MiniLM_L12": -0.0799655020236969
+        }
+    },
+    "87355": {
+        "number": 87355,
+        "title": "[v11.0.x] Canvas: Fix phantom connections persisting after element deletion",
+        "scores": {
+            "all_MiniLM_L12": -0.08130238950252533
+        }
+    },
+    "87358": {
+        "number": 87358,
+        "title": "Canvas: Add support to rotate a group of elements",
+        "scores": {
+            "all_MiniLM_L12": -0.08212193846702576
+        }
+    },
+    "87337": {
+        "number": 87337,
+        "title": "datatrails: quick bugfix: handle undefined step",
+        "scores": {
+            "all_MiniLM_L12": -0.08383944630622864
+        }
+    },
+    "86410": {
+        "number": 86410,
+        "title": "Cli: Check missing plugin parameter of plugin update command",
+        "scores": {
+            "all_MiniLM_L12": -0.08453048765659332
+        }
+    },
+    "87275": {
+        "number": 87275,
+        "title": "[v11.0.x] Canvas: Fix datalinks using field variable",
+        "scores": {
+            "all_MiniLM_L12": -0.08648154139518738
+        }
+    },
+    "87192": {
+        "number": 87192,
+        "title": "XYChart2: Fix migration of pointSize fieldConfig",
+        "scores": {
+            "all_MiniLM_L12": -0.08664262294769287
+        }
+    },
+    "86367": {
+        "number": 86367,
+        "title": "[v11.0.x] Scope: Add basic integration tests",
+        "scores": {
+            "all_MiniLM_L12": -0.08844722807407379
+        }
+    },
+    "86857": {
+        "number": 86857,
+        "title": "SQLStore: Disable redundant create and drop unique index migrations on dashboard table",
+        "scores": {
+            "all_MiniLM_L12": -0.0886479914188385
+        }
+    },
+    "85017": {
+        "number": 85017,
+        "title": "EmptyState: Add `call-to-action` variant",
+        "scores": {
+            "all_MiniLM_L12": -0.0887596607208252
+        }
+    },
+    "86740": {
+        "number": 86740,
+        "title": "[v11.0.x] XYChart2: Remove common series name from tooltip items",
+        "scores": {
+            "all_MiniLM_L12": -0.09069793671369553
+        }
+    },
+    "86298": {
+        "number": 86298,
+        "title": "[v11.0.x] Storybook: Fix link to Saga",
+        "scores": {
+            "all_MiniLM_L12": -0.09233987331390381
+        }
+    },
+    "85273": {
+        "number": 85273,
+        "title": "fix internal url in tutorials",
+        "scores": {
+            "all_MiniLM_L12": -0.09258848428726196
+        }
+    },
+    "86694": {
+        "number": 86694,
+        "title": "[v11.0.x] fix: datatrail link to \"open in explore\" prefix with `config.appSubUrl`",
+        "scores": {
+            "all_MiniLM_L12": -0.09358670562505722
+        }
+    },
+    "86469": {
+        "number": 86469,
+        "title": "[v11.0.x] MSSQL: Add `SQL_VARIANT` converter and update test",
+        "scores": {
+            "all_MiniLM_L12": -0.09362578392028809
+        }
+    },
+    "87285": {
+        "number": 87285,
+        "title": "Canvas: Fix phantom connections persisting after element deletion",
+        "scores": {
+            "all_MiniLM_L12": -0.09534484148025513
+        }
+    },
+    "86862": {
+        "number": 86862,
+        "title": "DashboardScene: Fixes issues with relative time range in panel edit",
+        "scores": {
+            "all_MiniLM_L12": -0.09611619263887405
+        }
+    },
+    "85007": {
+        "number": 85007,
+        "title": "EmptyState: use `not-found` empty state variant everywhere in core",
+        "scores": {
+            "all_MiniLM_L12": -0.09648355841636658
+        }
+    },
+    "87107": {
+        "number": 87107,
+        "title": "Dashboard Scene - Variable Fix: cancel out margin-bottom of placeholder in loading state",
+        "scores": {
+            "all_MiniLM_L12": -0.0993693396449089
+        }
+    },
+    "86935": {
+        "number": 86935,
+        "title": "[v11.0.x] Canvas: Add flowchart example to gdev",
+        "scores": {
+            "all_MiniLM_L12": -0.1007656380534172
+        }
+    },
+    "86882": {
+        "number": 86882,
+        "title": "[v11.0.x] datatrails: interpolate adhoc variables and datasource variables when opening \"explore metrics\" from dashboard panels",
+        "scores": {
+            "all_MiniLM_L12": -0.10212691873311996
+        }
+    },
+    "86739": {
+        "number": 86739,
+        "title": "XYChart2: Remove common series name from tooltip items",
+        "scores": {
+            "all_MiniLM_L12": -0.10230602324008942
+        }
+    },
+    "86926": {
+        "number": 86926,
+        "title": "[v11.0.x] Dashboard: Migration Fixes Mixed data source losing existing queries ",
+        "scores": {
+            "all_MiniLM_L12": -0.10328838229179382
+        }
+    },
+    "87340": {
+        "number": 87340,
+        "title": "[v11.0.x] datatrails: only fetch metrics metadata when using the language provider, avoid redundant fetch of metric names",
+        "scores": {
+            "all_MiniLM_L12": -0.10419785976409912
+        }
+    },
+    "85179": {
+        "number": 85179,
+        "title": "Storybook: Fix link to Saga",
+        "scores": {
+            "all_MiniLM_L12": -0.10482098162174225
+        }
+    },
+    "86432": {
+        "number": 86432,
+        "title": "Alerting: Fix instances link when served from subpath",
+        "scores": {
+            "all_MiniLM_L12": -0.10499502718448639
+        }
+    },
+    "86511": {
+        "number": 86511,
+        "title": "[v11.0.x] Add Create annotations in panel video to the documentation",
+        "scores": {
+            "all_MiniLM_L12": -0.10568134486675262
+        }
+    },
+    "85351": {
+        "number": 85351,
+        "title": "Scope: Add basic integration tests",
+        "scores": {
+            "all_MiniLM_L12": -0.10596967488527298
+        }
+    },
+    "87023": {
+        "number": 87023,
+        "title": "[v11.0.x] DashboardDataSourceBehaviour: Handle loading library panel",
+        "scores": {
+            "all_MiniLM_L12": -0.11133569478988647
+        }
+    },
+    "87014": {
+        "number": 87014,
+        "title": "Docs: Fix link to values.yaml file",
+        "scores": {
+            "all_MiniLM_L12": -0.11301175504922867
+        }
+    },
+    "85185": {
+        "number": 85185,
+        "title": "Chore: Bump Nx to 18.1.x",
+        "scores": {
+            "all_MiniLM_L12": -0.11310401558876038
+        }
+    },
+    "86252": {
+        "number": 86252,
+        "title": "datatrails: interpolate adhoc variables and datasource variables when opening \"explore metrics\" from dashboard panels",
+        "scores": {
+            "all_MiniLM_L12": -0.11321920156478882
+        }
+    },
+    "86750": {
+        "number": 86750,
+        "title": "DateTimePicker: Alternate timezones now behave correctly",
+        "scores": {
+            "all_MiniLM_L12": -0.11365096271038055
+        }
+    },
+    "86383": {
+        "number": 86383,
+        "title": "Add Create annotations in panel video to the documentation",
+        "scores": {
+            "all_MiniLM_L12": -0.11426853388547897
+        }
+    },
+    "86503": {
+        "number": 86503,
+        "title": "[v11.0.x] EmptyState: Add `completed` variant",
+        "scores": {
+            "all_MiniLM_L12": -0.11860208213329315
+        }
+    },
+    "87265": {
+        "number": 87265,
+        "title": "Canvas: Fix datalinks using field variable",
+        "scores": {
+            "all_MiniLM_L12": -0.11872334778308868
+        }
+    },
+    "87177": {
+        "number": 87177,
+        "title": "[v11.0.x] Update `doc-validator` workflow to support `ref` URIs",
+        "scores": {
+            "all_MiniLM_L12": -0.11956483125686646
+        }
+    },
+    "86375": {
+        "number": 86375,
+        "title": "fix: datatrail link to \"open in explore\" prefix with `config.appSubUrl`",
+        "scores": {
+            "all_MiniLM_L12": -0.12066454440355301
+        }
+    },
+    "87067": {
+        "number": 87067,
+        "title": "datatrails: only fetch metrics metadata when using the language provider, avoid redundant fetch of metric names",
+        "scores": {
+            "all_MiniLM_L12": -0.12131700664758682
+        }
+    },
+    "87346": {
+        "number": 87346,
+        "title": "[v11.0.x] datatrails: reloaded trail bugs related to no selected metric",
+        "scores": {
+            "all_MiniLM_L12": -0.12172327935695648
+        }
+    },
+    "86980": {
+        "number": 86980,
+        "title": "DashboardDataSourceBehaviour: Handle loading library panel",
+        "scores": {
+            "all_MiniLM_L12": -0.12394217401742935
+        }
+    },
+    "87344": {
+        "number": 87344,
+        "title": "datatrails: reloaded trail bugs related to no selected metric",
+        "scores": {
+            "all_MiniLM_L12": -0.12655022740364075
+        }
+    },
+    "86497": {
+        "number": 86497,
+        "title": "EmptyState: Add `completed` variant",
+        "scores": {
+            "all_MiniLM_L12": -0.13689880073070526
+        }
+    },
+    "86883": {
+        "number": 86883,
+        "title": "Dashboard: Migration Fixes Mixed data source losing existing queries ",
+        "scores": {
+            "all_MiniLM_L12": -0.14088042080402374
         }
     }
 }

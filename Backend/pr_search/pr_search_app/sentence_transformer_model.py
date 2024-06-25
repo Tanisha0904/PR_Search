@@ -1,4 +1,3 @@
-import json
 from sentence_transformers import util
 from collections import defaultdict
 
@@ -16,6 +15,7 @@ def merge_pr_data(sorted_according_to_pr_number):
 
         documents[fact["number"]] = doc_text
     return documents
+
 # Function to compute similarity scores
 def compute_similarity(query, documents, threshold, model):
     query_embedding = model.encode(query, convert_to_tensor=True)
@@ -40,8 +40,6 @@ def sentence_transformer_model(query, documents, model, modelName):
     similarity_scores = compute_similarity(query, documents, threshold, model)
     # sorting according to the similarity score
     results = sorted(similarity_scores.items(), key=lambda x: x[1], reverse=True)
-
-    
 
     print(f"{modelName} done...")
     

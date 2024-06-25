@@ -8,17 +8,17 @@ from django.views.decorators.csrf import csrf_exempt
 import json
 from django.shortcuts import render
 from django.http import JsonResponse
+from .all_combined import gpt_model_combined
 import openai 
 from .methodsToSearchDocuments import get_pr_number_list, clear_file, get_response_from_version_compare_api, read_data_from_json
 from .sentence_transformer_model import merge_pr_data, sentence_transformer_model
 from .spacy_model import spacy_model
-from .secrets_1 import GITHUB_TOKEN
+from .secrets_1 import GITHUB_TOKEN, OPENAI_API_KEY
 from .tag_list import get_tag_list
-from .csvData import comparisonData_csv
 from .jsonData import comparisonData_json, averagedData_json, calculate_average_scores, json_data
-from .chatgpt import chatGPT_top_pr_list, chatGPT_output, data_for_chatgpt_filename
+from .chatgpt import gpt_top_pr_list, chatGPT_output, data_for_chatgpt_filename
 
-
+openai.api_key = OPENAI_API_KEY
 token = GITHUB_TOKEN
 # Configure logging
 logger = logging.getLogger(__name__)
@@ -46,20 +46,21 @@ def get_versions(request):
     return JsonResponse({"error": "Method not allowed"}, status=405)
 
 
-openai.api_key = "sk-proj-2deaBZKpY8XzJRgUp8GdT3BlbkFJmAFhYzDSaI1vL0eaJWq3"
 
-def chatGPT_model_new(
-    query, chatGPT_output_file, model="gpt-3.5-turbo-16k"
+def gpt_model(
+    query, chatGPT_output_file, pr_data, model="gpt-3.5-turbo-16k"
 ):
     print(query)
-    json_filename = "D:\BMC\With_Frontend\Final\Backend\pr_search\data_for_chatgpt.json"
 
-    try:
-        with open(json_filename, "r") as json_file:
-            pr_data = json.load(json_file)
-            # print(pr_data)  # Print to verify data
-    except Exception as e:
-        print(f"An unexpected error occurred: {e}")
+    # # if data to be extracted from the file
+    # json_filename = "D:\BMC\With_Frontend\Final\Backend\pr_search\data_for_chatgpt.json"
+
+    # try:
+    #     with open(json_filename, "r") as json_file:
+    #         pr_data = json.load(json_file)
+    #         # print(pr_data)  # Print to verify data
+    # except Exception as e:
+    #     print(f"An unexpected error occurred: {e}")
 
     response_data = {}
     i=0
@@ -68,9 +69,6 @@ def chatGPT_model_new(
         pr_title = pr["title"]
         pr_labels = pr["labels"]
         pr_body = pr["body"]
-
-        # Evaluate relevance score using the GPT model
-        # relevance_score = evaluate_relevance(query, pr_title,  pr_labels, pr_body, model)
 
         response = openai.ChatCompletion.create(
         model=model,
@@ -85,10 +83,9 @@ def chatGPT_model_new(
             },
         ],
     )
-        # relevance_score = float(response['choices'][0]['message']['content'])
 
         response_content = response['choices'][0]['message']['content']
-        # Use regex to extract the first floating-point number from the response content
+        # Using regex to extract the first floating-point number from the response content
         match = re.search(r"[-+]?\d*\.\d+|\d+", response_content)
         relevance_score = float(match.group()) if match else 0.0
 
@@ -101,17 +98,20 @@ def chatGPT_model_new(
         i+=1
         print(end=f"\n***********{i}**********\n")
 
-    # Save the response to a JSON file
+    
     sorted_data = dict(
         sorted(response_data.items(), key=lambda x: x[1]["score"], reverse=True)
     )
-    with open(chatGPT_output_file, 'w') as json_file:
-        json.dump(sorted_data, json_file)
+
+    # # Save the response to a JSON file
+    # with open(chatGPT_output_file, 'w') as json_file:
+    #     json.dump(sorted_data, json_file)
 
     return sorted_data
 
 @csrf_exempt
 def search_documents(request):
+    print("in search_documents")
 
     if request.method == "POST":
         try:
@@ -184,10 +184,10 @@ def search_documents(request):
 
             # spacy_model_result = spacy_model(
             #     query, 
-            #     sorted_according_to_pr_number
+            #     documents
             # )
 
-            # clar the data on the file if any was stored previously 
+            # clear the data on the file if any was stored previously 
             clear_file(comparisonData_json)
             clear_file(averagedData_json)
             clear_file(chatGPT_output)
@@ -209,18 +209,13 @@ def search_documents(request):
 
 
             print("data to be generated for sending to chatgpt")
-            data_for_chatgpt=chatGPT_top_pr_list(sorted_according_to_pr_number, averaged_sorted_data, n)
-            print("data sent to chatgpt model")
-            # results = chatGPT_model(query, data_for_chatgpt ,"chatGPT_output.json")
-            results=chatGPT_model_new(query, chatGPT_output )
-            # results = chatGPT_model_new("Update documentation for metrics" ,"newnewnew.json")
-            print(results)
-            print("chatgpt data to be printed")
+            data_for_chatgpt=gpt_top_pr_list(sorted_according_to_pr_number, averaged_sorted_data, n)
+            # results=gpt_model(query, chatGPT_output, data_for_chatgpt)
+            results=gpt_model_combined(query, chatGPT_output, data_for_chatgpt)
+            
 
             return read_data_from_json(results, n, owner, repo) #with chatgpt
-        
-        
-            return read_data_from_json(averaged_sorted_data, n, owner, repo) #without chatgpt
+            # return read_data_from_json(averaged_sorted_data, n, owner, repo) #without chatgpt
         
 
         except Exception as e:

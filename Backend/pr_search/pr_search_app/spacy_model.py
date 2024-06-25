@@ -4,8 +4,6 @@ import spacy
 from sklearn.metrics.pairwise import cosine_similarity
 from collections import defaultdict
 
-from .jsonData import json_data
-from .csvData import csvData
 
 nlp = spacy.load("en_core_web_md")
 
@@ -36,34 +34,20 @@ def compute_similarity(query, documents):
 
 
 
-def spacy_model(query, sorted_according_to_pr_number):
+def spacy_model(query, merged_documents):
 
-    doc_numbers_to_titles = {fact["number"]: fact["title"] for fact in sorted_according_to_pr_number}
-
-    # Preprocess the data and tokenize the text
     documents = {}
-    for fact in sorted_according_to_pr_number:
-
-        if fact["body"] is not None:
-            doc = nlp(
-                fact["title"] + " " + fact["body"] + " " + " ".join(fact["labels"])
-            )
-        else:
-            doc = nlp(fact["title"] + " " + " ".join(fact["labels"]))
-
+    for pr_number, doc_text in merged_documents.items():
+        doc = nlp(doc_text)
         tokens = [
             word.text.lower()
             for word in doc
             if not word.is_stop and not word.is_punct
         ]
-        documents[fact["number"]] = " ".join(tokens)
-
+        documents[pr_number] = " ".join(tokens)
 
     similarity_scores = compute_similarity(query, documents)
     results = sorted(similarity_scores.items(), key=lambda x: x[1], reverse=True)
     
     print("spacy done...")
     return results
-    # csvData(results, doc_numbers_to_titles, "spacy_model")
-    json_data(results, doc_numbers_to_titles, "spacy_model")
-    
