@@ -29,23 +29,28 @@ def gpt_model_combined(query, chatGPT_output_file,pr_data, model="gpt-3.5-turbo-
 
     # Create a prompt that includes all PR data
     prompt = f"""
-    You are an assistant that evaluates the relevance of pull request titles to a given query.
-    
+    You are an assistant that evaluates the relevance(similarity score) of pull request(PR) content to a given query.
+     
     Query: {query}
     
-    Here is a list of PRs. For each PR, treat every PR separately such that no PR is related to the other PRs rate the relevance of the PR title to the query on a scale from 0 to 1. The scale should have float as a data type and not string. 
-
+    Here is a list of PRs. Treat every PR separately such that no PR is related to the other PRs while finding the relevance. Rate the relevance of the PR title to the query on a scale from 0 to 1. The scale should have float as a data type and not string and it can be precise to 4 decimal points. No result will have score 1 unless the content of PR is exactly same as the query.
     {pr_combined_data}
 
-    Return the output in the following format:
+    Return the output in the following format so that it can be stored as json data and can be used for further processing:
     {{
-      "PR Number": {{
-        "number": PR Number,
-        "title": PR Title,
-        "score": Relevance Score
+      "PR1 Number": {{
+        "number": PR1 Number,
+        "title": PR1 Title,
+        "score": float(Relevance Score of PR1)
+      }},
+      "PR2 Number": {{
+        "number": PR2 Number,
+        "title": PR2 Title,
+        "score": float(Relevance Score of PR2)
       }},
       ...
     }}
+    Here replace the PR Number, PR Title, and Relevance Score of PR with the respective data that will be unique for each PR. Just return the expected results in json format. Nothing else is needed, no code, no introductiory statemnts, no conclusions, etc. Just the JSON format output
     """
 
     response = openai.ChatCompletion.create(
@@ -63,6 +68,7 @@ def gpt_model_combined(query, chatGPT_output_file,pr_data, model="gpt-3.5-turbo-
     )
 
     response_content = response["choices"][0]["message"]["content"]
+    print(response_content, end="~~~~~~~~~~~~~/n")
 
     # Attempt to parse the JSON response from the model's output
     try:
@@ -91,6 +97,7 @@ def manual_parse_response(response_content):
     Manually parse the response content to extract PR data and scores.
     This is a fallback in case the response is not valid JSON.
     """
+    print("in manual_parse_response")
     pr_data = {}
     pr_entries = re.split(
         r"\}\s*,\s*\{", response_content
@@ -113,6 +120,7 @@ def manual_parse_response(response_content):
                     "title": pr_title,
                     "score": relevance_score,
                 }
+            print(f"----{pr_data[pr_number]}----\n")
         except Exception as e:
             print(f"Error parsing entry: {entry} - {e}")
 

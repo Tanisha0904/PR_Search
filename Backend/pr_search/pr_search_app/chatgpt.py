@@ -12,9 +12,11 @@ def gpt_top_pr_list(sorted_according_to_pr_number, averaged_sorted_data, n):
     
     # Create a set of PR numbers from sorted_according_to_pr_number for quick lookup
     pr_numbers = {pr['number'] for pr in sorted_according_to_pr_number}
-    total_prs_to_pass_to_gpt = int(len(sorted_according_to_pr_number)*0.5) #passing the top 50% prs to gpt
-    # total_prs_to_pass_to_gpt = 50
-    
+    if len(sorted_according_to_pr_number)>n:
+        total_prs_to_pass_to_gpt = int(len(sorted_according_to_pr_number)*0.5) #passing the top 50% prs to gpt
+    else:
+        total_prs_to_pass_to_gpt = len(sorted_according_to_pr_number)
+      
     for value in averaged_sorted_data.values():
         if value["rank"] <= total_prs_to_pass_to_gpt and value["number"] in pr_numbers:
             for pr in sorted_according_to_pr_number:

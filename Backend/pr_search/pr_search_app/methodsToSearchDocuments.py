@@ -1,3 +1,4 @@
+import json
 from django.http import JsonResponse
 
 import re
@@ -47,8 +48,9 @@ def get_pr_data(owner, repo, number):
             "body": pr["body"],
             "labels": list(label_names)
         }
-        # print(pr_data, end=";;;;;;;;;;;;;;;;;;;")
+        
         json_data.append(pr_data)
+        
         return pr_data
 
     else:
@@ -74,6 +76,9 @@ def get_pr_number_list(owner, repo, api_response, data={}):
                 message_json_data.append(temp)
 
     sorted_data = sorted(message_json_data, key=lambda x: x["number"])
+
+    # with open("sorted_acc_pr", "w") as json_file:
+    #     json.dump(sorted_data, json_file)
     return sorted_data
 
 
@@ -89,7 +94,8 @@ def read_data_from_json(averaged_sorted_data, n, owner, repo):
                             "index": i,  # assuming rank is used as the index
                             "number": value["number"],
                             "title": value["title"],
-                            "link": f"https://github.com/{owner}/{repo}/pull/{value['number']}"
+                            "link": f"https://github.com/{owner}/{repo}/pull/{value['number']}",
+                            "score":value["score"]
                         })
             i+=1
         else:

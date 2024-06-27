@@ -45,10 +45,10 @@ def calculate_average_scores():
     for key, value in json_data.items():
         scores = value["scores"]
         average = sum(scores.values()) / len(scores)
-        value["average"] = round(average, 3)
+        value["score"] = round(average, 3)
 
     # Sort by average value in descending order
-    sorted_data = dict(sorted(json_data.items(), key=lambda x: x[1]["average"], reverse=True))
+    sorted_data = dict(sorted(json_data.items(), key=lambda x: x[1]["score"], reverse=True))
 
     # Add rank attribute based on sorted order
     rank = 1

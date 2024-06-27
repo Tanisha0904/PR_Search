@@ -84,6 +84,7 @@ def gpt_model(
         ],
     )
 
+
         response_content = response['choices'][0]['message']['content']
         # Using regex to extract the first floating-point number from the response content
         match = re.search(r"[-+]?\d*\.\d+|\d+", response_content)
@@ -109,6 +110,105 @@ def gpt_model(
 
     return sorted_data
 
+
+def gpt(query, n, sorted_according_to_pr_number, averaged_sorted_data={}):
+    if averaged_sorted_data=={}:
+
+        print("only gpt")
+        data_for_chatgpt = sorted_according_to_pr_number
+
+        
+            
+    else:
+        print("both")
+
+        clear_file(data_for_chatgpt_filename)
+
+        data_for_chatgpt=gpt_top_pr_list(sorted_according_to_pr_number, averaged_sorted_data, n)
+    
+    clear_file(chatGPT_output)
+
+    # results=gpt_model(query, chatGPT_output, data_for_chatgpt) # sending the PRs one by one
+
+    results=gpt_model_combined(query, chatGPT_output, data_for_chatgpt) #send ing all PRs at once
+
+    return results
+    
+
+
+def llm(query, documents, doc_numbers_to_titles):
+    print("llm")
+    
+    # clear the data on the file if any was stored previously 
+    clear_file(comparisonData_json)
+    clear_file(averagedData_json)
+    
+    model = SentenceTransformer(
+                "sentence-transformers/all-MiniLM-L12-v2"
+            )
+    all_MiniLM_L12_result = sentence_transformer_model(
+                query, 
+                documents, 
+                model, 
+                "all_MiniLM_L12"
+            )
+    json_data(all_MiniLM_L12_result, doc_numbers_to_titles, "all_MiniLM_L12")
+    
+            
+    model = SentenceTransformer(
+                "sentence-transformers/paraphrase-distilroberta-base-v1"
+            )
+    paraphrase_distilroberta_result=sentence_transformer_model(
+                query,
+                documents,
+                model,
+                "paraphrase_distilroberta",
+            )
+    json_data(paraphrase_distilroberta_result, doc_numbers_to_titles, "paraphrase_distilroberta")
+
+    model = SentenceTransformer(
+                "sentence-transformers/msmarco-distilroberta-base-v2"
+            )
+    msmarco_distilroberta_result = sentence_transformer_model(
+                query,
+                documents,
+                model,
+                "msmarco_distilroberta",
+            )
+    json_data(msmarco_distilroberta_result, doc_numbers_to_titles, "msmarco_distilroberta")
+
+    model = SentenceTransformer("sentence-transformers/quora-distilbert-base")
+    quora_distilbert_result = sentence_transformer_model(
+                query,
+                documents,
+                model,
+                "quora_distilbert",
+            )
+    json_data(quora_distilbert_result, doc_numbers_to_titles, "quora_distilbert")
+
+    spacy_model_result = spacy_model(
+                query, 
+                documents
+            )
+    
+    json_data(spacy_model_result, doc_numbers_to_titles, "spacy_model")
+
+
+
+
+
+
+
+
+
+            
+           
+    averaged_sorted_data = calculate_average_scores()
+    return averaged_sorted_data
+    
+
+
+
 @csrf_exempt
 def search_documents(request):
     print("in search_documents")
@@ -122,6 +222,7 @@ def search_documents(request):
             owner_ = data.get("owner")
             repo_ = data.get("repo")
             n = int(data.get("n"))
+            selectedOption = data.get("selectedOption")
             
             # parsing the string(so that symbols are included in the stirng)
             owner = urllib.parse.quote(owner_)
@@ -143,80 +244,28 @@ def search_documents(request):
             doc_numbers_to_titles = {fact["number"]: fact["title"] for fact in sorted_according_to_pr_number}
 
             documents = merge_pr_data(sorted_according_to_pr_number)
+
+
+            if selectedOption == "gpt":
+                print("---only gpt")
+                results= gpt(query, n, sorted_according_to_pr_number)
+                
             
-            model = SentenceTransformer(
-                "sentence-transformers/all-MiniLM-L12-v2"
-            )
-            all_MiniLM_L12_result = sentence_transformer_model(
-                query, 
-                documents, 
-                model, 
-                "all_MiniLM_L12"
-            )
+            else:
+                
+                averaged_sorted_data = llm(query, documents, doc_numbers_to_titles)
+                if selectedOption == "llm":
+                    print("---only llm")
+                    results = averaged_sorted_data
+
+
+                elif selectedOption == "both":
+                    print("---both")
+                    results = gpt(query, n, sorted_according_to_pr_number, averaged_sorted_data)
+
+
+            return read_data_from_json(results, n, owner, repo) 
             
-            # model = SentenceTransformer(
-            #     "sentence-transformers/paraphrase-distilroberta-base-v1"
-            # )
-            # paraphrase_distilroberta_result=sentence_transformer_model(
-            #     query,
-            #     documents,
-            #     model,
-            #     "paraphrase_distilroberta",
-            # )
-
-            # model = SentenceTransformer(
-            #     "sentence-transformers/msmarco-distilroberta-base-v2"
-            # )
-            # msmarco_distilroberta_result = sentence_transformer_model(
-            #     query,
-            #     documents,
-            #     model,
-            #     "msmarco_distilroberta",
-            # )
-
-            # model = SentenceTransformer("sentence-transformers/quora-distilbert-base")
-            # quora_distilbert_result = sentence_transformer_model(
-            #     query,
-            #     documents,
-            #     model,
-            #     "quora_distilbert",
-            # )
-
-            # spacy_model_result = spacy_model(
-            #     query, 
-            #     documents
-            # )
-
-            # clear the data on the file if any was stored previously 
-            clear_file(comparisonData_json)
-            clear_file(averagedData_json)
-            clear_file(chatGPT_output)
-            clear_file(data_for_chatgpt_filename)
-
-
-             
-            json_data(all_MiniLM_L12_result, doc_numbers_to_titles, "all_MiniLM_L12")
-
-            # json_data(quora_distilbert_result, doc_numbers_to_titles, "quora_distilbert")
-
-            # json_data(msmarco_distilroberta_result, doc_numbers_to_titles, "msmarco_distilroberta")
-
-            # json_data(paraphrase_distilroberta_result, doc_numbers_to_titles, "paraphrase_distilroberta")
-            
-            # json_data(spacy_model_result, doc_numbers_to_titles, "spacy_model")
-           
-            averaged_sorted_data = calculate_average_scores()
-
-
-            print("data to be generated for sending to chatgpt")
-            data_for_chatgpt=gpt_top_pr_list(sorted_according_to_pr_number, averaged_sorted_data, n)
-            # results=gpt_model(query, chatGPT_output, data_for_chatgpt)
-            results=gpt_model_combined(query, chatGPT_output, data_for_chatgpt)
-            
-
-            return read_data_from_json(results, n, owner, repo) #with chatgpt
-            # return read_data_from_json(averaged_sorted_data, n, owner, repo) #without chatgpt
-        
 
         except Exception as e:
             logger.error(f"Unexpected error: {str(e)}")
