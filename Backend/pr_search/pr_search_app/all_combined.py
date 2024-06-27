@@ -33,7 +33,7 @@ def gpt_model_combined(query, chatGPT_output_file,pr_data, model="gpt-3.5-turbo-
     
     Query: {query}
     
-    Here is a list of PRs. For each PR, rate the relevance of the PR title to the query on a scale from 0 to 1. The scale should have float as a data type and not string. 
+    Here is a list of PRs. For each PR, treat every PR separately such that no PR is related to the other PRs rate the relevance of the PR title to the query on a scale from 0 to 1. The scale should have float as a data type and not string. 
 
     {pr_combined_data}
 

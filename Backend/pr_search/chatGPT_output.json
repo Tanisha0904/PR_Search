@@ -1,177 +1,162 @@
 {
-  "87612": {
-    "number": 87612,
-    "title": "[v11.0.x] Chore: Add login protection when user is trying different uppercase letters",
-    "score": 0.8
-  },
-  "87588": {
-    "number": 87588,
-    "title": "Chore: Add login protection when user is trying different uppercase letters",
-    "score": 0.8
-  },
-  "86354": {
-    "number": 86354,
-    "title": "[v11.0.x] User: email verification completion",
-    "score": 0.5
-  },
-  "85259": {
-    "number": 85259,
-    "title": "User: email verification completion",
-    "score": 0.5
-  },
-  "86362": {
-    "number": 86362,
-    "title": "[v11.0.x] K8s: standalone authenticator that allows a type of downstream forwarding",
-    "score": 0.4
-  },
-  "85146": {
-    "number": 85146,
-    "title": "Auth: Improve org role sync debugging",
-    "score": 0.4
-  },
-  "86203": {
-    "number": 86203,
-    "title": "[v11.0.x] Auth: Improve org role sync debugging",
-    "score": 0.4
-  },
-  "85130": {
-    "number": 85130,
-    "title": "K8s: standalone authenticator that allows a type of downstream forwarding",
-    "score": 0.4
-  },
-  "86359": {
-    "number": 86359,
-    "title": "Auth: Force lowercase login/email for users",
-    "score": 0.4
-  },
-  "86985": {
-    "number": 86985,
-    "title": "[v11.0.x] Auth: Force lowercase login/email for users",
-    "score": 0.4
-  },
-  "86266": {
-    "number": 86266,
-    "title": "[v11.0.x] Alerting: Reduce set of fields that could trigger alert state change",
-    "score": 0.4
-  },
-  "87591": {
-    "number": 87591,
-    "title": "[v11.0.x] Chore: Implement GetOAuthProviders in FakeSocialService",
-    "score": 0.3
-  },
-  "86321": {
-    "number": 86321,
-    "title": "[v11.0.x] AuthN: Add IsAuthenticatedBy to identity interface and replace checks",
-    "score": 0.3
-  },
-  "87590": {
-    "number": 87590,
-    "title": "Chore: Implement GetOAuthProviders in FakeSocialService",
-    "score": 0.3
-  },
-  "85262": {
-    "number": 85262,
-    "title": "AuthN: Add IsAuthenticatedBy to identity interface and replace checks",
-    "score": 0.3
-  },
-  "86939": {
-    "number": 86939,
-    "title": "`[backport to v11.0]` SSO: add SSO settings to secrets migrator (#86913)",
-    "score": 0.2
-  },
-  "86913": {
-    "number": 86913,
-    "title": "SSO: Add SSO settings to secrets migrator",
-    "score": 0.2
-  },
-  "87132": {
-    "number": 87132,
-    "title": "Alerting: Prevent search from locking the browser",
-    "score": 0.2
-  },
-  "85206": {
-    "number": 85206,
-    "title": "Storage: GuaranteedUpdate fix & other improvements",
-    "score": 0.2
-  },
-  "87142": {
-    "number": 87142,
-    "title": "[v11.0.x] Data source: Maintain the default data source permissions when switching from unlicensed to licensed Grafana",
-    "score": 0.2
-  },
-  "87222": {
-    "number": 87222,
-    "title": "[v11.0.x] RBAC: Do not set permissions on data sources with wildcard UID in OSS",
-    "score": 0.2
+  "85381": {
+    "number": 85381,
+    "title": "CloudMigrations: Add instance metadata to auth token",
+    "score": 0.75
   },
   "86371": {
     "number": 86371,
     "title": "[v11.0.x] CloudMigrations: Add instance metadata to auth token",
-    "score": 0.2
+    "score": 0.75
   },
-  "87230": {
-    "number": 87230,
-    "title": "[v11.0.x] Alerting: Prevent search from locking the browser",
-    "score": 0.2
+  "86321": {
+    "number": 86321,
+    "title": "[v11.0.x] AuthN: Add IsAuthenticatedBy to identity interface and replace checks",
+    "score": 0.6
   },
-  "87220": {
-    "number": 87220,
-    "title": "RBAC: Do not set permissions on data sources with wildcard UID in OSS",
-    "score": 0.2
+  "85262": {
+    "number": 85262,
+    "title": "AuthN: Add IsAuthenticatedBy to identity interface and replace checks",
+    "score": 0.6
   },
-  "87115": {
-    "number": 87115,
-    "title": "[v11.0.x] Alerting: Allow deleting contact points referenced only by auto-generated policies",
-    "score": 0.2
+  "87612": {
+    "number": 87612,
+    "title": "[v11.0.x] Chore: Add login protection when user is trying different uppercase letters",
+    "score": 0.5
   },
-  "86699": {
-    "number": 86699,
-    "title": "[v11.0.x] Alerting: Take receivers into account when custom grouping Alertmanager groups",
-    "score": 0.2
+  "87588": {
+    "number": 87588,
+    "title": "Chore: Add login protection when user is trying different uppercase letters",
+    "score": 0.5
+  },
+  "86359": {
+    "number": 86359,
+    "title": "Auth: Force lowercase login/email for users",
+    "score": 0.5
+  },
+  "86357": {
+    "number": 86357,
+    "title": "[v11.0.x] JWT: Find login and email claims with JMESPATH",
+    "score": 0.5
+  },
+  "85305": {
+    "number": 85305,
+    "title": "JWT: Find login and email claims with JMESPATH",
+    "score": 0.5
+  },
+  "85146": {
+    "number": 85146,
+    "title": "Auth: Improve org role sync debugging",
+    "score": 0.5
+  },
+  "87631": {
+    "number": 87631,
+    "title": "AuthN: Fix signout redirect url",
+    "score": 0.5
+  },
+  "87681": {
+    "number": 87681,
+    "title": "[v11.0.x] AuthN: Fix signout redirect url",
+    "score": 0.5
+  },
+  "86203": {
+    "number": 86203,
+    "title": "[v11.0.x] Auth: Improve org role sync debugging",
+    "score": 0.5
+  },
+  "87072": {
+    "number": 87072,
+    "title": "[v11.0.x] Auth: Sign sigV4 request after adding headers",
+    "score": 0.5
   },
   "87119": {
     "number": 87119,
     "title": "Data source: Maintain the default data source permissions when switching from unlicensed to licensed Grafana",
-    "score": 0.2
+    "score": 0.5
+  },
+  "87063": {
+    "number": 87063,
+    "title": "Auth: Sign sigV4 request after adding headers",
+    "score": 0.5
+  },
+  "87220": {
+    "number": 87220,
+    "title": "RBAC: Do not set permissions on data sources with wildcard UID in OSS",
+    "score": 0.5
+  },
+  "86271": {
+    "number": 86271,
+    "title": "[v11.0.x] CloudWatch : Add missing AWS/ES metrics",
+    "score": 0.5
+  },
+  "85210": {
+    "number": 85210,
+    "title": "CloudWatch : Add missing AWS/ES metrics",
+    "score": 0.5
+  },
+  "84744": {
+    "number": 84744,
+    "title": "Auth: add Dex example to generic OAuth2 documentation",
+    "score": 0.25
+  },
+  "86364": {
+    "number": 86364,
+    "title": "[v11.0.x] Auth: add Dex example to generic OAuth2 documentation",
+    "score": 0.25
+  },
+  "86362": {
+    "number": 86362,
+    "title": "[v11.0.x] K8s: standalone authenticator that allows a type of downstream forwarding",
+    "score": 0.25
+  },
+  "87591": {
+    "number": 87591,
+    "title": "[v11.0.x] Chore: Implement GetOAuthProviders in FakeSocialService",
+    "score": 0.25
+  },
+  "85259": {
+    "number": 85259,
+    "title": "User: email verification completion",
+    "score": 0.25
+  },
+  "85130": {
+    "number": 85130,
+    "title": "K8s: standalone authenticator that allows a type of downstream forwarding",
+    "score": 0.25
+  },
+  "86913": {
+    "number": 86913,
+    "title": "SSO: Add SSO settings to secrets migrator",
+    "score": 0.25
+  },
+  "86354": {
+    "number": 86354,
+    "title": "[v11.0.x] User: email verification completion",
+    "score": 0.25
+  },
+  "87590": {
+    "number": 87590,
+    "title": "Chore: Implement GetOAuthProviders in FakeSocialService",
+    "score": 0.25
+  },
+  "86939": {
+    "number": 86939,
+    "title": "`[backport to v11.0]` SSO: add SSO settings to secrets migrator (#86913)",
+    "score": 0.25
   },
   "85195": {
     "number": 85195,
     "title": "Alerting: Make hovercard accessible",
-    "score": 0.2
+    "score": 0.25
   },
-  "85381": {
-    "number": 85381,
-    "title": "CloudMigrations: Add instance metadata to auth token",
-    "score": 0.2
+  "87009": {
+    "number": 87009,
+    "title": "Docs: Add thresholds shared content",
+    "score": 0.25
   },
-  "86323": {
-    "number": 86323,
-    "title": "[v11.0.x] Storage: GuaranteedUpdate fix & other improvements",
-    "score": 0.2
-  },
-  "86542": {
-    "number": 86542,
-    "title": "[v11.0.x] RolePicker: Adjust dynamic position",
-    "score": 0.2
-  },
-  "87570": {
-    "number": 87570,
-    "title": "[v11.0.x] Dashboard scene: Discard panel changes disabled/enabled depending of changes",
-    "score": 0.2
-  },
-  "87163": {
-    "number": 87163,
-    "title": "[v11.0.x] Chore: Remove extra sql select from the Insert function of userimpl.store",
-    "score": 0.2
-  },
-  "84955": {
-    "number": 84955,
-    "title": "Scopes: Name relationship objects *binding",
-    "score": 0.2
-  },
-  "87070": {
-    "number": 87070,
-    "title": "[v11.0.x] Alerting: Improve error when receiver or time interval used by rule is deleted",
-    "score": 0.2
+  "87154": {
+    "number": 87154,
+    "title": "[v11.0.x] Docs: Add thresholds shared content",
+    "score": 0.25
   }
 }
