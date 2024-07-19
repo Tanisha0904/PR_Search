@@ -47,7 +47,7 @@
 
 ![Data_Processing](https://github.com/user-attachments/assets/0f96408a-74f5-4bff-9772-9f241d60c19f)
 
-![SearchInterface (1)](https://github.com/user-attachments/assets/60d96474-4cd2-4884-b096-4a397c1896e8)
+[B_securitytoken_BOTH.pdf](https://github.com/user-attachments/files/16303688/B_securitytoken_BOTH.pdf)
 
-![SearchInterface (2)](https://github.com/user-attachments/assets/e8a79790-f19e-4e08-b12c-3104d98c7cee)
+
 
