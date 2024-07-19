@@ -26,19 +26,19 @@
 
 
 
-**Steps Followed:**
+**Steps Followed:**  
 
-**1. Data Preparation**
-    concatenate the title, body, and labels for each PR into a single text string.
-
-**2. Embedding**
-    use a pre-trained embedding model such as sentence-transformers to embed these text strings.(e.g. 'all-MiniLM-L6-v2')
-
-**3. Similarity Search**
-    use a similarity search algorithm like cosine similarity to find the most relevant PRs.
-
-**4. GPT Evaluation**
-    send the most relevant PRs to the GPT model for further refinement.
+**1. Data Preparation:**  
+concatenate the title, body, and labels for each PR into a single text string.
+  
+**2. Embedding:**  
+use a pre-trained embedding model such as sentence-transformers to embed these text strings.(e.g. 'all-MiniLM-L6-v2')
+  
+**3. Similarity Search:**  
+use a similarity search algorithm like cosine similarity to find the most relevant PRs.
+ 
+**4. GPT Evaluation:**  
+send the most relevant PRs to the GPT model for further refinement.
 
 
 
