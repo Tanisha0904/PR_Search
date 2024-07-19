@@ -40,3 +40,14 @@
 **4. GPT Evaluation**
     send the most relevant PRs to the GPT model for further refinement.
 
+
+
+
+![Data_Collection](https://github.com/user-attachments/assets/af244304-c1dc-4cf2-b7e2-912892ec6056)
+
+![Data_Processing](https://github.com/user-attachments/assets/0f96408a-74f5-4bff-9772-9f241d60c19f)
+
+![SearchInterface (1)](https://github.com/user-attachments/assets/60d96474-4cd2-4884-b096-4a397c1896e8)
+
+![SearchInterface (2)](https://github.com/user-attachments/assets/e8a79790-f19e-4e08-b12c-3104d98c7cee)
+
